@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: a5380be5d1332464fbf08fa5d620b061
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1233547585146832736
+    second: sparkle-orange_0
+  - first:
+      213: -7524440378577741182
+    second: sparkle-orange_1
+  - first:
+      213: 1438004159448377299
+    second: sparkle-orange_2
+  - first:
+      213: 5314661436763635638
+    second: sparkle-orange_3
+  - first:
+      213: 1803980175776471910
+    second: sparkle-orange_4
+  - first:
+      213: -1959501600233158007
+    second: sparkle-orange_5
+  - first:
+      213: -1060296671158202785
+    second: sparkle-orange_6
+  - first:
+      213: -610759731051345375
+    second: sparkle-orange_7
+  - first:
+      213: 8651314268039225357
+    second: sparkle-orange_8
+  - first:
+      213: -3442522281403714329
+    second: sparkle-orange_9
+  - first:
+      213: 8186137836737527593
+    second: sparkle-orange_10
+  - first:
+      213: 2077120883727543139
+    second: sparkle-orange_11
+  - first:
+      213: -1966001512688749769
+    second: sparkle-orange_12
+  - first:
+      213: -7181794863942079632
+    second: sparkle-orange_13
+  - first:
+      213: 2179484569905749402
+    second: sparkle-orange_14
+  - first:
+      213: -3372979004046977973
+    second: sparkle-orange_15
+  - first:
+      213: 8911095464362412322
+    second: sparkle-orange_16
+  - first:
+      213: 8563490151954446390
+    second: sparkle-orange_17
+  - first:
+      213: -1409878216670503326
+    second: sparkle-orange_18
+  - first:
+      213: -2501728482838966587
+    second: sparkle-orange_19
+  - first:
+      213: 3641295655330438971
+    second: sparkle-orange_20
+  - first:
+      213: 5791050441487999683
+    second: sparkle-orange_21
+  - first:
+      213: -2664355833184030961
+    second: sparkle-orange_22
+  - first:
+      213: -375526852755666203
+    second: sparkle-orange_23
+  - first:
+      213: -5757114101528818029
+    second: sparkle-orange_24
+  - first:
+      213: 2439744588610253755
+    second: sparkle-orange_25
+  - first:
+      213: -15111655673879763
+    second: sparkle-orange_26
+  - first:
+      213: -3582504628976950159
+    second: sparkle-orange_27
+  - first:
+      213: -1722948136121596235
+    second: sparkle-orange_28
+  - first:
+      213: 3726863824048404934
+    second: sparkle-orange_29
+  - first:
+      213: 8103051047707845813
+    second: sparkle-orange_30
+  - first:
+      213: 8705355116935831779
+    second: sparkle-orange_31
+  - first:
+      213: -3292067636579069811
+    second: sparkle-orange_32
+  - first:
+      213: 1138167814364714980
+    second: sparkle-orange_33
+  - first:
+      213: 5002499076773396937
+    second: sparkle-orange_34
+  - first:
+      213: -6089024695143479663
+    second: sparkle-orange_35
+  - first:
+      213: 3874139585961872649
+    second: sparkle-orange_36
+  - first:
+      213: -1196284770687071158
+    second: sparkle-orange_37
+  - first:
+      213: -5034959949542030987
+    second: sparkle-orange_38
+  - first:
+      213: 9007144639241697781
+    second: sparkle-orange_39
+  - first:
+      213: 4737100208491041352
+    second: sparkle-orange_40
+  - first:
+      213: -3685515481475201582
+    second: sparkle-orange_41
+  - first:
+      213: 1756967242199660637
+    second: sparkle-orange_42
+  - first:
+      213: -5543336706025689650
+    second: sparkle-orange_43
+  - first:
+      213: -3144469247192572150
+    second: sparkle-orange_44
+  - first:
+      213: 3443635677082795453
+    second: sparkle-orange_45
+  - first:
+      213: -3458572173630845166
+    second: sparkle-orange_46
+  - first:
+      213: -3664062233161126819
+    second: sparkle-orange_47
+  - first:
+      213: 6684104167688747221
+    second: sparkle-orange_48
+  - first:
+      213: 3490278713913513433
+    second: sparkle-orange_49
+  - first:
+      213: 1393134482649985008
+    second: sparkle-orange_50
+  - first:
+      213: 4434811502870675263
+    second: sparkle-orange_51
+  - first:
+      213: -1883754194636686625
+    second: sparkle-orange_52
+  - first:
+      213: 3731610482509769530
+    second: sparkle-orange_53
+  - first:
+      213: 8637178664485671450
+    second: sparkle-orange_54
+  - first:
+      213: -3108559668454037985
+    second: sparkle-orange_55
+  - first:
+      213: -8861208866772774571
+    second: sparkle-orange_56
+  - first:
+      213: -2876264456243153539
+    second: sparkle-orange_57
+  - first:
+      213: -2904148650751994420
+    second: sparkle-orange_58
+  - first:
+      213: -6844885234315557190
+    second: sparkle-orange_59
+  - first:
+      213: 1055254854151858605
+    second: sparkle-orange_60
+  - first:
+      213: 5465313915268601819
+    second: sparkle-orange_61
+  - first:
+      213: -4119985245820176864
+    second: sparkle-orange_62
+  - first:
+      213: -3424749450174459916
+    second: sparkle-orange_63
+  - first:
+      213: 8546902950600311775
+    second: sparkle-orange_64
+  - first:
+      213: 7791955803873383493
+    second: sparkle-orange_65
+  - first:
+      213: 3828987458757713103
+    second: sparkle-orange_66
+  - first:
+      213: -8755659336292439069
+    second: sparkle-orange_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sparkle-orange_0
+      rect:
+        serializedVersion: 2
+        x: 7050
+        y: 1528
+        width: 266
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a838c5c10f81eee0800000000000000
+      internalID: -1233547585146832736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_1
+      rect:
+        serializedVersion: 2
+        x: 9087
+        y: 1485
+        width: 203
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a94458751d39790800000000000000
+      internalID: -7524440378577741182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_2
+      rect:
+        serializedVersion: 2
+        x: 11260
+        y: 1755
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d764750a21d4f310800000000000000
+      internalID: 1438004159448377299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_3
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 1758
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf73cf1b6871c940800000000000000
+      internalID: 5314661436763635638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_4
+      rect:
+        serializedVersion: 2
+        x: 11266
+        y: 1711
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bd0077966090910800000000000000
+      internalID: 1803980175776471910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_5
+      rect:
+        serializedVersion: 2
+        x: 13309
+        y: 1701
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a0b4d2da37ec4e0800000000000000
+      internalID: -1959501600233158007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_6
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1621
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e06179bc11941f0800000000000000
+      internalID: -1060296671158202785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_7
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 1608
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a4293b2452687f0800000000000000
+      internalID: -610759731051345375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_8
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 1576
+        width: 136
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d002fba7d74af0870800000000000000
+      internalID: 8651314268039225357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_9
+      rect:
+        serializedVersion: 2
+        x: 9290
+        y: 1608
+        width: 95
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4709d6934b930d0800000000000000
+      internalID: -3442522281403714329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_10
+      rect:
+        serializedVersion: 2
+        x: 11054
+        y: 1619
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fff119df00b9170800000000000000
+      internalID: 8186137836737527593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_11
+      rect:
+        serializedVersion: 2
+        x: 11142
+        y: 1618
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b202e407a63dc10800000000000000
+      internalID: 2077120883727543139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_12
+      rect:
+        serializedVersion: 2
+        x: 11238
+        y: 1597
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7337e406a0c57b4e0800000000000000
+      internalID: -1966001512688749769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_13
+      rect:
+        serializedVersion: 2
+        x: 11358
+        y: 1617
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07be10d3f93255c90800000000000000
+      internalID: -7181794863942079632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_14
+      rect:
+        serializedVersion: 2
+        x: 11396
+        y: 1615
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d5dae3ba51f3e10800000000000000
+      internalID: 2179484569905749402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_15
+      rect:
+        serializedVersion: 2
+        x: 13139
+        y: 1609
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44dde47775c031d0800000000000000
+      internalID: -3372979004046977973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_16
+      rect:
+        serializedVersion: 2
+        x: 13219
+        y: 1615
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2298ae0ac129aab70800000000000000
+      internalID: 8911095464362412322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_17
+      rect:
+        serializedVersion: 2
+        x: 13309
+        y: 1611
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638fcc00ce0a7d670800000000000000
+      internalID: 8563490151954446390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_18
+      rect:
+        serializedVersion: 2
+        x: 13423
+        y: 1616
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e1bc65b3b1f6ce0800000000000000
+      internalID: -1409878216670503326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_19
+      rect:
+        serializedVersion: 2
+        x: 13469
+        y: 1613
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce08e71333184dd0800000000000000
+      internalID: -2501728482838966587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_20
+      rect:
+        serializedVersion: 2
+        x: 11266
+        y: 1525
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fd42a2b1b788230800000000000000
+      internalID: 3641295655330438971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_21
+      rect:
+        serializedVersion: 2
+        x: 13313
+        y: 1513
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2e249b1b1fd5050800000000000000
+      internalID: 5791050441487999683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_22
+      rect:
+        serializedVersion: 2
+        x: 11266
+        y: 1433
+        width: 20
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f63df6c7e460bd0800000000000000
+      internalID: -2664355833184030961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_23
+      rect:
+        serializedVersion: 2
+        x: 13314
+        y: 1449
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eac0e9215cd9caf0800000000000000
+      internalID: -375526852755666203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_24
+      rect:
+        serializedVersion: 2
+        x: 9261
+        y: 1069
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e8bf62a3f9a10b0800000000000000
+      internalID: -5757114101528818029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_25
+      rect:
+        serializedVersion: 2
+        x: 11332
+        y: 1117
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3bbcae6c6bbd120800000000000000
+      internalID: 2439744588610253755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_26
+      rect:
+        serializedVersion: 2
+        x: 13390
+        y: 1145
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23279b77005acff0800000000000000
+      internalID: -15111655673879763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_27
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 928
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174e2a75503684ec0800000000000000
+      internalID: -3582504628976950159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_28
+      rect:
+        serializedVersion: 2
+        x: 7066
+        y: 894
+        width: 251
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b60d0c7ccbd618e0800000000000000
+      internalID: -1722948136121596235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_29
+      rect:
+        serializedVersion: 2
+        x: 9066
+        y: 1043
+        width: 111
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9b8a6f6ea78b330800000000000000
+      internalID: 3726863824048404934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_30
+      rect:
+        serializedVersion: 2
+        x: 11107
+        y: 1072
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4ab7ffef1d37070800000000000000
+      internalID: 8103051047707845813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_31
+      rect:
+        serializedVersion: 2
+        x: 13133
+        y: 1098
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0e69c1b52afc870800000000000000
+      internalID: 8705355116935831779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_32
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 981
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8015293de93052d0800000000000000
+      internalID: -3292067636579069811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_33
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 966
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7ddfdc8959bcf00800000000000000
+      internalID: 1138167814364714980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_34
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 983
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c14c4ce7627c6540800000000000000
+      internalID: 5002499076773396937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_35
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 997
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19644610d407f7ba0800000000000000
+      internalID: -6089024695143479663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_36
+      rect:
+        serializedVersion: 2
+        x: 13326
+        y: 995
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d49876d65b3c530800000000000000
+      internalID: 3874139585961872649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_37
+      rect:
+        serializedVersion: 2
+        x: 9164
+        y: 863
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cccf8d651f56fe0800000000000000
+      internalID: -1196284770687071158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_38
+      rect:
+        serializedVersion: 2
+        x: 9321
+        y: 935
+        width: 98
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5718a3d2a9a302ab0800000000000000
+      internalID: -5034959949542030987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_39
+      rect:
+        serializedVersion: 2
+        x: 11405
+        y: 919
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9b096d35ecffc70800000000000000
+      internalID: 9007144639241697781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_40
+      rect:
+        serializedVersion: 2
+        x: 13491
+        y: 910
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84299889a8f8db140800000000000000
+      internalID: 4737100208491041352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_41
+      rect:
+        serializedVersion: 2
+        x: 11195
+        y: 842
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5c770423b6adcc0800000000000000
+      internalID: -3685515481475201582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_42
+      rect:
+        serializedVersion: 2
+        x: 13242
+        y: 824
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58fe41e560026810800000000000000
+      internalID: 1756967242199660637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_43
+      rect:
+        serializedVersion: 2
+        x: 11316
+        y: 491
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd64feb2ac1213b0800000000000000
+      internalID: -5543336706025689650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_44
+      rect:
+        serializedVersion: 2
+        x: 13284
+        y: 508
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f52f931e99c54d0800000000000000
+      internalID: -3144469247192572150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_45
+      rect:
+        serializedVersion: 2
+        x: 13387
+        y: 536
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdb16437604acf20800000000000000
+      internalID: 3443635677082795453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_46
+      rect:
+        serializedVersion: 2
+        x: 7104
+        y: 337
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fcea0beeea000d0800000000000000
+      internalID: -3458572173630845166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_47
+      rect:
+        serializedVersion: 2
+        x: 9108
+        y: 302
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ca18ddfc2a62dc0800000000000000
+      internalID: -3664062233161126819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_48
+      rect:
+        serializedVersion: 2
+        x: 9255
+        y: 459
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8bbcc9355b2cc50800000000000000
+      internalID: 6684104167688747221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_49
+      rect:
+        serializedVersion: 2
+        x: 11136
+        y: 440
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d51ced7ff5ff6030800000000000000
+      internalID: 3490278713913513433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_50
+      rect:
+        serializedVersion: 2
+        x: 11237
+        y: 461
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff23ba4e68655310800000000000000
+      internalID: 1393134482649985008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_51
+      rect:
+        serializedVersion: 2
+        x: 13177
+        y: 467
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f3c62b09d9b8d30800000000000000
+      internalID: 4434811502870675263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_52
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 389
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda37806a8f8bd5e0800000000000000
+      internalID: -1883754194636686625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_53
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 376
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b6e1286f759c330800000000000000
+      internalID: 3731610482509769530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_54
+      rect:
+        serializedVersion: 2
+        x: 5073
+        y: 359
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12504ecb3c6dd770800000000000000
+      internalID: 8637178664485671450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_55
+      rect:
+        serializedVersion: 2
+        x: 11231
+        y: 363
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16e0be837d2cd4d0800000000000000
+      internalID: -3108559668454037985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_56
+      rect:
+        serializedVersion: 2
+        x: 11361
+        y: 409
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551977ffb79a60580800000000000000
+      internalID: -8861208866772774571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_57
+      rect:
+        serializedVersion: 2
+        x: 13454
+        y: 418
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d757b8557b47518d0800000000000000
+      internalID: -2876264456243153539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_58
+      rect:
+        serializedVersion: 2
+        x: 11132
+        y: 357
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc55ff0603462b7d0800000000000000
+      internalID: -2904148650751994420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_59
+      rect:
+        serializedVersion: 2
+        x: 13294
+        y: 378
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab60e4825251201a0800000000000000
+      internalID: -6844885234315557190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_60
+      rect:
+        serializedVersion: 2
+        x: 9146
+        y: 298
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da96a39e2b405ae00800000000000000
+      internalID: 1055254854151858605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_61
+      rect:
+        serializedVersion: 2
+        x: 11357
+        y: 317
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd79599ac02b8db40800000000000000
+      internalID: 5465313915268601819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_62
+      rect:
+        serializedVersion: 2
+        x: 13167
+        y: 341
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026b90f5f3fd2d6c0800000000000000
+      internalID: -4119985245820176864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_63
+      rect:
+        serializedVersion: 2
+        x: 11177
+        y: 273
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff03a92588d870d0800000000000000
+      internalID: -3424749450174459916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_64
+      rect:
+        serializedVersion: 2
+        x: 11276
+        y: 267
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3054c33f2bc9670800000000000000
+      internalID: 8546902950600311775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_65
+      rect:
+        serializedVersion: 2
+        x: 13444
+        y: 294
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5449a632586922c60800000000000000
+      internalID: 7791955803873383493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_66
+      rect:
+        serializedVersion: 2
+        x: 13218
+        y: 243
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccdda09ecb432530800000000000000
+      internalID: 3828987458757713103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-orange_67
+      rect:
+        serializedVersion: 2
+        x: 13338
+        y: 240
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebe4fd1936ad7680800000000000000
+      internalID: -8755659336292439069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sparkle-orange_0: -1233547585146832736
+      sparkle-orange_1: -7524440378577741182
+      sparkle-orange_10: 8186137836737527593
+      sparkle-orange_11: 2077120883727543139
+      sparkle-orange_12: -1966001512688749769
+      sparkle-orange_13: -7181794863942079632
+      sparkle-orange_14: 2179484569905749402
+      sparkle-orange_15: -3372979004046977973
+      sparkle-orange_16: 8911095464362412322
+      sparkle-orange_17: 8563490151954446390
+      sparkle-orange_18: -1409878216670503326
+      sparkle-orange_19: -2501728482838966587
+      sparkle-orange_2: 1438004159448377299
+      sparkle-orange_20: 3641295655330438971
+      sparkle-orange_21: 5791050441487999683
+      sparkle-orange_22: -2664355833184030961
+      sparkle-orange_23: -375526852755666203
+      sparkle-orange_24: -5757114101528818029
+      sparkle-orange_25: 2439744588610253755
+      sparkle-orange_26: -15111655673879763
+      sparkle-orange_27: -3582504628976950159
+      sparkle-orange_28: -1722948136121596235
+      sparkle-orange_29: 3726863824048404934
+      sparkle-orange_3: 5314661436763635638
+      sparkle-orange_30: 8103051047707845813
+      sparkle-orange_31: 8705355116935831779
+      sparkle-orange_32: -3292067636579069811
+      sparkle-orange_33: 1138167814364714980
+      sparkle-orange_34: 5002499076773396937
+      sparkle-orange_35: -6089024695143479663
+      sparkle-orange_36: 3874139585961872649
+      sparkle-orange_37: -1196284770687071158
+      sparkle-orange_38: -5034959949542030987
+      sparkle-orange_39: 9007144639241697781
+      sparkle-orange_4: 1803980175776471910
+      sparkle-orange_40: 4737100208491041352
+      sparkle-orange_41: -3685515481475201582
+      sparkle-orange_42: 1756967242199660637
+      sparkle-orange_43: -5543336706025689650
+      sparkle-orange_44: -3144469247192572150
+      sparkle-orange_45: 3443635677082795453
+      sparkle-orange_46: -3458572173630845166
+      sparkle-orange_47: -3664062233161126819
+      sparkle-orange_48: 6684104167688747221
+      sparkle-orange_49: 3490278713913513433
+      sparkle-orange_5: -1959501600233158007
+      sparkle-orange_50: 1393134482649985008
+      sparkle-orange_51: 4434811502870675263
+      sparkle-orange_52: -1883754194636686625
+      sparkle-orange_53: 3731610482509769530
+      sparkle-orange_54: 8637178664485671450
+      sparkle-orange_55: -3108559668454037985
+      sparkle-orange_56: -8861208866772774571
+      sparkle-orange_57: -2876264456243153539
+      sparkle-orange_58: -2904148650751994420
+      sparkle-orange_59: -6844885234315557190
+      sparkle-orange_6: -1060296671158202785
+      sparkle-orange_60: 1055254854151858605
+      sparkle-orange_61: 5465313915268601819
+      sparkle-orange_62: -4119985245820176864
+      sparkle-orange_63: -3424749450174459916
+      sparkle-orange_64: 8546902950600311775
+      sparkle-orange_65: 7791955803873383493
+      sparkle-orange_66: 3828987458757713103
+      sparkle-orange_67: -8755659336292439069
+      sparkle-orange_7: -610759731051345375
+      sparkle-orange_8: 8651314268039225357
+      sparkle-orange_9: -3442522281403714329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

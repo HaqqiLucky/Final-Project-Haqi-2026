@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: da090bb6825bd2f4da0a42bda1b09c1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9149581377893462191
+    second: sparkle-lightpink_0
+  - first:
+      213: 2953776801007481718
+    second: sparkle-lightpink_1
+  - first:
+      213: 8692020184292009795
+    second: sparkle-lightpink_2
+  - first:
+      213: 204074724118969935
+    second: sparkle-lightpink_3
+  - first:
+      213: 3812816783852559966
+    second: sparkle-lightpink_4
+  - first:
+      213: 7826568501914919091
+    second: sparkle-lightpink_5
+  - first:
+      213: -977273588941797750
+    second: sparkle-lightpink_6
+  - first:
+      213: 6342718703382361380
+    second: sparkle-lightpink_7
+  - first:
+      213: 5788294662859380940
+    second: sparkle-lightpink_8
+  - first:
+      213: -5524205793339579706
+    second: sparkle-lightpink_9
+  - first:
+      213: -4750774907761251496
+    second: sparkle-lightpink_10
+  - first:
+      213: 2741454461612800178
+    second: sparkle-lightpink_11
+  - first:
+      213: 2454012043440061303
+    second: sparkle-lightpink_12
+  - first:
+      213: 2001883135361670573
+    second: sparkle-lightpink_13
+  - first:
+      213: -2131304340051050411
+    second: sparkle-lightpink_14
+  - first:
+      213: 6670310921908938507
+    second: sparkle-lightpink_15
+  - first:
+      213: 9203808657021431001
+    second: sparkle-lightpink_16
+  - first:
+      213: 5244353838652834608
+    second: sparkle-lightpink_17
+  - first:
+      213: -7504884169697306976
+    second: sparkle-lightpink_18
+  - first:
+      213: 8046490343175683364
+    second: sparkle-lightpink_19
+  - first:
+      213: 7612502059462123385
+    second: sparkle-lightpink_20
+  - first:
+      213: -6293139897538396839
+    second: sparkle-lightpink_21
+  - first:
+      213: -5699409691776156691
+    second: sparkle-lightpink_22
+  - first:
+      213: 676050784771851638
+    second: sparkle-lightpink_23
+  - first:
+      213: -7035995254703614137
+    second: sparkle-lightpink_24
+  - first:
+      213: 5128942354161962254
+    second: sparkle-lightpink_25
+  - first:
+      213: -2800312130495523578
+    second: sparkle-lightpink_26
+  - first:
+      213: -1825729715687018763
+    second: sparkle-lightpink_27
+  - first:
+      213: -1788033020075575456
+    second: sparkle-lightpink_28
+  - first:
+      213: 4611144398322209581
+    second: sparkle-lightpink_29
+  - first:
+      213: -5539671168218347500
+    second: sparkle-lightpink_30
+  - first:
+      213: 3298721649577522605
+    second: sparkle-lightpink_31
+  - first:
+      213: -5826948087115895290
+    second: sparkle-lightpink_32
+  - first:
+      213: 4159704454034157302
+    second: sparkle-lightpink_33
+  - first:
+      213: 4305520145961299255
+    second: sparkle-lightpink_34
+  - first:
+      213: 2316754634653522970
+    second: sparkle-lightpink_35
+  - first:
+      213: 5513457233052020036
+    second: sparkle-lightpink_36
+  - first:
+      213: -5610941444418291007
+    second: sparkle-lightpink_37
+  - first:
+      213: 4338631554028931516
+    second: sparkle-lightpink_38
+  - first:
+      213: 9052875365557066972
+    second: sparkle-lightpink_39
+  - first:
+      213: 3265719695287009366
+    second: sparkle-lightpink_40
+  - first:
+      213: 1938088398606850597
+    second: sparkle-lightpink_41
+  - first:
+      213: -417795251056813048
+    second: sparkle-lightpink_42
+  - first:
+      213: 7612604753959783859
+    second: sparkle-lightpink_43
+  - first:
+      213: 4602292135211392431
+    second: sparkle-lightpink_44
+  - first:
+      213: 4596479789069466372
+    second: sparkle-lightpink_45
+  - first:
+      213: -1768491599127270269
+    second: sparkle-lightpink_46
+  - first:
+      213: 4410409811447205021
+    second: sparkle-lightpink_47
+  - first:
+      213: 1900476712297038362
+    second: sparkle-lightpink_48
+  - first:
+      213: -7270523400376515074
+    second: sparkle-lightpink_49
+  - first:
+      213: -1890992642143767066
+    second: sparkle-lightpink_50
+  - first:
+      213: 8194798515988616192
+    second: sparkle-lightpink_51
+  - first:
+      213: 113674800032939754
+    second: sparkle-lightpink_52
+  - first:
+      213: -1002190953934525636
+    second: sparkle-lightpink_53
+  - first:
+      213: 81752205760996301
+    second: sparkle-lightpink_54
+  - first:
+      213: 2591384092291653835
+    second: sparkle-lightpink_55
+  - first:
+      213: -3251541823833877001
+    second: sparkle-lightpink_56
+  - first:
+      213: -943884758045055716
+    second: sparkle-lightpink_57
+  - first:
+      213: 5998065953639820023
+    second: sparkle-lightpink_58
+  - first:
+      213: 4894134311666220850
+    second: sparkle-lightpink_59
+  - first:
+      213: -3757930142846855542
+    second: sparkle-lightpink_60
+  - first:
+      213: 7102428368331981674
+    second: sparkle-lightpink_61
+  - first:
+      213: 3815461996656365050
+    second: sparkle-lightpink_62
+  - first:
+      213: -4658992032186203267
+    second: sparkle-lightpink_63
+  - first:
+      213: 7750677918341705868
+    second: sparkle-lightpink_64
+  - first:
+      213: -8741817049003648241
+    second: sparkle-lightpink_65
+  - first:
+      213: -2785163331647425775
+    second: sparkle-lightpink_66
+  - first:
+      213: -8871887521966907987
+    second: sparkle-lightpink_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sparkle-lightpink_0
+      rect:
+        serializedVersion: 2
+        x: 7050
+        y: 1528
+        width: 266
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa07ed069c7d9fe70800000000000000
+      internalID: 9149581377893462191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_1
+      rect:
+        serializedVersion: 2
+        x: 9087
+        y: 1485
+        width: 203
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67337d9c95cedf820800000000000000
+      internalID: 2953776801007481718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_2
+      rect:
+        serializedVersion: 2
+        x: 11260
+        y: 1755
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34720492e4240a870800000000000000
+      internalID: 8692020184292009795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_3
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 1758
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e3fbe51e405d200800000000000000
+      internalID: 204074724118969935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_4
+      rect:
+        serializedVersion: 2
+        x: 11266
+        y: 1711
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5edd2be9a8d9e430800000000000000
+      internalID: 3812816783852559966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_5
+      rect:
+        serializedVersion: 2
+        x: 13309
+        y: 1701
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b066e6e59e8d9c60800000000000000
+      internalID: 7826568501914919091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_6
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1621
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86c0c249d60072f0800000000000000
+      internalID: -977273588941797750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_7
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 1608
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425f4593e0dd50850800000000000000
+      internalID: 6342718703382361380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_8
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 1576
+        width: 136
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8d5030457245050800000000000000
+      internalID: 5788294662859380940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_9
+      rect:
+        serializedVersion: 2
+        x: 9290
+        y: 1608
+        width: 95
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e6d579141653b0800000000000000
+      internalID: -5524205793339579706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_10
+      rect:
+        serializedVersion: 2
+        x: 11054
+        y: 1619
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b2d0f546bd11eb0800000000000000
+      internalID: -4750774907761251496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_11
+      rect:
+        serializedVersion: 2
+        x: 11142
+        y: 1618
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b83758de4a9b0620800000000000000
+      internalID: 2741454461612800178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_12
+      rect:
+        serializedVersion: 2
+        x: 11238
+        y: 1597
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b76cb93f66e0220800000000000000
+      internalID: 2454012043440061303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_13
+      rect:
+        serializedVersion: 2
+        x: 11358
+        y: 1617
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadd31dea1e18cb10800000000000000
+      internalID: 2001883135361670573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_14
+      rect:
+        serializedVersion: 2
+        x: 11396
+        y: 1615
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550420faef51c62e0800000000000000
+      internalID: -2131304340051050411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_15
+      rect:
+        serializedVersion: 2
+        x: 13139
+        y: 1609
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b076ac15174b19c50800000000000000
+      internalID: 6670310921908938507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_16
+      rect:
+        serializedVersion: 2
+        x: 13219
+        y: 1615
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc6d6ea53f7abf70800000000000000
+      internalID: 9203808657021431001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_17
+      rect:
+        serializedVersion: 2
+        x: 13309
+        y: 1611
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033cb5dc700b7c840800000000000000
+      internalID: 5244353838652834608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_18
+      rect:
+        serializedVersion: 2
+        x: 13423
+        y: 1616
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a65db83c9b49d790800000000000000
+      internalID: -7504884169697306976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_19
+      rect:
+        serializedVersion: 2
+        x: 13469
+        y: 1613
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42df891c550eaaf60800000000000000
+      internalID: 8046490343175683364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_20
+      rect:
+        serializedVersion: 2
+        x: 11266
+        y: 1525
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f5b225a4a05a960800000000000000
+      internalID: 7612502059462123385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_21
+      rect:
+        serializedVersion: 2
+        x: 13313
+        y: 1513
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95db26d0b964aa8a0800000000000000
+      internalID: -6293139897538396839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_22
+      rect:
+        serializedVersion: 2
+        x: 11266
+        y: 1433
+        width: 20
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb73440511a7e0b0800000000000000
+      internalID: -5699409691776156691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_23
+      rect:
+        serializedVersion: 2
+        x: 13314
+        y: 1449
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675437c5b90d16900800000000000000
+      internalID: 676050784771851638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_24
+      rect:
+        serializedVersion: 2
+        x: 9261
+        y: 1069
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7479e0a189f1b5e90800000000000000
+      internalID: -7035995254703614137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_25
+      rect:
+        serializedVersion: 2
+        x: 11332
+        y: 1117
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d874595e9ad2740800000000000000
+      internalID: 5128942354161962254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_26
+      rect:
+        serializedVersion: 2
+        x: 13390
+        y: 1145
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605d89934fa4329d0800000000000000
+      internalID: -2800312130495523578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_27
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 928
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fea9982f74b9a6e0800000000000000
+      internalID: -1825729715687018763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_28
+      rect:
+        serializedVersion: 2
+        x: 7066
+        y: 894
+        width: 251
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f9bf0171af27e0800000000000000
+      internalID: -1788033020075575456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_29
+      rect:
+        serializedVersion: 2
+        x: 9066
+        y: 1043
+        width: 111
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23170e36631eff30800000000000000
+      internalID: 4611144398322209581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_30
+      rect:
+        serializedVersion: 2
+        x: 11107
+        y: 1072
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4184fd54c622f13b0800000000000000
+      internalID: -5539671168218347500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_31
+      rect:
+        serializedVersion: 2
+        x: 13133
+        y: 1098
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da575f7ecd967cd20800000000000000
+      internalID: 3298721649577522605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_32
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 981
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea0d65695822fa0800000000000000
+      internalID: -5826948087115895290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_33
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 966
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fee051792d3ab930800000000000000
+      internalID: 4159704454034157302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_34
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 983
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73daf49d2c740cb30800000000000000
+      internalID: 4305520145961299255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_35
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 997
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c5346c014c62020800000000000000
+      internalID: 2316754634653522970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_36
+      rect:
+        serializedVersion: 2
+        x: 13326
+        y: 995
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44daf54542cb38c40800000000000000
+      internalID: 5513457233052020036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_37
+      rect:
+        serializedVersion: 2
+        x: 9164
+        y: 863
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca3eedfb7ee122b0800000000000000
+      internalID: -5610941444418291007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_38
+      rect:
+        serializedVersion: 2
+        x: 9321
+        y: 935
+        width: 98
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9023d496ae53c30800000000000000
+      internalID: 4338631554028931516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_39
+      rect:
+        serializedVersion: 2
+        x: 11405
+        y: 919
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcd9e74e2642ad70800000000000000
+      internalID: 9052875365557066972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_40
+      rect:
+        serializedVersion: 2
+        x: 13491
+        y: 910
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6504495a2ca225d20800000000000000
+      internalID: 3265719695287009366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_41
+      rect:
+        serializedVersion: 2
+        x: 11195
+        y: 842
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a544e412975ea10800000000000000
+      internalID: 1938088398606850597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_42
+      rect:
+        serializedVersion: 2
+        x: 13242
+        y: 824
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cd9e7ce61b33af0800000000000000
+      internalID: -417795251056813048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_43
+      rect:
+        serializedVersion: 2
+        x: 11316
+        y: 491
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd093fb0b765a960800000000000000
+      internalID: 7612604753959783859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_44
+      rect:
+        serializedVersion: 2
+        x: 13284
+        y: 508
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad59df1050aedf30800000000000000
+      internalID: 4602292135211392431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_45
+      rect:
+        serializedVersion: 2
+        x: 13387
+        y: 536
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b7fb4d30af9cf30800000000000000
+      internalID: 4596479789069466372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_46
+      rect:
+        serializedVersion: 2
+        x: 7104
+        y: 337
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ca1cda24e0577e0800000000000000
+      internalID: -1768491599127270269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_47
+      rect:
+        serializedVersion: 2
+        x: 9108
+        y: 302
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c453d2b5ce43d30800000000000000
+      internalID: 4410409811447205021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_48
+      rect:
+        serializedVersion: 2
+        x: 9255
+        y: 459
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120e5c2089df5a10800000000000000
+      internalID: 1900476712297038362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_49
+      rect:
+        serializedVersion: 2
+        x: 11136
+        y: 440
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5846dfc79e91b90800000000000000
+      internalID: -7270523400376515074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_50
+      rect:
+        serializedVersion: 2
+        x: 11237
+        y: 461
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5b42cf538d1c5e0800000000000000
+      internalID: -1890992642143767066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_51
+      rect:
+        serializedVersion: 2
+        x: 13177
+        y: 467
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004566715d5c9b170800000000000000
+      internalID: 8194798515988616192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_52
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 389
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee70ebd0aad39100800000000000000
+      internalID: 113674800032939754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_53
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 376
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b6f9123a08712f0800000000000000
+      internalID: -1002190953934525636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_54
+      rect:
+        serializedVersion: 2
+        x: 5073
+        y: 359
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc32dffa231722100800000000000000
+      internalID: 81752205760996301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_55
+      rect:
+        serializedVersion: 2
+        x: 11231
+        y: 363
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc064a92a1276f320800000000000000
+      internalID: 2591384092291653835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_56
+      rect:
+        serializedVersion: 2
+        x: 11361
+        y: 409
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f55e0a40f330e2d0800000000000000
+      internalID: -3251541823833877001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_57
+      rect:
+        serializedVersion: 2
+        x: 13454
+        y: 418
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15a1df30d5a6e2f0800000000000000
+      internalID: -943884758045055716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_58
+      rect:
+        serializedVersion: 2
+        x: 11132
+        y: 357
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fae01aa4396d3350800000000000000
+      internalID: 5998065953639820023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_59
+      rect:
+        serializedVersion: 2
+        x: 13294
+        y: 378
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f7ae9e9357be340800000000000000
+      internalID: 4894134311666220850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_60
+      rect:
+        serializedVersion: 2
+        x: 9146
+        y: 298
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8651e8027629dbc0800000000000000
+      internalID: -3757930142846855542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_61
+      rect:
+        serializedVersion: 2
+        x: 11357
+        y: 317
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63c51188f4e09260800000000000000
+      internalID: 7102428368331981674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_62
+      rect:
+        serializedVersion: 2
+        x: 13167
+        y: 341
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd84b4887e33f430800000000000000
+      internalID: 3815461996656365050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_63
+      rect:
+        serializedVersion: 2
+        x: 11177
+        y: 273
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d738a2e5e6fe75fb0800000000000000
+      internalID: -4658992032186203267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_64
+      rect:
+        serializedVersion: 2
+        x: 11276
+        y: 267
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80b83b7080ff8b60800000000000000
+      internalID: 7750677918341705868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_65
+      rect:
+        serializedVersion: 2
+        x: 13444
+        y: 294
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b1fa6c5b3dea680800000000000000
+      internalID: -8741817049003648241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_66
+      rect:
+        serializedVersion: 2
+        x: 13218
+        y: 243
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11336bfc4bc1959d0800000000000000
+      internalID: -2785163331647425775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle-lightpink_67
+      rect:
+        serializedVersion: 2
+        x: 13338
+        y: 240
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad11f5dd49b0e480800000000000000
+      internalID: -8871887521966907987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sparkle-lightpink_0: 9149581377893462191
+      sparkle-lightpink_1: 2953776801007481718
+      sparkle-lightpink_10: -4750774907761251496
+      sparkle-lightpink_11: 2741454461612800178
+      sparkle-lightpink_12: 2454012043440061303
+      sparkle-lightpink_13: 2001883135361670573
+      sparkle-lightpink_14: -2131304340051050411
+      sparkle-lightpink_15: 6670310921908938507
+      sparkle-lightpink_16: 9203808657021431001
+      sparkle-lightpink_17: 5244353838652834608
+      sparkle-lightpink_18: -7504884169697306976
+      sparkle-lightpink_19: 8046490343175683364
+      sparkle-lightpink_2: 8692020184292009795
+      sparkle-lightpink_20: 7612502059462123385
+      sparkle-lightpink_21: -6293139897538396839
+      sparkle-lightpink_22: -5699409691776156691
+      sparkle-lightpink_23: 676050784771851638
+      sparkle-lightpink_24: -7035995254703614137
+      sparkle-lightpink_25: 5128942354161962254
+      sparkle-lightpink_26: -2800312130495523578
+      sparkle-lightpink_27: -1825729715687018763
+      sparkle-lightpink_28: -1788033020075575456
+      sparkle-lightpink_29: 4611144398322209581
+      sparkle-lightpink_3: 204074724118969935
+      sparkle-lightpink_30: -5539671168218347500
+      sparkle-lightpink_31: 3298721649577522605
+      sparkle-lightpink_32: -5826948087115895290
+      sparkle-lightpink_33: 4159704454034157302
+      sparkle-lightpink_34: 4305520145961299255
+      sparkle-lightpink_35: 2316754634653522970
+      sparkle-lightpink_36: 5513457233052020036
+      sparkle-lightpink_37: -5610941444418291007
+      sparkle-lightpink_38: 4338631554028931516
+      sparkle-lightpink_39: 9052875365557066972
+      sparkle-lightpink_4: 3812816783852559966
+      sparkle-lightpink_40: 3265719695287009366
+      sparkle-lightpink_41: 1938088398606850597
+      sparkle-lightpink_42: -417795251056813048
+      sparkle-lightpink_43: 7612604753959783859
+      sparkle-lightpink_44: 4602292135211392431
+      sparkle-lightpink_45: 4596479789069466372
+      sparkle-lightpink_46: -1768491599127270269
+      sparkle-lightpink_47: 4410409811447205021
+      sparkle-lightpink_48: 1900476712297038362
+      sparkle-lightpink_49: -7270523400376515074
+      sparkle-lightpink_5: 7826568501914919091
+      sparkle-lightpink_50: -1890992642143767066
+      sparkle-lightpink_51: 8194798515988616192
+      sparkle-lightpink_52: 113674800032939754
+      sparkle-lightpink_53: -1002190953934525636
+      sparkle-lightpink_54: 81752205760996301
+      sparkle-lightpink_55: 2591384092291653835
+      sparkle-lightpink_56: -3251541823833877001
+      sparkle-lightpink_57: -943884758045055716
+      sparkle-lightpink_58: 5998065953639820023
+      sparkle-lightpink_59: 4894134311666220850
+      sparkle-lightpink_6: -977273588941797750
+      sparkle-lightpink_60: -3757930142846855542
+      sparkle-lightpink_61: 7102428368331981674
+      sparkle-lightpink_62: 3815461996656365050
+      sparkle-lightpink_63: -4658992032186203267
+      sparkle-lightpink_64: 7750677918341705868
+      sparkle-lightpink_65: -8741817049003648241
+      sparkle-lightpink_66: -2785163331647425775
+      sparkle-lightpink_67: -8871887521966907987
+      sparkle-lightpink_7: 6342718703382361380
+      sparkle-lightpink_8: 5788294662859380940
+      sparkle-lightpink_9: -5524205793339579706
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

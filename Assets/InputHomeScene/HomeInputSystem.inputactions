@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "HomeInputSystem",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e70e9390-9c13-4700-9c9d-8626483c45b2",
+            "actions": [
+                {
+                    "name": "ClickSomething",
+                    "type": "Button",
+                    "id": "a3f2737d-4800-4477-92f4-2917a412a3e6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "152b39c5-1054-482d-a699-721cdd4cc6f6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickSomething",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
