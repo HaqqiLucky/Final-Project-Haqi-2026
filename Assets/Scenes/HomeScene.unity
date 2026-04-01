@@ -8916,6 +8916,7 @@ MonoBehaviour:
   AwanOut: {fileID: 644922747}
   PaperPuzzleMenu: {fileID: 761323242}
   Camera: {fileID: 898765727}
+  Angin: {fileID: 0}
 --- !u!4 &929657679
 Transform:
   m_ObjectHideFlags: 0
@@ -16997,7 +16998,7 @@ GameObject:
   - component: {fileID: 1665609597}
   - component: {fileID: 1665609596}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: AnginEfek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
