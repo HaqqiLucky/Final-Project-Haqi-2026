@@ -9,9 +9,6 @@ public class HomeSceneControl : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float t;
 
-    //[Header("True/False Clicked from InputHandler")]
-    //InputHandler handlingTrueFalse;
-
     [Header("GameObject")]
     [SerializeField] private GameObject MenuToChangeColorBaloon;
     [SerializeField] private GameObject ClickableObjectAtWorldSpace;
@@ -23,15 +20,11 @@ public class HomeSceneControl : MonoBehaviour
     [SerializeField] private GameObject Camera;
     [SerializeField] private ParticleSystem Angin;
 
-
-
-
     [Header("Vector Animasi Paper In")]
     Vector3 PaperTargetIn = new Vector3(493, 497, 0);
     Vector3 PaperTargetCantBeSelectedIn = new Vector3(-609, 340, 0);
     Vector3 PaperTargetPuzzleMenuIn = new Vector3(-1, (float)2.29, (float)-0.75);
     Vector3 TargetKameraIn = new Vector3(0, (float)26.52, -10);
-
 
     [Header("Vector Animasi Paper Out")]
     Vector3 PaperTargetOut = new Vector3(-1735, 458, 0);
@@ -133,17 +126,16 @@ public class HomeSceneControl : MonoBehaviour
 
     public IEnumerator KameraNaik()
     {
-        Camera.LeanMoveLocal(TargetKameraIn, 3f)
-            .setEaseOutBack();
-        Angin.Play();
+        //Angin.Play();
+        Camera.LeanMoveLocal(TargetKameraIn, 1f);
         yield return null;
     }
 
     public IEnumerator KameraTurun()
     {
+        //Angin.Stop();
         Camera.LeanMoveLocal(TargetKameraOut, 1f)
             .setEaseInOutBack();
-        Angin.Stop();
         yield return null;
     }
 

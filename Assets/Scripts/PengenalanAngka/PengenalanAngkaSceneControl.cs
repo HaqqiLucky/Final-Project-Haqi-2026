@@ -1,7 +1,8 @@
-using System.Collections;
+ using System.Collections;
 using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PengenalanAngkaSceneControl : MonoBehaviour
 {
@@ -10,10 +11,16 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     [SerializeField] private GameObject prefabsGridElement;
     [SerializeField] private GameObject parentofAllEntities;
     [SerializeField] private GameObject gridParent;
+    [SerializeField] private GameObject Balud;
+    [SerializeField] private GameObject backrgroundAngka;
+    [SerializeField] private ParticleSystem AnginKeKanan;
+    //[SerializeField] private GameObject backrgroundAngka;
+    //[SerializeField] TextMeshProUGUI number;
     private GameObject[] Animals;
     private int currentAngka = 1;
     private string namaHewan;
-    private int JumlahHewanYangDiklik = 0;
+    public int JumlahHewanYangDiklik = 0;
+    public bool AnimasiJalankah = false;
     
 
     [Header("Gameobject not really important")]
@@ -21,12 +28,30 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     [SerializeField] private TextMeshProUGUI HeadlineKeluarDariScript;
     [SerializeField] private ParticleSystem Confentii;
     [SerializeField] private PergerakanBalonUdara gerakBalud;
+    //[SerializeField] private InfiniteSky speedAwan;
 
+    //[Header("Prefabs Skies animasi transisi ganti angka")]
+    //private GameObject Skyday1;
 
 
     void Start()
     {
         Camera.main.gameObject.transform.position = Vector3.zero;
+        MainFunctionPerulanganMasuk();
+    }
+
+
+    private void Update()
+    {
+        if (currentAngka > 10)
+        {
+            SceneManager.LoadScene(1);
+        }
+    }
+
+    private void MainFunctionPerulanganMasuk()
+    {
+        backrgroundAngka.SetActive(false);
         TakeTheAnimals();
         Angka1Sampai10danButtonAcak();
         LeanTween.moveLocalX(panel, 311f, 1f)
@@ -38,6 +63,9 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
             .setRepeat(-1);
 
         Headline();
+
+
+
     }
 
     private void TakeTheAnimals()
@@ -59,20 +87,30 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
 
     private void Angka1Sampai10danButtonAcak()
     {
-        int currentAngkaBuatDiPakediFunction = currentAngka - 1;
+        int currentAngkaBuatDiPakediFunction = currentAngka;
         int jumlahButton = currentAngkaBuatDiPakediFunction;
         //RandomAnimals().SetActive(true);
-        RandomAnimals().transform.SetParent(prefabsGridElement.transform, false);
-        prefabsGridElement.transform.GetChild(0).gameObject.SetActive(true);
-        prefabsGridElement.transform.GetChild(0).localPosition = Vector3.zero;
-        if (prefabsGridElement.transform.childCount == 1)
+        GameObject hewanPilihan = RandomAnimals();
+        GameObject cloneHewan = Instantiate(hewanPilihan, prefabsGridElement.transform);
+        cloneHewan.SetActive(true);
+        cloneHewan.transform.localPosition = Vector3.zero;
+
+
+        prefabsGridElement.transform.GetChild(1).gameObject.SetActive(true);
+        prefabsGridElement.transform.GetChild(1).localPosition = Vector3.zero;
+        if (prefabsGridElement.transform.childCount <= 2)
         {
             Debug.Log("masuk if");
             for (int i = 1; i < currentAngkaBuatDiPakediFunction; i++)
             {
                 Debug.Log("masuk for");
-                Instantiate(prefabsGridElement, new Vector3(0, 0, 0), Quaternion.identity, gridParent.transform);
-                Debug.Log("done for");
+                Instantiate(prefabsGridElement, gridParent.transform);
+                //Vector3 PrefabLoc = PrefabIniBuatAkuMurka.transform.position;
+                //Vector3 PrefabLocal = PrefabIniBuatAkuMurka.transform.localPosition;
+                
+                //Instantiate(backrgroundAngka,PrefabLoc, Quaternion.identity);
+                //Debug.Log("Objek ke-" + i + " ada di lokasi: " + PrefabLoc);
+                //Debug.Log("Objek ke-" + i + " ada di lokasi lokal: " + PrefabLocal);
             }
         } else
         {
@@ -82,9 +120,11 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     }
 
 
+
+
     private void Headline()
     {
-        string entitySekarang = prefabsGridElement.transform.GetChild(0).name;
+        string entitySekarang = prefabsGridElement.transform.GetChild(1).name;
         if (entitySekarang.Contains("Landak"))
         {
             namaHewan = "Landak";
@@ -118,16 +158,17 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     public void EveryButtonClicked()
     {
         JumlahHewanYangDiklik++;
-        HeadlineKeluarDariScript.text = JumlahHewanYangDiklik.ToString()+ " " + namaHewan;
-        //JumlahHewanYangDiklik = butonKlik.buttonYgSdhDiKlik.ToString();
-        Debug.Log("Ini Jumlah hewan yg di kklik : " + JumlahHewanYangDiklik);
 
         if (currentAngka == JumlahHewanYangDiklik)
         {
+            HeadlineKeluarDariScript.text = JumlahHewanYangDiklik.ToString() + " " + namaHewan;
+            //JumlahHewanYangDiklik = butonKlik.buttonYgSdhDiKlik.ToString();
+            Debug.Log("Ini Jumlah hewan yg di kklik : " + JumlahHewanYangDiklik);
             StartCoroutine(BalonNaikGantiLevel());  
         }
 
     }
+
 
     IEnumerator BalonNaikGantiLevel()
     {
@@ -137,7 +178,48 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         PanelNgaleh();
         yield return new WaitForSeconds(1f);
         //gerakBalud.BalonUdaraTerbangHabisSelesai(new Vector2(-6.13f, 9.58f), 2f);
-        LeanTween.moveY(Camera.main.gameObject, 12, 1f);
+        currentAngka++;
+        JumlahHewanYangDiklik = 0;
+
+        StartCoroutine(KorotinUntukAnimasiMengancurkanPrefabdanAnimasiHehe());
+        // masukin korotin
+
+
+        // animasi dlu baru hancurkan prefab hahaa
+
+
+        // 4 april 2026, ini ga usah naik, animasinya terbang ke kanan aja, balon agak di miringin, bu
+
+        //LeanTween.moveY(Camera.main.gameObject, 12, 1f)
+        //    .setOnComplete(() =>
+        //{
+        //    MainFunctionPerulanganMasuk();
+        //    LeanTween.delayedCall(0.7f, () =>
+        //    {
+        //        LeanTween.moveY(Balud, 12f, 2f)
+        //                    .setEaseInOutBack();
+        //    });
+            
+        //});
+    }
+
+    private void HancurkanPrefabHahahaha()
+    {
+        foreach (Transform child in prefabsGridElement.transform)
+        {
+            if (child.name == "BackgroundNumber")
+            {
+                continue;
+            }
+            DestroyImmediate(child.gameObject);
+        }
+
+        HeadlineKeluarDariScript.text = "--------------------------";
+
+        for (int i = gridParent.transform.childCount - 1; i > 0; i--)
+        {
+            DestroyImmediate(gridParent.transform.GetChild(i).gameObject);
+        }
     }
 
     private void PanelNgaleh()
@@ -146,5 +228,43 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
             .setEaseInBack();
     }
 
+    IEnumerator KorotinUntukAnimasiMengancurkanPrefabdanAnimasiHehe()
+    {
+        TriggerAnimasiTerbangkeKanan();
+        AnginKeKanan.Play();
+        yield return new WaitForSeconds(3.0f);
+        AnginKeKanan.Stop();
+        AnimasiJalankah = false;
+        LeanTween.rotate(Balud, Vector3.zero, 1)
+            .setEaseInOutBack();
+        HancurkanPrefabHahahaha();
+        MainFunctionPerulanganMasuk();
+    }
+
+    private void TriggerAnimasiTerbangkeKanan()
+    {
+        AnimasiJalankah = true;
+        StartCoroutine(BalonMiringJam1lewat35());
+        Debug.Log("Omaga sampai sini");
+        //StartCoroutine(AnimasiAwanKeKananTerbangPanelnya());
+
+    }
+
+    //IEnumerator AnimasiAwanKeKananTerbangPanelnya()
+    //{
+    //    speedAwan.speed *= 3;
+    //    yield return new WaitForSeconds(3f);
+    //    speedAwan.speed *= 1;
+    //}
+
+    IEnumerator BalonMiringJam1lewat35()
+    {
+        LeanTween.rotate(Balud, new Vector3(0, 0, -15.48f), 0.4f);
+        yield return null;
+    }
+
+
 
 }
+
+

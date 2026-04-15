@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Iamabird : MonoBehaviour
 {
@@ -9,9 +10,11 @@ public class Iamabird : MonoBehaviour
 
     private void Start()
     {
+        //int indexSceneScenario = SceneManager.GetActiveScene().buildIndex;
+
         posAkhir = new Vector3(9.55f, transform.position.y, transform.position.z);
         posAwal = transform.position;
-        //Debug.Log("pos awal : " + posAwal);
+        //if (indexSceneScenario == 3 &&  )
     }
 
     void Update()

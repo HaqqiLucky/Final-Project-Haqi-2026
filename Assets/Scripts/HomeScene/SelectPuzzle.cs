@@ -49,7 +49,6 @@ public class SelectPuzzle : MonoBehaviour
         yield return new WaitForSeconds(2);
         yield return StartCoroutine(home.KameraNaik());
         Puzzle.SetActive(true);
-        
-
+        Debug.Log("sampai di selek puzel");
     }
 }

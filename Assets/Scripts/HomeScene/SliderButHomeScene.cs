@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -8,6 +9,7 @@ public class SliderButHomeScene : MonoBehaviour,
     IDragHandler, IEndDragHandler
 {
     [SerializeField] private Slider slider;
+    //private Transform tf;
     public float playingPingPong = 0f;
     [SerializeField] private SelectPuzzle selectPuzzle;
     private int PuzzleScene;
@@ -35,12 +37,24 @@ public class SliderButHomeScene : MonoBehaviour,
             //selectPuzzle.PlayPuzzleThisOne();
             Debug.Log("Should be here");
 
+            LeanTween.scale(slider.gameObject, new Vector3(3f, 3f, 3f), 0.01f)
+                .setOnComplete(() => {
+                    LeanTween.scale(slider.gameObject, new Vector3(2.9f, 2.9f, 2.9f), 0.1f)
+                        .setOnComplete(() =>
+                        {
+                            StartCoroutine(SebelumPindahSceneMemperhalusAnimasi());
+                        });
+                });
 
-            // animasi membesar hujan
 
-
-            PlayPuzzleThisOne();
         }
+    }
+
+
+    IEnumerator SebelumPindahSceneMemperhalusAnimasi()
+    {
+        yield return new WaitForSeconds(0.3f);
+        PlayPuzzleThisOne();
     }
 
     public void PlayPuzzleThisOne()

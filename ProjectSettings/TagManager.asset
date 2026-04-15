@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PenghancurPrefab
   layers:
   - Default
   - TransparentFX
@@ -41,16 +42,13 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Sky
+  - name: SkyClouds
     uniqueID: 1408268249
     locked: 0
-  - name: Clouds
-    uniqueID: 234029091
-    locked: 0
-  - name: ' BackgroundAbcdpuzzle'
+  - name: LivingBeing
     uniqueID: 4051892423
     locked: 0
-  - name: alphabet
+  - name: UI
     uniqueID: 1301201741
     locked: 0
   m_RenderingLayers:
