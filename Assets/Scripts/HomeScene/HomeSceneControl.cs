@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class HomeSceneControl : MonoBehaviour
 {
@@ -98,6 +99,7 @@ public class HomeSceneControl : MonoBehaviour
             .setEaseInOutBack()
             .setOnComplete(() =>
             {
+
             ButtonsInPuzzleMenu.SetActive(true);
             });;
         //LeanTween.alphaCanvas(ButtonsInPuzzleMenu, 1f, 0.5f);

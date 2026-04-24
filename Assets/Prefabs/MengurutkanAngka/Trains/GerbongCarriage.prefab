@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6627337893771811217}
   - component: {fileID: 7376363614531791776}
   - component: {fileID: -1371779780499336612}
+  - component: {fileID: 4923883575135684708}
   m_Layer: 0
   m_Name: GerbongCarriage
   m_TagString: PenghancurPrefab
@@ -138,3 +139,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.56, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &4923883575135684708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6631514469928748709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e46aed64dc1096b48a7eb3d4fcdf9013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrainSpeed

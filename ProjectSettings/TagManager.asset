@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - Train
   - PenghancurPrefab
+  - PrefabGoneNow
   layers:
   - Default
   - TransparentFX
@@ -50,6 +52,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1301201741
+    locked: 0
+  - name: FarAway
+    uniqueID: 2750166189
     locked: 0
   m_RenderingLayers:
   - Default

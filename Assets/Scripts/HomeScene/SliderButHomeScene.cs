@@ -63,23 +63,22 @@ public class SliderButHomeScene : MonoBehaviour,
         Debug.Log("Masuk ke play puzzle this one dengan number " + PuzzleScene);
         if (PuzzleScene == 0)
         {
-            SceneManager.LoadScene(2);
-            Debug.Log("masuk abcd puzzle pengenalan huruf");
+            // mengurutkan angka
+            //LoadingScreenSceneControl.TargetSceneName = "MengurutkanAngka";
+            LoadingScreenSceneControl.Instance.LoadScene("MengurutkanAngka");
+            //SceneManager.LoadScene(4);
+            //SceneManager.LoadScene(2);
+            //LoadingScreenSceneControl.Instance.SwitchToScene(2);
+            //Debug.Log("masuk abcd puzzle pengenalan huruf");
         }
+            // pengenalan huruf
         else if (PuzzleScene == 1)
         {
-            SceneManager.LoadScene(3);
-            Debug.Log("masuk abcd puzzle pengenalan angka");
-        }
-        else if (PuzzleScene == 2)
-        {
-            SceneManager.LoadScene(4);
-            Debug.Log("masuk abcd puzzle mengurutkan angka");
-        }
-        else
-        {
-            SceneManager.LoadScene(5);
-            Debug.Log("masuk abcd puzzle hamilton puzzle");
+            LoadingScreenSceneControl.Instance.LoadScene("PengenalanAngka");
+            //LoadingScreenSceneControl.TargetSceneName = "PengenalanAngka";
+            //SceneManager.LoadScene(4);
+            //SceneManager.LoadScene(3);
+            //Debug.Log("masuk abcd puzzle pengenalan angka");
         }
     }
 }

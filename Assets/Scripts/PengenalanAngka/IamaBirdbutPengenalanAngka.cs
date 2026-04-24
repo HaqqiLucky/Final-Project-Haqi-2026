@@ -19,7 +19,7 @@ public class IamaBirdbutPengenalanAngka : MonoBehaviour
     void Update()
     {
         float currentSpeed = speed;
-        if (indexSceneScenario == 3 && AnimTransisi.AnimasiJalankah == true)
+        if (indexSceneScenario == 2 && AnimTransisi.AnimasiJalankah == true)
         {
             currentSpeed = speed * 2f;
         }

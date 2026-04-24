@@ -45,7 +45,11 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     {
         if (currentAngka > 10)
         {
-            SceneManager.LoadScene(1);
+            //SceneManager.LoadScene(1);
+            //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
+            LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+
+            SceneManager.LoadScene(4);
         }
     }
 

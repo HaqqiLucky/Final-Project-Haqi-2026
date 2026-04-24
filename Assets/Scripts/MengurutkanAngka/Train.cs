@@ -1,51 +1,52 @@
 using UnityEngine;
-using static UnityEngine.ParticleSystem;
 
 public class Train : MonoBehaviour
 {
-    //[SerializeField] private AnimationCurve GerakGerikMencurigakan;
-    //[SerializeField] private float durasi = 5f;
-    [SerializeField] private float Speed;
+    public static float Speed;
     private Vector3 StartPos = new Vector3(-3266f, -320.16f, 0);
-    //private Vector3 EndPos = new Vector3(, -320.16f, 0);
-    //public bool DoneKah = false;
+    private TrainSpeed[] allGerbong;
+    //public bool semuanyaSelesai;
 
-    private void Start()
+    private void Awake()
     {
-        //this.gameObject.SetActive(false);
-        //transform.position = new Vector3(-6013f, -320.16f, 0);
+        // Cari semua script TrainSpeed yang ada di anak-anaknya
+        allGerbong = GetComponentsInChildren<TrainSpeed>();
     }
 
-    private void OnEnable() // ini fungsi tiap di set active true
+    private void OnEnable()
     {
-        //Debug.Log("speed skrnh = " + Speed);
-        //timer = 0f;
-        LeanTween.cancel(this.gameObject);
-        //DoneKah = false;
         transform.localPosition = StartPos;
-        LeanTween.moveLocalX(this.gameObject, 510451f, Speed)
-            .setOnComplete(() => {
-
-                this.gameObject.SetActive(false);
-            });
-            //.setSpeed(Speed);
-      
+        Speed = 100f;
+        //semuanyaSelesai = false;
     }
 
     void Update()
     {
-        //if (timer < durasi && this.gameObject.activeSelf == true)
-        //{
-        //    timer += Time.deltaTime;
-        //    float speedMultiplier = GerakGerikMencurigakan.Evaluate(timer);
-        //    transform.Translate(Vector3.right * speedMultiplier * Time.deltaTime);
-        //} else if (!DoneKah)
-        //{
+        // STEP 1: Asumsikan default speed adalah 100
+        float targetSpeed = 80f;
 
-        //    DoneKah = true;
-        //    this.gameObject.SetActive(false);
-        //}
+        // STEP 2: Cek satu per satu gerbong
+        foreach (TrainSpeed gerbong in allGerbong)
+        {
+            if (gerbong.IsInScreen())
+            {
+                // Kalau ada satu saja yang di layar, target jadi 20
+                targetSpeed = 50f;
+                break; // Keluar dari loop, gak usah cek gerbong lain lagi
+            }
+        }
 
-        //transform.position = Vector3.MoveTowards(transform.position, TargetKereta, Kecepatan * Time.deltaTime);
+        // STEP 3: Terapkan speed
+        Speed = targetSpeed;
+        transform.Translate(Vector3.right * Speed * Time.deltaTime);
+
+        // Debug untuk liat polanya sesuai analogi kamu
+        //Debug.Log("Current Speed: " + Speed);
+
+        if (transform.localPosition.x > 374386f)
+        {
+            this.gameObject.SetActive(false);
+            //semuanyaSelesai = true;
+        }
     }
 }
