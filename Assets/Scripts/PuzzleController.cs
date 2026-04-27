@@ -60,7 +60,7 @@ public class PuzzleController : MonoBehaviour
 
         for (int i = 0; i < allChild; i++)
         {
-            float randomX = Random.Range(-500f, 500f);
+            float randomX = Random.Range(-7f, 7f);
             Transform childPosToRandom = puzzle1House.transform.GetChild(i);
 
             Vector3 randomNewPos = new Vector3(childPosToRandom.position.x + randomX, childPosToRandom.position.y, childPosToRandom.position.z);

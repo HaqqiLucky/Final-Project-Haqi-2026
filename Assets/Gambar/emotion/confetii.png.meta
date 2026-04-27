@@ -1,0 +1,2464 @@
+fileFormatVersion: 2
+guid: d4b648fe38d24cb4d88a4ed527ac0697
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6898602520040625543
+    second: 51222-ezgif.com-gif-to-sprite-converter_0
+  - first:
+      213: 7995680587251414011
+    second: 51222-ezgif.com-gif-to-sprite-converter_1
+  - first:
+      213: -3677896136769077573
+    second: 51222-ezgif.com-gif-to-sprite-converter_2
+  - first:
+      213: -6929644682959043920
+    second: 51222-ezgif.com-gif-to-sprite-converter_3
+  - first:
+      213: 5115516337332430251
+    second: 51222-ezgif.com-gif-to-sprite-converter_4
+  - first:
+      213: -1765179699242682285
+    second: 51222-ezgif.com-gif-to-sprite-converter_5
+  - first:
+      213: 7838093030364046419
+    second: 51222-ezgif.com-gif-to-sprite-converter_6
+  - first:
+      213: -6705509924575467109
+    second: 51222-ezgif.com-gif-to-sprite-converter_7
+  - first:
+      213: -2442258233185434779
+    second: 51222-ezgif.com-gif-to-sprite-converter_8
+  - first:
+      213: -7565622880567915038
+    second: 51222-ezgif.com-gif-to-sprite-converter_9
+  - first:
+      213: -2007095912090133441
+    second: 51222-ezgif.com-gif-to-sprite-converter_10
+  - first:
+      213: -6877293074208189788
+    second: 51222-ezgif.com-gif-to-sprite-converter_11
+  - first:
+      213: -5334068181293356511
+    second: 51222-ezgif.com-gif-to-sprite-converter_12
+  - first:
+      213: -2725307759545625526
+    second: 51222-ezgif.com-gif-to-sprite-converter_13
+  - first:
+      213: -4943793957116328154
+    second: 51222-ezgif.com-gif-to-sprite-converter_14
+  - first:
+      213: -2109218858070158594
+    second: 51222-ezgif.com-gif-to-sprite-converter_15
+  - first:
+      213: -829660597416013173
+    second: 51222-ezgif.com-gif-to-sprite-converter_16
+  - first:
+      213: -2151074829591107133
+    second: 51222-ezgif.com-gif-to-sprite-converter_17
+  - first:
+      213: 7038817732108165331
+    second: 51222-ezgif.com-gif-to-sprite-converter_18
+  - first:
+      213: 2388836001480125798
+    second: 51222-ezgif.com-gif-to-sprite-converter_19
+  - first:
+      213: -8504576398203616329
+    second: 51222-ezgif.com-gif-to-sprite-converter_20
+  - first:
+      213: 4398741696146403420
+    second: 51222-ezgif.com-gif-to-sprite-converter_21
+  - first:
+      213: -7634553039771213897
+    second: 51222-ezgif.com-gif-to-sprite-converter_22
+  - first:
+      213: 5070848305522059879
+    second: 51222-ezgif.com-gif-to-sprite-converter_23
+  - first:
+      213: -6655848121604485094
+    second: 51222-ezgif.com-gif-to-sprite-converter_24
+  - first:
+      213: -8172190082787454228
+    second: 51222-ezgif.com-gif-to-sprite-converter_25
+  - first:
+      213: 7282394393919761653
+    second: 51222-ezgif.com-gif-to-sprite-converter_26
+  - first:
+      213: -6632254095251835757
+    second: 51222-ezgif.com-gif-to-sprite-converter_27
+  - first:
+      213: -7137898812498667863
+    second: 51222-ezgif.com-gif-to-sprite-converter_28
+  - first:
+      213: -6160359879091747277
+    second: 51222-ezgif.com-gif-to-sprite-converter_29
+  - first:
+      213: 1939593146856936005
+    second: 51222-ezgif.com-gif-to-sprite-converter_30
+  - first:
+      213: -8816144244408557031
+    second: 51222-ezgif.com-gif-to-sprite-converter_31
+  - first:
+      213: -5444275970197037767
+    second: 51222-ezgif.com-gif-to-sprite-converter_32
+  - first:
+      213: 6789360105191907200
+    second: 51222-ezgif.com-gif-to-sprite-converter_33
+  - first:
+      213: 4378647159806285236
+    second: 51222-ezgif.com-gif-to-sprite-converter_34
+  - first:
+      213: -4297559313185271520
+    second: 51222-ezgif.com-gif-to-sprite-converter_35
+  - first:
+      213: 288736342101021095
+    second: 51222-ezgif.com-gif-to-sprite-converter_36
+  - first:
+      213: 4506483548562185461
+    second: 51222-ezgif.com-gif-to-sprite-converter_37
+  - first:
+      213: 7162971821978993910
+    second: 51222-ezgif.com-gif-to-sprite-converter_38
+  - first:
+      213: 7711559655249691959
+    second: 51222-ezgif.com-gif-to-sprite-converter_39
+  - first:
+      213: 2256942994340005763
+    second: 51222-ezgif.com-gif-to-sprite-converter_40
+  - first:
+      213: -7516404035152625711
+    second: 51222-ezgif.com-gif-to-sprite-converter_41
+  - first:
+      213: 5301441069240503327
+    second: 51222-ezgif.com-gif-to-sprite-converter_42
+  - first:
+      213: 8707570639962176827
+    second: 51222-ezgif.com-gif-to-sprite-converter_43
+  - first:
+      213: 8114045613626334574
+    second: 51222-ezgif.com-gif-to-sprite-converter_44
+  - first:
+      213: -2474397068873014985
+    second: 51222-ezgif.com-gif-to-sprite-converter_45
+  - first:
+      213: 4006947017737074420
+    second: 51222-ezgif.com-gif-to-sprite-converter_46
+  - first:
+      213: -8122997847778762237
+    second: 51222-ezgif.com-gif-to-sprite-converter_47
+  - first:
+      213: -5741797730412763417
+    second: 51222-ezgif.com-gif-to-sprite-converter_48
+  - first:
+      213: -8422619176700281310
+    second: 51222-ezgif.com-gif-to-sprite-converter_49
+  - first:
+      213: -2933443201710071278
+    second: 51222-ezgif.com-gif-to-sprite-converter_50
+  - first:
+      213: -5254911812090752547
+    second: 51222-ezgif.com-gif-to-sprite-converter_51
+  - first:
+      213: -424512226415226807
+    second: 51222-ezgif.com-gif-to-sprite-converter_52
+  - first:
+      213: -2352555797069854247
+    second: 51222-ezgif.com-gif-to-sprite-converter_53
+  - first:
+      213: 8328686741051903362
+    second: 51222-ezgif.com-gif-to-sprite-converter_54
+  - first:
+      213: 4762961680309671224
+    second: 51222-ezgif.com-gif-to-sprite-converter_55
+  - first:
+      213: -2652198375237159394
+    second: 51222-ezgif.com-gif-to-sprite-converter_56
+  - first:
+      213: 2774636172503612685
+    second: 51222-ezgif.com-gif-to-sprite-converter_57
+  - first:
+      213: 7813108149664374676
+    second: 51222-ezgif.com-gif-to-sprite-converter_58
+  - first:
+      213: -749302963808517083
+    second: 51222-ezgif.com-gif-to-sprite-converter_59
+  - first:
+      213: -1571739020338786458
+    second: 51222-ezgif.com-gif-to-sprite-converter_60
+  - first:
+      213: 6547876201846002484
+    second: 51222-ezgif.com-gif-to-sprite-converter_61
+  - first:
+      213: -151815118850208392
+    second: 51222-ezgif.com-gif-to-sprite-converter_62
+  - first:
+      213: 2072609569831687470
+    second: 51222-ezgif.com-gif-to-sprite-converter_63
+  - first:
+      213: 4772200221997906646
+    second: 51222-ezgif.com-gif-to-sprite-converter_64
+  - first:
+      213: -5758865653665104161
+    second: 51222-ezgif.com-gif-to-sprite-converter_65
+  - first:
+      213: 7589059717850864704
+    second: 51222-ezgif.com-gif-to-sprite-converter_66
+  - first:
+      213: 1020676783734725805
+    second: 51222-ezgif.com-gif-to-sprite-converter_67
+  - first:
+      213: -5673800353599917362
+    second: 51222-ezgif.com-gif-to-sprite-converter_68
+  - first:
+      213: 8990111657845905019
+    second: 51222-ezgif.com-gif-to-sprite-converter_69
+  - first:
+      213: 4392532247743756328
+    second: 51222-ezgif.com-gif-to-sprite-converter_70
+  - first:
+      213: 845254818178255954
+    second: 51222-ezgif.com-gif-to-sprite-converter_71
+  - first:
+      213: 5356321513931064021
+    second: 51222-ezgif.com-gif-to-sprite-converter_72
+  - first:
+      213: 5226562753328252404
+    second: 51222-ezgif.com-gif-to-sprite-converter_73
+  - first:
+      213: -4442723551105240936
+    second: 51222-ezgif.com-gif-to-sprite-converter_74
+  - first:
+      213: 393538660552845036
+    second: 51222-ezgif.com-gif-to-sprite-converter_75
+  - first:
+      213: -3729670022421523989
+    second: 51222-ezgif.com-gif-to-sprite-converter_76
+  - first:
+      213: -3352487497156263841
+    second: 51222-ezgif.com-gif-to-sprite-converter_77
+  - first:
+      213: -6254540805366799366
+    second: 51222-ezgif.com-gif-to-sprite-converter_78
+  - first:
+      213: 2558326047952679001
+    second: 51222-ezgif.com-gif-to-sprite-converter_79
+  - first:
+      213: -5969083689836043348
+    second: 51222-ezgif.com-gif-to-sprite-converter_80
+  - first:
+      213: 2428611752719516824
+    second: 51222-ezgif.com-gif-to-sprite-converter_81
+  - first:
+      213: 6405180820569533011
+    second: 51222-ezgif.com-gif-to-sprite-converter_82
+  - first:
+      213: -5761442812816325124
+    second: 51222-ezgif.com-gif-to-sprite-converter_83
+  - first:
+      213: -5262622357468247548
+    second: 51222-ezgif.com-gif-to-sprite-converter_84
+  - first:
+      213: -3821559809407303176
+    second: 51222-ezgif.com-gif-to-sprite-converter_85
+  - first:
+      213: -2588267798957856053
+    second: 51222-ezgif.com-gif-to-sprite-converter_86
+  - first:
+      213: -7438690408825064235
+    second: 51222-ezgif.com-gif-to-sprite-converter_87
+  - first:
+      213: -1430812595457344724
+    second: 51222-ezgif.com-gif-to-sprite-converter_88
+  - first:
+      213: -1375492451756756498
+    second: 51222-ezgif.com-gif-to-sprite-converter_89
+  - first:
+      213: 521142921532764141
+    second: 51222-ezgif.com-gif-to-sprite-converter_90
+  - first:
+      213: -4364595058827555779
+    second: 51222-ezgif.com-gif-to-sprite-converter_91
+  - first:
+      213: 1877989651310300752
+    second: 51222-ezgif.com-gif-to-sprite-converter_92
+  - first:
+      213: -5332225876269411893
+    second: 51222-ezgif.com-gif-to-sprite-converter_93
+  - first:
+      213: -7695977453283796983
+    second: 51222-ezgif.com-gif-to-sprite-converter_94
+  - first:
+      213: 319748053316054952
+    second: 51222-ezgif.com-gif-to-sprite-converter_95
+  - first:
+      213: 5809654088463474769
+    second: 51222-ezgif.com-gif-to-sprite-converter_96
+  - first:
+      213: -3140473572222747997
+    second: 51222-ezgif.com-gif-to-sprite-converter_97
+  - first:
+      213: -9034493809574216036
+    second: 51222-ezgif.com-gif-to-sprite-converter_98
+  - first:
+      213: 4343910466009213076
+    second: 51222-ezgif.com-gif-to-sprite-converter_99
+  - first:
+      213: -4827997679614165969
+    second: 51222-ezgif.com-gif-to-sprite-converter_100
+  - first:
+      213: 6753626502004324136
+    second: 51222-ezgif.com-gif-to-sprite-converter_101
+  - first:
+      213: 5468940593964852147
+    second: 51222-ezgif.com-gif-to-sprite-converter_102
+  - first:
+      213: 4246364980650461104
+    second: 51222-ezgif.com-gif-to-sprite-converter_103
+  - first:
+      213: 3894382133699171855
+    second: 51222-ezgif.com-gif-to-sprite-converter_104
+  - first:
+      213: -1162067882217229774
+    second: 51222-ezgif.com-gif-to-sprite-converter_105
+  - first:
+      213: -6478695057211100523
+    second: 51222-ezgif.com-gif-to-sprite-converter_106
+  - first:
+      213: 941735310666718804
+    second: 51222-ezgif.com-gif-to-sprite-converter_107
+  - first:
+      213: -6488809969495727873
+    second: 51222-ezgif.com-gif-to-sprite-converter_108
+  - first:
+      213: 3448770423150825628
+    second: 51222-ezgif.com-gif-to-sprite-converter_109
+  - first:
+      213: 3943321818217419226
+    second: 51222-ezgif.com-gif-to-sprite-converter_110
+  - first:
+      213: -257758973466028344
+    second: 51222-ezgif.com-gif-to-sprite-converter_111
+  - first:
+      213: -2674603606940341664
+    second: 51222-ezgif.com-gif-to-sprite-converter_112
+  - first:
+      213: -906089284604414022
+    second: 51222-ezgif.com-gif-to-sprite-converter_113
+  - first:
+      213: -3933851691098038168
+    second: 51222-ezgif.com-gif-to-sprite-converter_114
+  - first:
+      213: 339978079943237375
+    second: 51222-ezgif.com-gif-to-sprite-converter_115
+  - first:
+      213: 396257710331156346
+    second: 51222-ezgif.com-gif-to-sprite-converter_116
+  - first:
+      213: -6965334427400765781
+    second: 51222-ezgif.com-gif-to-sprite-converter_117
+  - first:
+      213: -2356256026673885313
+    second: 51222-ezgif.com-gif-to-sprite-converter_118
+  - first:
+      213: -6203999497945492945
+    second: 51222-ezgif.com-gif-to-sprite-converter_119
+  - first:
+      213: -5483609976432446796
+    second: 51222-ezgif.com-gif-to-sprite-converter_120
+  - first:
+      213: -5672690646841937756
+    second: 51222-ezgif.com-gif-to-sprite-converter_121
+  - first:
+      213: 9130145305820377037
+    second: 51222-ezgif.com-gif-to-sprite-converter_122
+  - first:
+      213: -7197045136708602551
+    second: 51222-ezgif.com-gif-to-sprite-converter_123
+  - first:
+      213: 8371713512794475301
+    second: 51222-ezgif.com-gif-to-sprite-converter_124
+  - first:
+      213: 5517738285359783845
+    second: 51222-ezgif.com-gif-to-sprite-converter_125
+  - first:
+      213: -212891519500920839
+    second: 51222-ezgif.com-gif-to-sprite-converter_126
+  - first:
+      213: -2736013827182173604
+    second: 51222-ezgif.com-gif-to-sprite-converter_127
+  - first:
+      213: 6287015750502972464
+    second: 51222-ezgif.com-gif-to-sprite-converter_128
+  - first:
+      213: 7450736646575572070
+    second: 51222-ezgif.com-gif-to-sprite-converter_129
+  - first:
+      213: -6607192890802247417
+    second: 51222-ezgif.com-gif-to-sprite-converter_130
+  - first:
+      213: 2556512854392766828
+    second: 51222-ezgif.com-gif-to-sprite-converter_131
+  - first:
+      213: 4895548110987893251
+    second: 51222-ezgif.com-gif-to-sprite-converter_132
+  - first:
+      213: 6432606650477719273
+    second: 51222-ezgif.com-gif-to-sprite-converter_133
+  - first:
+      213: 584428448913450620
+    second: 51222-ezgif.com-gif-to-sprite-converter_134
+  - first:
+      213: 2529214553651643864
+    second: 51222-ezgif.com-gif-to-sprite-converter_135
+  - first:
+      213: -22844280257994435
+    second: 51222-ezgif.com-gif-to-sprite-converter_136
+  - first:
+      213: 1457294457011155312
+    second: 51222-ezgif.com-gif-to-sprite-converter_137
+  - first:
+      213: -5351368690678935925
+    second: 51222-ezgif.com-gif-to-sprite-converter_138
+  - first:
+      213: -15146240837709365
+    second: 51222-ezgif.com-gif-to-sprite-converter_139
+  - first:
+      213: 8829318779591255571
+    second: 51222-ezgif.com-gif-to-sprite-converter_140
+  - first:
+      213: 6216114275374379353
+    second: 51222-ezgif.com-gif-to-sprite-converter_141
+  - first:
+      213: 1384237956006130329
+    second: 51222-ezgif.com-gif-to-sprite-converter_142
+  - first:
+      213: 2047863304404151186
+    second: 51222-ezgif.com-gif-to-sprite-converter_143
+  - first:
+      213: 7485594653843240856
+    second: 51222-ezgif.com-gif-to-sprite-converter_144
+  - first:
+      213: -3477277864472109122
+    second: 51222-ezgif.com-gif-to-sprite-converter_145
+  - first:
+      213: 8996388080300023060
+    second: 51222-ezgif.com-gif-to-sprite-converter_146
+  - first:
+      213: -3237427488129373683
+    second: 51222-ezgif.com-gif-to-sprite-converter_147
+  - first:
+      213: 7535475792231797075
+    second: 51222-ezgif.com-gif-to-sprite-converter_148
+  - first:
+      213: -3515000652503839566
+    second: 51222-ezgif.com-gif-to-sprite-converter_149
+  - first:
+      213: -2839401072719892010
+    second: 51222-ezgif.com-gif-to-sprite-converter_150
+  - first:
+      213: -4763319078032556665
+    second: 51222-ezgif.com-gif-to-sprite-converter_151
+  - first:
+      213: -984837039864909417
+    second: 51222-ezgif.com-gif-to-sprite-converter_152
+  - first:
+      213: 8820089231752673132
+    second: 51222-ezgif.com-gif-to-sprite-converter_153
+  - first:
+      213: -8450891757015606697
+    second: 51222-ezgif.com-gif-to-sprite-converter_154
+  - first:
+      213: 5400764071511139330
+    second: 51222-ezgif.com-gif-to-sprite-converter_155
+  - first:
+      213: 2171461837194767551
+    second: 51222-ezgif.com-gif-to-sprite-converter_156
+  - first:
+      213: 9056481001408864836
+    second: 51222-ezgif.com-gif-to-sprite-converter_157
+  - first:
+      213: 3418757887470721857
+    second: 51222-ezgif.com-gif-to-sprite-converter_158
+  - first:
+      213: -4383722542063851481
+    second: 51222-ezgif.com-gif-to-sprite-converter_159
+  - first:
+      213: -8327038994495700791
+    second: 51222-ezgif.com-gif-to-sprite-converter_160
+  - first:
+      213: -6920898243507859863
+    second: 51222-ezgif.com-gif-to-sprite-converter_161
+  - first:
+      213: 3671323750785766848
+    second: 51222-ezgif.com-gif-to-sprite-converter_162
+  - first:
+      213: 5253857732601789478
+    second: 51222-ezgif.com-gif-to-sprite-converter_163
+  - first:
+      213: 2429318458660865154
+    second: 51222-ezgif.com-gif-to-sprite-converter_164
+  - first:
+      213: 5164078551770108501
+    second: 51222-ezgif.com-gif-to-sprite-converter_165
+  - first:
+      213: 8752105510205227340
+    second: 51222-ezgif.com-gif-to-sprite-converter_166
+  - first:
+      213: -8599868457696394528
+    second: 51222-ezgif.com-gif-to-sprite-converter_167
+  - first:
+      213: -3068650597335448764
+    second: 51222-ezgif.com-gif-to-sprite-converter_168
+  - first:
+      213: 3120661784806393053
+    second: 51222-ezgif.com-gif-to-sprite-converter_169
+  - first:
+      213: -2792637423889008317
+    second: 51222-ezgif.com-gif-to-sprite-converter_170
+  - first:
+      213: 8336818554858460048
+    second: 51222-ezgif.com-gif-to-sprite-converter_171
+  - first:
+      213: -3200061607764781276
+    second: 51222-ezgif.com-gif-to-sprite-converter_172
+  - first:
+      213: -6751875096420731791
+    second: 51222-ezgif.com-gif-to-sprite-converter_173
+  - first:
+      213: -5248854395297873242
+    second: 51222-ezgif.com-gif-to-sprite-converter_174
+  - first:
+      213: -7147860176589052534
+    second: 51222-ezgif.com-gif-to-sprite-converter_175
+  - first:
+      213: -5875936962052671006
+    second: 51222-ezgif.com-gif-to-sprite-converter_176
+  - first:
+      213: 1139965167332776494
+    second: 51222-ezgif.com-gif-to-sprite-converter_177
+  - first:
+      213: 137954129430008173
+    second: 51222-ezgif.com-gif-to-sprite-converter_178
+  - first:
+      213: 8532298138886004758
+    second: 51222-ezgif.com-gif-to-sprite-converter_179
+  - first:
+      213: -4617097038028582997
+    second: 51222-ezgif.com-gif-to-sprite-converter_180
+  - first:
+      213: 4377009801739134445
+    second: 51222-ezgif.com-gif-to-sprite-converter_181
+  - first:
+      213: -1197224954208404427
+    second: 51222-ezgif.com-gif-to-sprite-converter_182
+  - first:
+      213: -7697925249355686832
+    second: 51222-ezgif.com-gif-to-sprite-converter_183
+  - first:
+      213: 8348938450154643104
+    second: 51222-ezgif.com-gif-to-sprite-converter_184
+  - first:
+      213: -924692870591459430
+    second: 51222-ezgif.com-gif-to-sprite-converter_185
+  - first:
+      213: 31440138370891151
+    second: 51222-ezgif.com-gif-to-sprite-converter_186
+  - first:
+      213: 2660231208080043770
+    second: 51222-ezgif.com-gif-to-sprite-converter_187
+  - first:
+      213: -8096040711030168052
+    second: 51222-ezgif.com-gif-to-sprite-converter_188
+  - first:
+      213: -182149009231425352
+    second: 51222-ezgif.com-gif-to-sprite-converter_189
+  - first:
+      213: -6454002537544003312
+    second: 51222-ezgif.com-gif-to-sprite-converter_190
+  - first:
+      213: -1213799162760687050
+    second: 51222-ezgif.com-gif-to-sprite-converter_191
+  - first:
+      213: 1787393498361541788
+    second: 51222-ezgif.com-gif-to-sprite-converter_192
+  - first:
+      213: 3293970400284875383
+    second: 51222-ezgif.com-gif-to-sprite-converter_193
+  - first:
+      213: -2951590228755808005
+    second: 51222-ezgif.com-gif-to-sprite-converter_194
+  - first:
+      213: 4521718640916938609
+    second: 51222-ezgif.com-gif-to-sprite-converter_195
+  - first:
+      213: -8431093656273299024
+    second: 51222-ezgif.com-gif-to-sprite-converter_196
+  - first:
+      213: 2532091875876916781
+    second: 51222-ezgif.com-gif-to-sprite-converter_197
+  - first:
+      213: -2921851254168286717
+    second: 51222-ezgif.com-gif-to-sprite-converter_198
+  - first:
+      213: -1688832008038262491
+    second: 51222-ezgif.com-gif-to-sprite-converter_199
+  - first:
+      213: 4780840667259596150
+    second: 51222-ezgif.com-gif-to-sprite-converter_200
+  - first:
+      213: 4385783711146353108
+    second: 51222-ezgif.com-gif-to-sprite-converter_201
+  - first:
+      213: 1382093368874897646
+    second: 51222-ezgif.com-gif-to-sprite-converter_202
+  - first:
+      213: -6624981065757278624
+    second: 51222-ezgif.com-gif-to-sprite-converter_203
+  - first:
+      213: 6247451169561987999
+    second: 51222-ezgif.com-gif-to-sprite-converter_204
+  - first:
+      213: 6810135536907428547
+    second: 51222-ezgif.com-gif-to-sprite-converter_205
+  - first:
+      213: -3536512316776134886
+    second: 51222-ezgif.com-gif-to-sprite-converter_206
+  - first:
+      213: 4387882817904855825
+    second: 51222-ezgif.com-gif-to-sprite-converter_207
+  - first:
+      213: -5236518570896763319
+    second: 51222-ezgif.com-gif-to-sprite-converter_208
+  - first:
+      213: 6474188147785719320
+    second: 51222-ezgif.com-gif-to-sprite-converter_209
+  - first:
+      213: 2316947409334425018
+    second: 51222-ezgif.com-gif-to-sprite-converter_210
+  - first:
+      213: 6761100338190329903
+    second: 51222-ezgif.com-gif-to-sprite-converter_211
+  - first:
+      213: -1560719800964788412
+    second: 51222-ezgif.com-gif-to-sprite-converter_212
+  - first:
+      213: 3441747229862170990
+    second: 51222-ezgif.com-gif-to-sprite-converter_213
+  - first:
+      213: -8914617497728421475
+    second: 51222-ezgif.com-gif-to-sprite-converter_214
+  - first:
+      213: -2439404523731446381
+    second: 51222-ezgif.com-gif-to-sprite-converter_215
+  - first:
+      213: 8655184195739730495
+    second: 51222-ezgif.com-gif-to-sprite-converter_216
+  - first:
+      213: 4136963649831663434
+    second: 51222-ezgif.com-gif-to-sprite-converter_217
+  - first:
+      213: 2320980174912854225
+    second: 51222-ezgif.com-gif-to-sprite-converter_218
+  - first:
+      213: -1247367613311469550
+    second: 51222-ezgif.com-gif-to-sprite-converter_219
+  - first:
+      213: 5748967594583487784
+    second: 51222-ezgif.com-gif-to-sprite-converter_220
+  - first:
+      213: -4694166749957289244
+    second: 51222-ezgif.com-gif-to-sprite-converter_221
+  - first:
+      213: -8592964275022774910
+    second: 51222-ezgif.com-gif-to-sprite-converter_222
+  - first:
+      213: -3326383480035260982
+    second: 51222-ezgif.com-gif-to-sprite-converter_223
+  - first:
+      213: 3211327514245333269
+    second: 51222-ezgif.com-gif-to-sprite-converter_224
+  - first:
+      213: 2645604867497981538
+    second: 51222-ezgif.com-gif-to-sprite-converter_225
+  - first:
+      213: -8592702089249382027
+    second: 51222-ezgif.com-gif-to-sprite-converter_226
+  - first:
+      213: -4601321567387668402
+    second: 51222-ezgif.com-gif-to-sprite-converter_227
+  - first:
+      213: -4948866599857115951
+    second: 51222-ezgif.com-gif-to-sprite-converter_228
+  - first:
+      213: -6923017497825548550
+    second: 51222-ezgif.com-gif-to-sprite-converter_229
+  - first:
+      213: -530896584308653017
+    second: 51222-ezgif.com-gif-to-sprite-converter_230
+  - first:
+      213: -4482785260473143273
+    second: 51222-ezgif.com-gif-to-sprite-converter_231
+  - first:
+      213: -3482678789056904915
+    second: 51222-ezgif.com-gif-to-sprite-converter_232
+  - first:
+      213: -6764274312255457263
+    second: 51222-ezgif.com-gif-to-sprite-converter_233
+  - first:
+      213: 7218283896306214736
+    second: 51222-ezgif.com-gif-to-sprite-converter_234
+  - first:
+      213: -211412957031326503
+    second: 51222-ezgif.com-gif-to-sprite-converter_235
+  - first:
+      213: -3855601287050825243
+    second: 51222-ezgif.com-gif-to-sprite-converter_236
+  - first:
+      213: -4699414224339252595
+    second: 51222-ezgif.com-gif-to-sprite-converter_237
+  - first:
+      213: 4847276319734312746
+    second: 51222-ezgif.com-gif-to-sprite-converter_238
+  - first:
+      213: 7508096452015731422
+    second: 51222-ezgif.com-gif-to-sprite-converter_239
+  - first:
+      213: 3115144317142007295
+    second: 51222-ezgif.com-gif-to-sprite-converter_240
+  - first:
+      213: 368084748967809967
+    second: 51222-ezgif.com-gif-to-sprite-converter_241
+  - first:
+      213: -4243467270187274446
+    second: 51222-ezgif.com-gif-to-sprite-converter_242
+  - first:
+      213: 9105363635102776761
+    second: 51222-ezgif.com-gif-to-sprite-converter_243
+  - first:
+      213: -4550420969701189743
+    second: 51222-ezgif.com-gif-to-sprite-converter_244
+  - first:
+      213: 2521171680700019253
+    second: 51222-ezgif.com-gif-to-sprite-converter_245
+  - first:
+      213: -1123431043402066588
+    second: 51222-ezgif.com-gif-to-sprite-converter_246
+  - first:
+      213: -4897573992863054161
+    second: 51222-ezgif.com-gif-to-sprite-converter_247
+  - first:
+      213: -4244398933481902020
+    second: 51222-ezgif.com-gif-to-sprite-converter_248
+  - first:
+      213: 2982887111625016061
+    second: 51222-ezgif.com-gif-to-sprite-converter_249
+  - first:
+      213: 5094114095425699376
+    second: 51222-ezgif.com-gif-to-sprite-converter_250
+  - first:
+      213: -3964887972121136238
+    second: 51222-ezgif.com-gif-to-sprite-converter_251
+  - first:
+      213: 7888325272632976783
+    second: 51222-ezgif.com-gif-to-sprite-converter_252
+  - first:
+      213: -39858671080800762
+    second: 51222-ezgif.com-gif-to-sprite-converter_253
+  - first:
+      213: 2039892321688628118
+    second: 51222-ezgif.com-gif-to-sprite-converter_254
+  - first:
+      213: 877804877741605733
+    second: 51222-ezgif.com-gif-to-sprite-converter_255
+  - first:
+      213: 8093013653446668519
+    second: 51222-ezgif.com-gif-to-sprite-converter_256
+  - first:
+      213: 4290468266437426144
+    second: 51222-ezgif.com-gif-to-sprite-converter_257
+  - first:
+      213: -1350411901736440802
+    second: 51222-ezgif.com-gif-to-sprite-converter_258
+  - first:
+      213: -1538361256822656053
+    second: 51222-ezgif.com-gif-to-sprite-converter_259
+  - first:
+      213: 4506277775463266213
+    second: 51222-ezgif.com-gif-to-sprite-converter_260
+  - first:
+      213: -7487357226768251950
+    second: 51222-ezgif.com-gif-to-sprite-converter_261
+  - first:
+      213: -1450432740308735755
+    second: 51222-ezgif.com-gif-to-sprite-converter_262
+  - first:
+      213: -4027290565147191193
+    second: 51222-ezgif.com-gif-to-sprite-converter_263
+  - first:
+      213: -758905525469386049
+    second: 51222-ezgif.com-gif-to-sprite-converter_264
+  - first:
+      213: -2694837304136174832
+    second: 51222-ezgif.com-gif-to-sprite-converter_265
+  - first:
+      213: -6118970050638099486
+    second: 51222-ezgif.com-gif-to-sprite-converter_266
+  - first:
+      213: 7660520635923207569
+    second: 51222-ezgif.com-gif-to-sprite-converter_267
+  - first:
+      213: 5076082564685708417
+    second: 51222-ezgif.com-gif-to-sprite-converter_268
+  - first:
+      213: 5050500649597512652
+    second: 51222-ezgif.com-gif-to-sprite-converter_269
+  - first:
+      213: -2071691190207584443
+    second: 51222-ezgif.com-gif-to-sprite-converter_270
+  - first:
+      213: -3874748033045490498
+    second: 51222-ezgif.com-gif-to-sprite-converter_271
+  - first:
+      213: 1145649604721850081
+    second: 51222-ezgif.com-gif-to-sprite-converter_272
+  - first:
+      213: 607226769128003318
+    second: 51222-ezgif.com-gif-to-sprite-converter_273
+  - first:
+      213: 2345960419483839306
+    second: 51222-ezgif.com-gif-to-sprite-converter_274
+  - first:
+      213: 4678846383050937122
+    second: 51222-ezgif.com-gif-to-sprite-converter_275
+  - first:
+      213: 2570966537566547244
+    second: 51222-ezgif.com-gif-to-sprite-converter_276
+  - first:
+      213: -49000634101762284
+    second: 51222-ezgif.com-gif-to-sprite-converter_277
+  - first:
+      213: 2260843924112129800
+    second: 51222-ezgif.com-gif-to-sprite-converter_278
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: confetii_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45279aef5cba329478234d6c38e415c4
+      internalID: -106324607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7be0451c61b6f40ac59d575b961b67
+      internalID: 377486967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4263c567d69fa9347bf7993252dbb0a6
+      internalID: -1192182513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc259845cb5f1458985013e9c2a942
+      internalID: -27480366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e673709a9af917c44a1dd94e458b5412
+      internalID: 241022463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5632
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782dafb4a986e234299f31bcb84aa33b
+      internalID: 806083672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5632
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2714747a6f4334fa711675fe5f7bc8
+      internalID: -1281330116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5632
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e49f4428257e341b88dac612cd968c
+      internalID: -928713219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5632
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b83b234a99a8af4198e773c2e9bd36d
+      internalID: 435563183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5632
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe619c22d299c844da733a608fec32ca
+      internalID: 67195047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b3038ed011e074093121e1e18ad74b
+      internalID: 644821621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ce5516b40697b4cb3f16e1e5ec91d8
+      internalID: -1104881144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a516c30c2f2088429f3eaaca6ddd88d
+      internalID: -203445438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c4d935cad87644b99ec243c79d8e94
+      internalID: -365540832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1632b2b3576704eb494748e15e7c79
+      internalID: 1885307013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8253bf10ba4636a4da3773cdb3746c32
+      internalID: -1636828327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d763085ee718bd54a9902e1a6c301b92
+      internalID: 150044843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa8cba77fde0a04996e0b0b520972ae
+      internalID: -1753749416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4196816d0a3184ab383cf4db18687e
+      internalID: -738427013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_19
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba1647d98a898f4a85477bb402871fb
+      internalID: 804416378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a5f4343044b5543909bbf8dc165fe1
+      internalID: 2094586925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48ac1009850735419873ded3e3ae801
+      internalID: 1494562160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f03801580a17a418fc5400a69653a9
+      internalID: 1496200612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be2c989cd024344919b60f9f867ce6
+      internalID: 507417153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29491bd642282449aab6669aeb79ba4
+      internalID: 1577929794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57474dc92eab8bc4e9bc476fde0870a2
+      internalID: -1904013512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7e5e94cc4ce5643a5eb52e1a7b9b84
+      internalID: 921033988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_27
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70af75acd122814a9ed6526a5d4f2f6
+      internalID: 12557219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9921fb21f6d6d44b9d38ce7a590890e
+      internalID: 2039557536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_29
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed6f969430eca04bbd7db716ff60ad1
+      internalID: 1634415568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d45d2d96613dd43a1be5d26b513775
+      internalID: -1954811201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2d24f8de487564b937204138529038
+      internalID: -829600961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1199c345f7dab7a4faf5aeca30e0b600
+      internalID: 588858258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbda3724cc70f154982251515d56f494
+      internalID: -938311123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_34
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a5f676934a8a4498695f389e65d5cd
+      internalID: -1681033180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c697a68505b945865fc123ce80275
+      internalID: -252802297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f628f254fd7ba347b3bcbe2993c5ba1
+      internalID: -1075486524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7026d05981d1d9446a2da4231517b012
+      internalID: -2089670372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa58b4ecd43af24c8bab1407ee33144
+      internalID: 220826048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81bdc225a6c774ebc9602b35e8c444
+      internalID: -486635677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14100aa78e3c22a429798a86349447d5
+      internalID: -161745516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78326b0550f81aa48838d5e54c495b29
+      internalID: -1769160910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783fdf5e97f74f2459aab30e134a2a0e
+      internalID: 1961942482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806e15eceae64ec4fa3377abff16de9d
+      internalID: -591098798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1d21c7b6012d46a9c3cc1f2502b1b
+      internalID: -465954798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b4e7ec794605f4d900f43d9f28f6e3
+      internalID: -1236782699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2924eec302cbf8847b7d6ad3174cbb4b
+      internalID: 717476352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_47
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb6cab1a82af7349b202ee639995573
+      internalID: -781255450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332753d228db1a4792e42cbbb887b25
+      internalID: -580336984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_49
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cf3406800900841be0aa2824872f4f
+      internalID: -314854228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638d7205e5b701647a12ae1c63d3179c
+      internalID: -196727891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7686fd33f6e65a34a81fd5f5bc0be03d
+      internalID: 1071113277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7cf2bd1e3a81f42a6a3a5c54a9ad10
+      internalID: -729332197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68de4dae28cc2ed4b90fdb3d1b0177b7
+      internalID: 1577284522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_54
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2929ecbdbee4aab4d8ce850a6ba039e0
+      internalID: 2065921590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1099333347381c94bb46a85e670db499
+      internalID: -259170192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759646d117f669f4ebc140c75f32aefa
+      internalID: 1004863113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_57
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affc061714e31b7459cd1e6644656d62
+      internalID: -1683925986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_58
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ab3d47c7a80804198f68c2bea3c299
+      internalID: 1118085522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_59
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80477e13b5c55247a7d9ab6f066bcd1
+      internalID: -231502940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c5ef7e1971f844689af6782f31659a
+      internalID: -1423484372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2993367cb59dd7741818de5d0ffb4dd8
+      internalID: 1606348732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_62
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac3444d4f8712e429482fc5b735a297
+      internalID: -45930691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_63
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a67e5e6fd0c1d5449e449bfa23b13bc
+      internalID: -1166216687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confetii_64
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f297f947e3378174799fe397a7fa1940
+      internalID: -1326217428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3f7c16085e223724e8f7b2eb58cda6d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":13.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      confetii_0: -106324607
+      confetii_1: 377486967
+      confetii_10: 644821621
+      confetii_11: -1104881144
+      confetii_12: -203445438
+      confetii_13: -365540832
+      confetii_14: 1885307013
+      confetii_15: -1636828327
+      confetii_16: 150044843
+      confetii_17: -1753749416
+      confetii_18: -738427013
+      confetii_19: 804416378
+      confetii_2: -1192182513
+      confetii_20: 2094586925
+      confetii_21: 1494562160
+      confetii_22: 1496200612
+      confetii_23: 507417153
+      confetii_24: 1577929794
+      confetii_25: -1904013512
+      confetii_26: 921033988
+      confetii_27: 12557219
+      confetii_28: 2039557536
+      confetii_29: 1634415568
+      confetii_3: -27480366
+      confetii_30: -1954811201
+      confetii_31: -829600961
+      confetii_32: 588858258
+      confetii_33: -938311123
+      confetii_34: -1681033180
+      confetii_35: -252802297
+      confetii_36: -1075486524
+      confetii_37: -2089670372
+      confetii_38: 220826048
+      confetii_39: -486635677
+      confetii_4: 241022463
+      confetii_40: -161745516
+      confetii_41: -1769160910
+      confetii_42: 1961942482
+      confetii_43: -591098798
+      confetii_44: -465954798
+      confetii_45: -1236782699
+      confetii_46: 717476352
+      confetii_47: -781255450
+      confetii_48: -580336984
+      confetii_49: -314854228
+      confetii_5: 806083672
+      confetii_50: -196727891
+      confetii_51: 1071113277
+      confetii_52: -729332197
+      confetii_53: 1577284522
+      confetii_54: 2065921590
+      confetii_55: -259170192
+      confetii_56: 1004863113
+      confetii_57: -1683925986
+      confetii_58: 1118085522
+      confetii_59: -231502940
+      confetii_6: -1281330116
+      confetii_60: -1423484372
+      confetii_61: 1606348732
+      confetii_62: -45930691
+      confetii_63: -1166216687
+      confetii_64: -1326217428
+      confetii_7: -928713219
+      confetii_8: 435563183
+      confetii_9: 67195047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

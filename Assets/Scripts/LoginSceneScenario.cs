@@ -21,6 +21,7 @@ public class LoginSceneScenario : MonoBehaviour
     [SerializeField] private GameObject puzzles;
     //[SerializeField] private GameObject sliderControl;
     [SerializeField] private TMPro.TextMeshProUGUI tekanUntukMulai;
+    [SerializeField] private GameObject moodletEmoji;
 
 
 
@@ -34,6 +35,7 @@ public class LoginSceneScenario : MonoBehaviour
 
     void Start()
     {
+        moodletEmoji.SetActive(true);
         //StartCoroutine(SkenarioLogin());
         //StartCoroutine(SkenarioHasLogin());
         //AnimatorBalonUdara();
@@ -57,6 +59,7 @@ public class LoginSceneScenario : MonoBehaviour
 
     public IEnumerator WakeMeUpInside()
     {
+        MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.confetii);
         //StartCoroutine(SkenarioHasLogin());
         fadeInOutCanvasForCircle.SetActive(true);
         //Debug.Log("masuk skenario ini");
@@ -75,6 +78,7 @@ public class LoginSceneScenario : MonoBehaviour
         balonUdara.SetActive(true);
         yield return new WaitForSeconds(4f);
         tekanUntukMulai.gameObject.SetActive(true);
+        MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.happy);
         //Debug.Log("background aman");
         //Debug.Log("masuk poit");
         //GoingToMenu();
@@ -103,5 +107,7 @@ public class LoginSceneScenario : MonoBehaviour
         // SceneManager.LoadScene("LoadingScene"); // loading scene
         //LoadingScreenSceneControl.Instance.SwitchToScene(1);
     }
+
+
 
 }

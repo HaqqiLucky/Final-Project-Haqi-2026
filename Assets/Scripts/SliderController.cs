@@ -10,10 +10,16 @@ public class SliderController : MonoBehaviour
     //public float playingPingPong = 0f;
     [SerializeField] private LoginSceneScenario login;
     [SerializeField] private Slider sliderBulet;
-    private bool doneKah =false;
+    private bool doneKah = false;
+    private bool bolehSad = false;
 
     [Header("Perubahan rencana")]
     private float waktu = 0f;
+
+    private void Start()
+    {
+        MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.wave);
+    }
 
     private void Update()
     {
@@ -21,12 +27,29 @@ public class SliderController : MonoBehaviour
         sliderPanjang.value = sliderBulet.value * 20;
         if (Mouse.current.leftButton.isPressed )
         {
+            
             waktu += Time.deltaTime;
+            if (waktu >= 2.4 & waktu < 5)
+            {
+                //MouseAnimController.InstanceMoodlet.ChangeMoodlet(MouseAnimController.MoodletState.kaget);
+                MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.ok);
+                bolehSad = true;
+            }
+            //if (Mouse.current.leftButton.wasReleasedThisFrame )
+            //{
+            //    if (waktu <5f)
+            //    {
+            //        MouseAnimController.InstanceMoodlet.ChangeMoodlet(MouseAnimController.MoodletState.sad);
+            //    }
+                
+            //}
+
             //Debug.Log("sudah di klik kiri sebanyak " + waktu + " detik");
             if (waktu >= 5f & !doneKah)
             {
                 doneKah = true;
                 sliderPanjang.value = 100;
+             
                 StartCoroutine(login.WakeMeUpInside());
                 //Debug.Log(this.gameObject);
                 //this.gameObject.SetActive(false);
@@ -35,9 +58,10 @@ public class SliderController : MonoBehaviour
                 sliderBulet.gameObject.SetActive(false);
                 sliderPanjang.gameObject.SetActive(false);
             }
-        } else if (!Mouse.current.leftButton.isPressed && !doneKah)
+        } else if (!Mouse.current.leftButton.isPressed && !doneKah && bolehSad)
         {
             waktu = Mathf.MoveTowards(waktu, 0f, Time.deltaTime);
+            MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.sad);
             //waktu = Mathf.MoveTowards(sliderBulet.value, 0f, Time.deltaTime * 2f);
         }
     }

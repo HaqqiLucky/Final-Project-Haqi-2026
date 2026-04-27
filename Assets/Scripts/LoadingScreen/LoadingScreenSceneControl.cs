@@ -15,15 +15,13 @@ public class LoadingScreenSceneControl : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
+        // Cukup set instance ke diri sendiri setiap kali scene baru di-load
+        Instance = this;
+
+        // Pastikan loading screen tertutup saat awal
+        if (m_LoadingScreenObject != null)
         {
-            Instance = this;
-            DontDestroyOnLoad(this.gameObject);
             m_LoadingScreenObject.SetActive(false);
-        }
-        else
-        {
-            Destroy(gameObject);
         }
     }
 

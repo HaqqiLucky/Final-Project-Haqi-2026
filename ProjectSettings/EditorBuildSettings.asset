@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HamiltonPuzzle.unity
     guid: f98996ec4fe8b3647bca430a0da8b136
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoadingScene.unity
     guid: 434734b2bbdc59341817bc85e50fc37f
   m_configObjects:

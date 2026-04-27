@@ -38,6 +38,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     {
         Camera.main.gameObject.transform.position = Vector3.zero;
         MainFunctionPerulanganMasuk();
+        MoodletBacksoundSoundEffectController.InstanceMoodlet.BacksoundLogin();
     }
 
 
