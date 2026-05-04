@@ -5,13 +5,13 @@ public class HurufhurufLogic : MonoBehaviour
 {
     private Transform ParentHurufCanvas;
     
-    public char hurufRandomed;
+    private char hurufRandomed;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
-    }
+    }   
 
     // Update is called once per frame
     void Update()
@@ -43,7 +43,7 @@ public class HurufhurufLogic : MonoBehaviour
     private string PembacaTeks(GameObject go )
     {
         string hallucination = go.GetComponent<TextMeshProUGUI>().text;
-        //Debug.Log(hallucination);
+        Debug.Log(hallucination);
         return hallucination;
     }
 

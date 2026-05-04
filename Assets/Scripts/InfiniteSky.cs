@@ -5,11 +5,12 @@ public class InfiniteSky : MonoBehaviour
 {
     public float speed;
     [SerializeField] private Renderer bgRenderer;
+    [SerializeField] private int urutanSortingOrder;
 
     void Start()
     {
         bgRenderer.sortingLayerName = "SkyClouds";
-        bgRenderer.sortingOrder = 1;
+        bgRenderer.sortingOrder = urutanSortingOrder;
     }
 
     // Update is called once per frame
