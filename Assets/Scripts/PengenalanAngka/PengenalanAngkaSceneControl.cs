@@ -38,7 +38,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     {
         Camera.main.gameObject.transform.position = Vector3.zero;
         MainFunctionPerulanganMasuk();
-        MoodletBacksoundSoundEffectController.InstanceMoodlet.BacksoundLogin();
+        //MoodletBacksoundSoundEffectController.InstanceMoodlet.BacksoundLogin();
     }
 
 
@@ -105,10 +105,10 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         prefabsGridElement.transform.GetChild(1).localPosition = Vector3.zero;
         if (prefabsGridElement.transform.childCount <= 2)
         {
-            Debug.Log("masuk if");
+            //Debug.Log("masuk if");
             for (int i = 1; i < currentAngkaBuatDiPakediFunction; i++)
             {
-                Debug.Log("masuk for");
+                //Debug.Log("masuk for");
                 Instantiate(prefabsGridElement, gridParent.transform);
                 //Vector3 PrefabLoc = PrefabIniBuatAkuMurka.transform.position;
                 //Vector3 PrefabLocal = PrefabIniBuatAkuMurka.transform.localPosition;
@@ -119,7 +119,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
             }
         } else
         {
-            Debug.Log("Gatau ah");
+            //Debug.Log("Gatau ah");
         }
 
     }
@@ -146,10 +146,10 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         {
             namaHewan = "Panda Merah";
         }
-        else if (entitySekarang.Contains("Hoddie"))
-        {
-            namaHewan = "Arwah jaket merah";
-        }
+        //else if (entitySekarang.Contains("Hoddie"))
+        //{
+        //    namaHewan = "Arwah jaket merah";
+        //}
         else if (entitySekarang.Contains("Bunny"))
         {
             namaHewan = "Anak kelinci";
@@ -168,7 +168,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         {
             HeadlineKeluarDariScript.text = JumlahHewanYangDiklik.ToString() + " " + namaHewan;
             //JumlahHewanYangDiklik = butonKlik.buttonYgSdhDiKlik.ToString();
-            Debug.Log("Ini Jumlah hewan yg di kklik : " + JumlahHewanYangDiklik);
+            //Debug.Log("Ini Jumlah hewan yg di kklik : " + JumlahHewanYangDiklik);
             StartCoroutine(BalonNaikGantiLevel());  
         }
 
@@ -250,7 +250,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     {
         AnimasiJalankah = true;
         StartCoroutine(BalonMiringJam1lewat35());
-        Debug.Log("Omaga sampai sini");
+        //Debug.Log("Omaga sampai sini");
         //StartCoroutine(AnimasiAwanKeKananTerbangPanelnya());
 
     }

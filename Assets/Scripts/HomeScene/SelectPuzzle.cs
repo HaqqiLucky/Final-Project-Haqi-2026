@@ -45,7 +45,7 @@ public class SelectPuzzle : MonoBehaviour
 
     IEnumerator ConfirmationToChangeScene()
     {
-        home.PuzzleMenuBalloonXClick();
+        //home.PuzzleMenuBalloonXClick();
         yield return new WaitForSeconds(2);
         yield return StartCoroutine(home.KameraNaik());
         Puzzle.SetActive(true);

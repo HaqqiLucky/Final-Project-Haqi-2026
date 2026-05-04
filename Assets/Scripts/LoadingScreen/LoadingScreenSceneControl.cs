@@ -13,6 +13,10 @@ public class LoadingScreenSceneControl : MonoBehaviour
     public CanvasGroup canvasGroup;
     private bool _isLoading = false;
 
+    [Header("LoadingAudio")]
+    [SerializeField] private AudioSource LoadingAudioSource;
+    [SerializeField] private AudioClip Sound;
+
     private void Awake()
     {
         // Cukup set instance ke diri sendiri setiap kali scene baru di-load
@@ -37,6 +41,7 @@ public class LoadingScreenSceneControl : MonoBehaviour
     IEnumerator SwitchToSceneAsync(string nameSceneId)
     {
         _isLoading = true;
+        LoadingAudioSource.PlayOneShot(Sound);
         // 1. Munculkan Overlay
         m_LoadingScreenObject.SetActive(true);
         if (canvasGroup != null) canvasGroup.alpha = 1f;

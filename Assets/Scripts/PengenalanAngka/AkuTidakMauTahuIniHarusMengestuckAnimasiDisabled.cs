@@ -19,10 +19,10 @@ public class AkuTidakMauTahuIniHarusMengestuckAnimasiDisabled : MonoBehaviour
 
     public void OnButtonClick()
     {
-        Debug.Log("Button diklik!");
+        //Debug.Log("Button diklik!");
         theButton.interactable = false;
         posisiSekarang = transform.position;
-        Debug.Log("Posisi skrng disini yh : " + posisiSekarang);
+        //Debug.Log("Posisi skrng disini yh : " + posisiSekarang);
         AngkaNaikKaloDiPencethehe();
         SceneControlMainScript.EveryButtonClicked();
 

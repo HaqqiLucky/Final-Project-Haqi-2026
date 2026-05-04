@@ -22,11 +22,7 @@ public class MoodletBacksoundSoundEffectController : MonoBehaviour
     [SerializeField] private AudioSource srcEmoji;
     [SerializeField] private AudioClip audioHappy, audioWave, audioSmile, audioKaget, audioYawn, audioSad, audioOk,audioConfetii;
 
-    [Header("Audio Backsound - Audio Source BringThisAnywhere")]
-    [SerializeField] private AudioSource srcBacksound;
 
-    [Header("Audio Backsound - Audio Source BringThisAnywhere - Login Scene")]
-    [SerializeField] private AudioClip backsoundLogin1;
 
     public static MoodletBacksoundSoundEffectController InstanceMoodlet;
 
@@ -35,7 +31,7 @@ public class MoodletBacksoundSoundEffectController : MonoBehaviour
     {
         backgroundMoodletRect = backgroundMoodlet.GetComponent<RectTransform>();
         StartMelebar();
-        BacksoundLogin();
+        //BacksoundLogin();
     }
 
     // Update is called once per frame
@@ -138,11 +134,5 @@ public class MoodletBacksoundSoundEffectController : MonoBehaviour
         }
     }
 
-    public void BacksoundLogin()
-    {
-        //backsoundLoginWillbePlayed = Random.
-        srcBacksound.clip = backsoundLogin1;
-        srcBacksound.loop = true;
-        srcBacksound.Play();
-    }
+
 }

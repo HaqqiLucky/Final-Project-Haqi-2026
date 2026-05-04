@@ -1,4 +1,6 @@
+using DG.Tweening;
 using System.Collections;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -25,7 +27,9 @@ public class LoginSceneScenario : MonoBehaviour
 
 
 
-
+    [Header("Audio Backsound - Audio Source LoginScene")]
+    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioClip backsoundLogin1;
 
 
     //[SerializeField] private SliderController sliderBool;
@@ -36,10 +40,7 @@ public class LoginSceneScenario : MonoBehaviour
     void Start()
     {
         moodletEmoji.SetActive(true);
-        //StartCoroutine(SkenarioLogin());
-        //StartCoroutine(SkenarioHasLogin());
-        //AnimatorBalonUdara();
-        
+        BacksoundLogin();
     }
 
     //void AnimatorBalonUdara()
@@ -102,12 +103,23 @@ public class LoginSceneScenario : MonoBehaviour
         //fadeIn.SetActive(true);
         yield return new WaitForSeconds(3);
         //SceneManager.LoadScene(1);
+
+        bgm.DOFade(0, 2f).OnComplete(() => {
+            LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+        });
+
         //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
-        LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+        
         // SceneManager.LoadScene("LoadingScene"); // loading scene
         //LoadingScreenSceneControl.Instance.SwitchToScene(1);
     }
 
-
+    private void BacksoundLogin()
+    {
+        //backsoundLoginWillbePlayed = Random.
+        bgm.clip = backsoundLogin1;
+        bgm.loop = true;
+        bgm.Play();
+    }
 
 }

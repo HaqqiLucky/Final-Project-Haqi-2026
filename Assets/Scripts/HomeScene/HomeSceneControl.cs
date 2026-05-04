@@ -6,13 +6,14 @@ public class HomeSceneControl : MonoBehaviour
 {
     [Header("Kebutuhan Script")]
     [SerializeField] private GameObject Baloon;
-    [SerializeField] private Transform target;
-    [SerializeField] private float speed;
-    [SerializeField] private float t;
+    //[SerializeField] private Transform target;
+    //[SerializeField] private float speed;
+    //[SerializeField] private float t;
+    private bool diKlik = false;
 
     [Header("GameObject")]
     [SerializeField] private GameObject MenuToChangeColorBaloon;
-    [SerializeField] private GameObject ClickableObjectAtWorldSpace;
+    //[SerializeField] private GameObject ClickableObjectAtWorldSpace;
     [SerializeField] private GameObject PaperBackgroundItem;
     [SerializeField] private GameObject PaperBackgroundCantBeSelected;
     [SerializeField] private GameObject ButtonsInPuzzleMenu;
@@ -39,6 +40,7 @@ public class HomeSceneControl : MonoBehaviour
     void Start()
     {
         AwanOut.SetActive(true);
+        LeanTween.moveLocal(Baloon, new Vector3(-309, -28, 0f), 4f).setEase(LeanTweenType.easeOutQuart);
     }
 
     // Update is called once per frame
@@ -47,84 +49,31 @@ public class HomeSceneControl : MonoBehaviour
         
     }
 
-    private void FixedUpdate()
-    {
-        Vector3 balonUdaraAwal = Baloon.transform.position;
-        Vector3 balonUdaraAkhir = target.position;
-        Baloon.transform.position = Vector3.MoveTowards(balonUdaraAwal, Vector3.Lerp(balonUdaraAwal, balonUdaraAkhir, t), speed);
-
-        
-    }
-
-
-    public void OpenChangeBaloon()
-    {
-        if (MenuToChangeColorBaloon == true)
-        {
-            AnimasiLeanTweenDiUI();
-            ClickableObjectAtWorldSpace.SetActive(false);
-        } else
-        {
-            
-        }
-    }
-
- 
-    private void AnimasiLeanTweenDiUI()
-    {
-        MenuToChangeColorBaloon.SetActive(true);
-        PaperBackgroundItem.LeanMoveLocal(PaperTargetIn, 1f)
-            .setEaseInOutBack();
-        PaperBackgroundCantBeSelected.LeanMoveLocal(PaperTargetCantBeSelectedIn, 1f)
-            .setEaseInOutBack();
-    }
-
-
-    public void ClickedCancel()
-    {
-        PaperBackgroundItem.LeanMoveLocal(PaperTargetOut, 1f)
-            .setEaseInOutBack();
-
-        PaperBackgroundCantBeSelected.LeanMoveLocal(PaperTargetCantBeSelectedOut, 1f)
-            .setEaseInOutBack();
-
-        ClickableObjectAtWorldSpace.SetActive(true);
-    }
-
 
     public void PuzzleMenuBalloonOnClick()
     {
-        ClickableObjectAtWorldSpace.SetActive(false);
-        PaperPuzzleMenu.LeanMoveLocal(PaperTargetPuzzleMenuIn, 1.2f)
-            .setEaseInOutBack()
-            .setOnComplete(() =>
-            {
-
-            ButtonsInPuzzleMenu.SetActive(true);
-            });;
-        //LeanTween.alphaCanvas(ButtonsInPuzzleMenu, 1f, 0.5f);
-
-
+        if (diKlik == false)
+        {
+            diKlik = true;
+            PaperPuzzleMenu.LeanMoveLocal(PaperTargetPuzzleMenuIn, 1.2f)
+                .setEaseInOutBack()
+                .setOnComplete(() =>
+                {
+                    ButtonsInPuzzleMenu.SetActive(true);
+                });
+        } else
+        {
+            diKlik = false;
+            PaperPuzzleMenu.LeanMoveLocal(PaperTargetPuzzleMenuOut, 1.2f)
+                .setEaseInOutBack()
+                .setOnComplete(() =>
+                {
+                    ButtonsInPuzzleMenu.SetActive(false);
+                }); 
+        }
     }
 
-    public void PuzzleMenuBalloonXClick()
-    {
-        ClickableObjectAtWorldSpace.SetActive(true);
-        PaperPuzzleMenu.LeanMoveLocal(PaperTargetPuzzleMenuOut, 1.2f)
-            .setEaseInOutBack()
-            .setOnComplete(() =>
-            {
-                ButtonsInPuzzleMenu.SetActive(false);
-            });
-        //LeanTween.alphaCanvas(ButtonsInPuzzleMenu, 0f, 0.5f)
-        //    .setDelay(2.0f);
-    }
 
-    //IEnumerator HomeSceneScenario()
-    //{
-    //    yield return new WaitForSeconds(1f);
-
-    //}
 
     public IEnumerator KameraNaik()
     {
@@ -140,20 +89,5 @@ public class HomeSceneControl : MonoBehaviour
             .setEaseInOutBack();
         yield return null;
     }
-
-    //public void FlyUpHigh()
-    //{
-    //    StartCoroutine(KameraNaik());
-    //}
-    //public void FlyDown()
-    //{
-    //    StartCoroutine(KameraTurun());
-    //}
-
-    //public void KameraTurun()
-    //{
-    //    Camera.LeanMoveLocal(TargetKameraOut, 1f)
-    //        .setEaseInOutBack();
-    //}
 
 }
