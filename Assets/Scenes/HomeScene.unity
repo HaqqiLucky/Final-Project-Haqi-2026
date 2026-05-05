@@ -9786,7 +9786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &527504566
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14527,11 +14527,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9b8b2fda812eaf49b1252226393a16e, type: 3}
---- !u!224 &794012661 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7216506734089909743, guid: e9b8b2fda812eaf49b1252226393a16e, type: 3}
-  m_PrefabInstance: {fileID: 794012660}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &794348741 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6620370664737877675, guid: 377e7eb4afbbb0d43b6b42da20642c1c, type: 3}
@@ -24071,6 +24066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.2
   bgRenderer: {fileID: 1304247226}
+  urutanSortingOrder: 0
 --- !u!23 &1304247226
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25316,12 +25312,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 794012661}
   - {fileID: 1997384862}
   - {fileID: 1163268218}
   - {fileID: 1158896732}
   - {fileID: 759084808}
   - {fileID: 407192980}
+  - {fileID: 1793034314}
   m_Father: {fileID: 1468176412}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -38176,6 +38172,11 @@ RectTransform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5865125001879946862, guid: 9a15e91959227d64c84296620f8097ee, type: 3}
   m_PrefabInstance: {fileID: 275778209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1793034314 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3201571922179773096, guid: e9b8b2fda812eaf49b1252226393a16e, type: 3}
+  m_PrefabInstance: {fileID: 794012660}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1799688339 stripped
 Transform:

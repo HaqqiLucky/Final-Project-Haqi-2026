@@ -6,6 +6,7 @@ public class PilihanHuruf : MonoBehaviour
     private TextMeshProUGUI teksABC;
     private Transform ParentGrid;
     private bool iniHasilClone = false;
+    [SerializeField] private TracingHurufSceneControl sceneControl;
 
     void Start()
     {
@@ -45,9 +46,10 @@ public class PilihanHuruf : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-
     public void IniHurufApa()
     {
-        Debug.Log(GetComponentInChildren<TextMeshProUGUI>().text);
+        string yy = GetComponentInChildren<TextMeshProUGUI>().text;
+        sceneControl.PendahuluanSetelahButtonDiKlik(yy); 
     }
+
 }
