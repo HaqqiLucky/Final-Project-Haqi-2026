@@ -49,7 +49,8 @@ public class PilihanHuruf : MonoBehaviour
     public void IniHurufApa()
     {
         string yy = GetComponentInChildren<TextMeshProUGUI>().text;
-        sceneControl.PendahuluanSetelahButtonDiKlik(yy); 
+        //sceneControl.DiKlikDaiButtonHurufPanelAwal(yy);
+        StartCoroutine(sceneControl.SkenarioBukaTutupDiawal(yy));
     }
 
 }
