@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 38dea9a6a03d0fa4faa3de0d6cd9b078
+guid: ce3cd05a73f55cd48bc730f001b636db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8890049028455711065
-    second: bolanobg_0
+      213: 3184906931786229180
+    second: container_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolanobg_0
+      name: container_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1143
-        height: 1188
+        width: 1781
+        height: 1115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ae3717928330a480800000000000000
-      internalID: -8890049028455711065
+      spriteID: cb52cc7eaff033c20800000000000000
+      internalID: 3184906931786229180
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bolanobg_0: -8890049028455711065
+      container_0: 3184906931786229180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
