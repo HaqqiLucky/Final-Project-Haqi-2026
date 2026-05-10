@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SceneControl : MonoBehaviour
 {
@@ -40,7 +41,7 @@ public class SceneControl : MonoBehaviour
     private void Awake()
     {
         PilihTigaAcak();
-        
+
     }
 
     void Start()
@@ -50,7 +51,7 @@ public class SceneControl : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
     private void PilihTigaAcak()
@@ -69,28 +70,50 @@ public class SceneControl : MonoBehaviour
         namaBuahHewanPilihan[0] = namaBuahHewan[0];
         namaBuahHewanPilihan[1] = namaBuahHewan[1];
         namaBuahHewanPilihan[2] = namaBuahHewan[2];
-
-        // Cek hasil di Console
-        Debug.Log("Pilihan 1: " + namaBuahHewanPilihan[0]);
-        Debug.Log("Pilihan 2: " + namaBuahHewanPilihan[1]);
-        Debug.Log("Pilihan 3: " + namaBuahHewanPilihan[2]);
     }
 
 
     private void instantiateYangButuhParaneterYuhu()
     {
-        // Kita lakukan looping 3 kali sesuai jumlah pilihan
+        string pathFolder = "ContohKata/";
+
+        int[] urutanGambar = new int[] { 0, 1, 2 };
+
+        for (int i = 0; i < urutanGambar.Length; i++)
+        {
+            int temp = urutanGambar[i];
+            int randomIndex = Random.Range(i, urutanGambar.Length);
+            urutanGambar[i] = urutanGambar[randomIndex];
+            urutanGambar[randomIndex] = temp;
+        }
+        // --- Langkah 2: Munculkan Teks ---
         for (int i = 0; i < namaBuahHewanPilihan.Length; i++)
         {
-            // 1. Munculkan Prefab ParentGambar di dalam SuperParentGambar
-            GameObject objBaru = Instantiate(ParentGambar, SuperParentGambar.transform);
+            GameObject goTeks = Instantiate(ParentHuruf, SuperParentHuruf.transform);
 
-            // 2. Beri nama objeknya supaya sama dengan nama buah/hewan (opsional tapi membantu)
-            objBaru.name = namaBuahHewanPilihan[i];
+            // PAKSA NAMA: Jadi "Apel", bukan "ParentHuruf(Clone)"
+            goTeks.name = namaBuahHewanPilihan[i];
 
-            // 3. AMBIL Komponen Text atau Script di dalam objBaru untuk diubah teksnya
-            // Contoh: Jika di dalam ParentGambar ada TextMeshProUGUI
-            // objBaru.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = namaBuahHewanPilihan[i];
+            var teksTMP = goTeks.GetComponentInChildren<TMPro.TextMeshProUGUI>();
+            if (teksTMP != null) teksTMP.text = namaBuahHewanPilihan[i];
+        }
+
+        // --- Langkah 3: Munculkan Gambar ---
+        for (int i = 0; i < urutanGambar.Length; i++)
+        {
+            int indexAcak = urutanGambar[i];
+            GameObject goGambar = Instantiate(ParentGambar, SuperParentGambar.transform);
+
+            // PAKSA NAMA: Jadi "Apel", bukan "ParentGambar(Clone)"
+            goGambar.name = namaBuahHewanPilihan[indexAcak];
+
+            Image img = goGambar.GetComponentInChildren<Image>();
+            if (img != null)
+            {
+                img.sprite = Resources.Load<Sprite>(pathFolder + namaBuahHewanPilihan[indexAcak]);
+            }
         }
     }
 }
+
+
