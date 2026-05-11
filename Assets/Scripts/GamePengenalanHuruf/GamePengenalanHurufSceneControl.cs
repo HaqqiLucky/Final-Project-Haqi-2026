@@ -4,8 +4,11 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
+using TMPro;
+using System.Collections;
+using System.Runtime.CompilerServices;
 
-public class PengenalanHurufSceneControl : MonoBehaviour
+public class GamePengenalanHurufSceneControl : MonoBehaviour
 {
     public GameObject linePrefab;
     public RectTransform canvasRect;
@@ -13,6 +16,24 @@ public class PengenalanHurufSceneControl : MonoBehaviour
     private UILineRenderer currentLine;
     private Vector2 startPoint;
     private GameObject startObject;
+    [SerializeField] private Image Bukatutup;
+    [SerializeField] private SliderTimerGameHurufDrag timerlama;
+
+    [SerializeField] private int yangUdahBener = 0;
+
+    // sesi
+    private int sesiSekarang = 0;
+    private int totalSesi = 5;
+    [SerializeField] private TextMeshProUGUI teksSesi;
+    private bool menggantiSesi = false;
+    [SerializeField] SceneControl sceneControlIsiGame;
+    [SerializeField] float[] arrayWaktuPerSesi = new float[5];
+
+
+    private void Start()
+    {
+        BukaSceme();
+    }
 
     void Update()
     {
@@ -33,6 +54,11 @@ public class PengenalanHurufSceneControl : MonoBehaviour
         {
             StopDrawing(pointer.position.ReadValue());
         }
+
+        if (Bukatutup.transform.GetSiblingIndex() != Bukatutup.transform.parent.childCount - 1)
+        {
+            Bukatutup.transform.SetAsLastSibling();
+        } 
     }
 
     void StartDrawing(Vector2 screenPos)
@@ -123,6 +149,14 @@ public class PengenalanHurufSceneControl : MonoBehaviour
                 RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, screenPos, null, out endPoint);
                 currentLine.Points = new Vector2[2] { startPoint, endPoint };
                 currentLine.SetAllDirty();
+                yangUdahBener += 1; 
+
+                if (yangUdahBener == 3)
+                {
+                    menggantiSesi = true;
+                    StartCoroutine(PergantianSesi());
+                }
+
             }
             else
             {
@@ -152,5 +186,109 @@ public class PengenalanHurufSceneControl : MonoBehaviour
             return results[0].gameObject;
         }
         return null;
+    }
+
+    private void TeksKeUiSesi()
+    {
+        sesiSekarang++;
+        string sesi = $"{sesiSekarang}/{totalSesi}";
+        teksSesi.text = sesi;
+    }
+
+    private void Sesi()
+    {
+ 
+
+        // masukin ke array tiap waktu
+        switch (sesiSekarang)
+        {
+            case 1:
+                arrayWaktuPerSesi[0] = timerlama.DurasiSekarang;
+                break;
+            case 2:
+                arrayWaktuPerSesi[1] = timerlama.DurasiSekarang;
+                break;
+            case 3:
+                arrayWaktuPerSesi[2] = timerlama.DurasiSekarang;
+                break;
+            case 4:
+                arrayWaktuPerSesi[3] = timerlama.DurasiSekarang;
+                break;
+            case 5:
+                arrayWaktuPerSesi[4] = timerlama.DurasiSekarang;
+                break;
+        }
+
+    }
+
+
+    private void BukaSceme()
+    {
+        sceneControlIsiGame.Bersatu();
+        TeksKeUiSesi();
+        LeanTween.value(Bukatutup.gameObject, 1f, 0f, 2f)
+           .setEaseInOutBack()
+           .setOnUpdate((float val) => {
+               Bukatutup.fillAmount = val;
+
+           })
+           .setOnComplete(() =>
+           {
+
+               yangUdahBener = 0;
+               Bukatutup.gameObject.SetActive(false);
+               timerlama.StartTimer();
+           });
+    }
+
+    private void TutupSceme()
+    {
+        Bukatutup.gameObject.SetActive(true);
+        LeanTween.value(Bukatutup.gameObject, 0f, 1f, 2f)
+           .setEaseInOutBack()
+           .setOnUpdate((float val) => {
+               Bukatutup.fillAmount = val;
+           })
+           .setOnComplete(() =>
+           {
+               HancurkanSemuaPrefabYangMengangguPergantianScene();
+               timerlama.StopTimer();
+           });
+    }
+
+
+    IEnumerator PergantianSesi()
+    {
+        if (menggantiSesi)
+        {
+
+            yield return new WaitForSeconds(0.5f);
+            TutupSceme();
+            //HancurkanSemuaPrefabYangMengangguPergantianScene(); di pindah ke tutup scene
+            //yield return new WaitForSeconds(0.7f);
+            Sesi();
+            //sceneControlIsiGame.Bersatu(); di pindah ke buka scene
+            yield return new WaitForSeconds(2f);
+            BukaSceme();
+            menggantiSesi = !menggantiSesi;
+            //yield return new WaitForSeconds(0.7f);
+           
+
+        }
+    }
+
+    private void HancurkanSemuaPrefabYangMengangguPergantianScene()
+    {
+        string[] daftarTagYangMwDiHancurin = { "Gambar", "Tulisan", "LineIn" };
+
+        foreach (string tag in daftarTagYangMwDiHancurin)
+        {
+            GameObject[] thisObject = GameObject.FindGameObjectsWithTag(tag);
+            
+            foreach (GameObject obj in thisObject)
+            {
+                Destroy(obj);
+            }
+        }
     }
 }

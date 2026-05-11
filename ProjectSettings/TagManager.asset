@@ -9,6 +9,7 @@ TagManager:
   - PrefabGoneNow
   - Gambar
   - Tulisan
+  - LineIn
   layers:
   - Default
   - TransparentFX

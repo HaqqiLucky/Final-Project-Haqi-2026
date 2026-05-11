@@ -11,7 +11,6 @@ public class SliderTimer : MonoBehaviour
 
     void Start()
     {
-
         slider.value = Durasi;
     }
 

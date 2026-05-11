@@ -38,19 +38,21 @@ public class SceneControl : MonoBehaviour
     [SerializeField] private GameObject ParentGambar;
     [SerializeField] private GameObject SuperParentGambar;
 
-    private void Awake()
-    {
-        PilihTigaAcak();
-
-    }
 
     void Start()
     {
-        instantiateYangButuhParaneterYuhu();
+        //Bersatu();
     }
 
     void Update()
     {
+
+    }
+
+    public void Bersatu()
+    {
+        PilihTigaAcak();
+        instantiateYangButuhParaneterYuhu();
 
     }
 
