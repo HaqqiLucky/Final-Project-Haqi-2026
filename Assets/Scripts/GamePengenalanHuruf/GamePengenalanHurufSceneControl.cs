@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using TMPro;
 using System.Collections;
-using System.Runtime.CompilerServices;
 
 public class GamePengenalanHurufSceneControl : MonoBehaviour
 {
@@ -20,6 +19,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     [SerializeField] private SliderTimerGameHurufDrag timerlama;
 
     [SerializeField] private int yangUdahBener = 0;
+    private bool isFull = false;    
 
     // sesi
     private int sesiSekarang = 0;
@@ -28,11 +28,27 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     private bool menggantiSesi = false;
     [SerializeField] SceneControl sceneControlIsiGame;
     [SerializeField] float[] arrayWaktuPerSesi = new float[5];
+    [SerializeField] int totalSkorHaha = 0;
+    [SerializeField] CanvasGroup Emo1, Emo2, Emo3;
+    [SerializeField] Animator AnimEmo1, AnimEmo2, AnimEmo3;
+    [SerializeField] CanvasGroup EmojiSkorParent;
 
+
+    [SerializeField] private TextMeshProUGUI teksSkorHuha;
+
+
+    private void Awake()
+    {
+        for (int i = 0; i < arrayWaktuPerSesi.Length; i++)
+        {
+            arrayWaktuPerSesi[i] = -1f;
+        }
+    }
 
     private void Start()
     {
         BukaSceme();
+        //EmojiSkorParent.gameObject.SetActive(false);
     }
 
     void Update()
@@ -261,21 +277,40 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     {
         if (menggantiSesi)
         {
-
             yield return new WaitForSeconds(0.5f);
             TutupSceme();
-            //HancurkanSemuaPrefabYangMengangguPergantianScene(); di pindah ke tutup scene
-            //yield return new WaitForSeconds(0.7f);
             Sesi();
-            //sceneControlIsiGame.Bersatu(); di pindah ke buka scene
-            yield return new WaitForSeconds(2f);
-            BukaSceme();
-            menggantiSesi = !menggantiSesi;
-            //yield return new WaitForSeconds(0.7f);
-           
+            if (CekPenuh())
+            {
+                EmojiSkorParent.gameObject.SetActive(true);
+                LeanTween.value(EmojiSkorParent.gameObject, 0f, 1f, 1f)
+                    .setOnUpdate((float val) => {
+                        EmojiSkorParent.alpha = val;
+                    });
 
+                int skorFinal = HitungTotalWaktu();
+
+                EmojiSkor(skorFinal);
+            }
+            else
+            {
+                yield return new WaitForSeconds(2f);
+                BukaSceme();
+                menggantiSesi = false;
+            }
         }
     }
+
+    private bool CekPenuh()
+    {
+        for (int i = 0; i < arrayWaktuPerSesi.Length; i++)
+        {
+            if (arrayWaktuPerSesi[i] == -1) return false;
+        }
+        return true;
+    }
+
+
 
     private void HancurkanSemuaPrefabYangMengangguPergantianScene()
     {
@@ -291,4 +326,70 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
             }
         }
     }
+
+
+    private int HitungTotalWaktu()
+    {
+        float total = 0;
+
+        foreach (float waktu in arrayWaktuPerSesi)
+        {
+            if (waktu != -1f)
+            {
+                total += waktu / 3;
+            }
+        }
+
+
+        int titil = Mathf.CeilToInt(total);
+        Debug.Log(titil);
+        LeanTween.value(gameObject, 0f, titil, 5f)
+            .setEase(LeanTweenType.easeOutQuad)
+            .setOnUpdate((float val) => {
+                teksSkorHuha.text = Mathf.RoundToInt(val).ToString();
+            });
+
+        return titil;
+    }
+
+    private void EmojiSkor(int skor)
+    {
+        // Durasi animasi skor kamu kan 5 detik.
+        // Kita bagi kemunculan emot berdasarkan proporsi skornya.
+
+        float durasiTotal = 5f;
+
+        // Emot 1 muncul hampir instan
+        StartCoroutine(JedaEmot(Emo1, AnimEmo1, "1Ngangguk", 0.1f));
+
+        // Emot 2 muncul di tengah-tengah animasi (misal detik ke-2.5)
+        if (skor >= 50)
+        {
+            StartCoroutine(JedaEmot(Emo2, AnimEmo2, "2Horrmat", durasiTotal * 0.5f));
+        }
+
+        // Emot 3 muncul di akhir animasi (misal detik ke-4.5)
+        if (skor >= 80)
+        {
+            StartCoroutine(JedaEmot(Emo3, AnimEmo3, "3mindblowing", durasiTotal * 0.9f));
+        }
+    }
+
+    // Gunakan Coroutine agar lebih gampang ngatur jeda waktunya
+    IEnumerator JedaEmot(CanvasGroup cg, Animator anim, string clipName, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (cg != null && anim != null)
+        {
+            // Munculkan Alpha
+            LeanTween.value(cg.gameObject, 0f, 1f, 0.5f)
+                .setOnUpdate((float val) => { cg.alpha = val; });
+
+            // Mainkan Animasi
+            anim.Play(clipName);
+        }
+    }
+
+
 }

@@ -1,0 +1,2773 @@
+fileFormatVersion: 2
+guid: 7337ef89fee18b248a765ba5e444b52c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1763766763799621596
+    second: mindbowlong_0
+  - first:
+      213: -8058762478932396603
+    second: mindbowlong_1
+  - first:
+      213: 8219280835963520120
+    second: mindbowlong_2
+  - first:
+      213: -2873684329919496961
+    second: mindbowlong_3
+  - first:
+      213: 179417977955767947
+    second: mindbowlong_4
+  - first:
+      213: 5265519588602081568
+    second: mindbowlong_5
+  - first:
+      213: 7256932313657238773
+    second: mindbowlong_6
+  - first:
+      213: -4611617578915122639
+    second: mindbowlong_7
+  - first:
+      213: -7514937365841084863
+    second: mindbowlong_8
+  - first:
+      213: -8303723695029910370
+    second: mindbowlong_9
+  - first:
+      213: -2338025106295343021
+    second: mindbowlong_10
+  - first:
+      213: -1398459916321714455
+    second: mindbowlong_11
+  - first:
+      213: 6580645404329419545
+    second: mindbowlong_12
+  - first:
+      213: -5185557528539523212
+    second: mindbowlong_13
+  - first:
+      213: 559696350747092781
+    second: mindbowlong_14
+  - first:
+      213: 7123349221140801377
+    second: mindbowlong_15
+  - first:
+      213: -8112023109692020826
+    second: mindbowlong_16
+  - first:
+      213: 1634975180533953374
+    second: mindbowlong_17
+  - first:
+      213: 5573322501424427719
+    second: mindbowlong_18
+  - first:
+      213: 2640078669540405930
+    second: mindbowlong_19
+  - first:
+      213: -8642918684135574410
+    second: mindbowlong_20
+  - first:
+      213: 3267011854813721643
+    second: mindbowlong_21
+  - first:
+      213: -4944389436333187461
+    second: mindbowlong_22
+  - first:
+      213: -1719374576950782917
+    second: mindbowlong_23
+  - first:
+      213: -4939869630510753317
+    second: mindbowlong_24
+  - first:
+      213: -7346118083846237171
+    second: mindbowlong_25
+  - first:
+      213: -3512723689160617049
+    second: mindbowlong_26
+  - first:
+      213: 2044911229911080790
+    second: mindbowlong_27
+  - first:
+      213: -8432523355004753742
+    second: mindbowlong_28
+  - first:
+      213: 7900006465004524523
+    second: mindbowlong_29
+  - first:
+      213: -6323366272369711156
+    second: mindbowlong_30
+  - first:
+      213: -6326759689126901246
+    second: mindbowlong_31
+  - first:
+      213: -1909735107243893724
+    second: mindbowlong_32
+  - first:
+      213: -425411045202378912
+    second: mindbowlong_33
+  - first:
+      213: 1537066995175277168
+    second: mindbowlong_34
+  - first:
+      213: 7020045214306317330
+    second: mindbowlong_35
+  - first:
+      213: -1231380252934635328
+    second: mindbowlong_36
+  - first:
+      213: 6099046540686806418
+    second: mindbowlong_37
+  - first:
+      213: -7965925535171757808
+    second: mindbowlong_38
+  - first:
+      213: 5105094176698657170
+    second: mindbowlong_39
+  - first:
+      213: -6608497242447058556
+    second: mindbowlong_40
+  - first:
+      213: 5995435802097223444
+    second: mindbowlong_41
+  - first:
+      213: -5895330684693068234
+    second: mindbowlong_42
+  - first:
+      213: -944511266457774534
+    second: mindbowlong_43
+  - first:
+      213: 2152890023678369046
+    second: mindbowlong_44
+  - first:
+      213: -8211745663170205131
+    second: mindbowlong_45
+  - first:
+      213: 428511974007775026
+    second: mindbowlong_46
+  - first:
+      213: -2810181062087173461
+    second: mindbowlong_47
+  - first:
+      213: 3653998935163766339
+    second: mindbowlong_48
+  - first:
+      213: 7307230332423999083
+    second: mindbowlong_49
+  - first:
+      213: -7375395767711420432
+    second: mindbowlong_50
+  - first:
+      213: -1076123805763215169
+    second: mindbowlong_51
+  - first:
+      213: -3272470985783794513
+    second: mindbowlong_52
+  - first:
+      213: -5865359500778950720
+    second: mindbowlong_53
+  - first:
+      213: -5919433529029679777
+    second: mindbowlong_54
+  - first:
+      213: 6043110968593319963
+    second: mindbowlong_55
+  - first:
+      213: -86527830892023453
+    second: mindbowlong_56
+  - first:
+      213: 6795387862896578080
+    second: mindbowlong_57
+  - first:
+      213: 2346025715345341319
+    second: mindbowlong_58
+  - first:
+      213: 3542595920273057698
+    second: mindbowlong_59
+  - first:
+      213: 4284350022279525700
+    second: mindbowlong_60
+  - first:
+      213: -8820359944437323242
+    second: mindbowlong_61
+  - first:
+      213: -9022424314654414000
+    second: mindbowlong_62
+  - first:
+      213: -2274834501275505980
+    second: mindbowlong_63
+  - first:
+      213: -2571428130546615259
+    second: mindbowlong_64
+  - first:
+      213: -8393248883170112011
+    second: mindbowlong_65
+  - first:
+      213: 4967130050215613106
+    second: mindbowlong_66
+  - first:
+      213: 1194387182374186987
+    second: mindbowlong_67
+  - first:
+      213: -5952784341546912097
+    second: mindbowlong_68
+  - first:
+      213: -6048998155277066873
+    second: mindbowlong_69
+  - first:
+      213: 8400186717765037121
+    second: mindbowlong_70
+  - first:
+      213: 3434388604672589419
+    second: mindbowlong_71
+  - first:
+      213: 5603072005278913042
+    second: mindbowlong_72
+  - first:
+      213: -5894458925861097487
+    second: mindbowlong_73
+  - first:
+      213: -2843877784507187382
+    second: mindbowlong_74
+  - first:
+      213: 4736796519411058878
+    second: mindbowlong_75
+  - first:
+      213: -5699788276784828083
+    second: mindbowlong_76
+  - first:
+      213: -3735897548468890663
+    second: mindbowlong_77
+  - first:
+      213: 7278047247652196209
+    second: mindbowlong_78
+  - first:
+      213: 1915914138493294726
+    second: mindbowlong_79
+  - first:
+      213: 5346316292804421166
+    second: mindbowlong_80
+  - first:
+      213: -5642476876193096956
+    second: mindbowlong_81
+  - first:
+      213: -7575684378960531942
+    second: mindbowlong_82
+  - first:
+      213: -2605334705805821368
+    second: mindbowlong_83
+  - first:
+      213: 8609720877240552335
+    second: mindbowlong_84
+  - first:
+      213: 8585216980679940002
+    second: mindbowlong_85
+  - first:
+      213: 122466351442450028
+    second: mindbowlong_86
+  - first:
+      213: -2430595797832372447
+    second: mindbowlong_87
+  - first:
+      213: -2135360289442461310
+    second: mindbowlong_88
+  - first:
+      213: -7573250260217432181
+    second: mindbowlong_89
+  - first:
+      213: -9098951728958195170
+    second: mindbowlong_90
+  - first:
+      213: -2051360931520555255
+    second: mindbowlong_91
+  - first:
+      213: -5303913930335736098
+    second: mindbowlong_92
+  - first:
+      213: -4520969788079548813
+    second: mindbowlong_93
+  - first:
+      213: 6452717898410194552
+    second: mindbowlong_94
+  - first:
+      213: 5374875951696359847
+    second: mindbowlong_95
+  - first:
+      213: -8041187368437386870
+    second: mindbowlong_96
+  - first:
+      213: 2041200487587928774
+    second: mindbowlong_97
+  - first:
+      213: -8981709964799807103
+    second: mindbowlong_98
+  - first:
+      213: 882672458327544974
+    second: mindbowlong_99
+  - first:
+      213: -2834004730946588035
+    second: mindbowlong_100
+  - first:
+      213: 1750646581418321396
+    second: mindbowlong_101
+  - first:
+      213: 4407701484341447859
+    second: mindbowlong_102
+  - first:
+      213: -2492704954250365040
+    second: mindbowlong_103
+  - first:
+      213: 3139166338922543660
+    second: mindbowlong_104
+  - first:
+      213: 3303445293320831228
+    second: mindbowlong_105
+  - first:
+      213: -1409190941224090524
+    second: mindbowlong_106
+  - first:
+      213: -2191081683085288454
+    second: mindbowlong_107
+  - first:
+      213: 598284121174005930
+    second: mindbowlong_108
+  - first:
+      213: -1858365859194209476
+    second: mindbowlong_109
+  - first:
+      213: 3603550743335800131
+    second: mindbowlong_110
+  - first:
+      213: -4927608295492275330
+    second: mindbowlong_111
+  - first:
+      213: -1475674364684030114
+    second: mindbowlong_112
+  - first:
+      213: 8469583390747911965
+    second: mindbowlong_113
+  - first:
+      213: -9146008744156984157
+    second: mindbowlong_114
+  - first:
+      213: -3452111436213390766
+    second: mindbowlong_115
+  - first:
+      213: 2993018284665583284
+    second: mindbowlong_116
+  - first:
+      213: 2886370739103978888
+    second: mindbowlong_117
+  - first:
+      213: 47937411484404887
+    second: mindbowlong_118
+  - first:
+      213: 8093431475094790820
+    second: mindbowlong_119
+  - first:
+      213: -7968873004504904989
+    second: mindbowlong_120
+  - first:
+      213: -1163346382723946771
+    second: mindbowlong_121
+  - first:
+      213: -4605717145437210489
+    second: mindbowlong_122
+  - first:
+      213: -561314964231639411
+    second: mindbowlong_123
+  - first:
+      213: -632435283618715015
+    second: mindbowlong_124
+  - first:
+      213: 1852705390705321720
+    second: mindbowlong_125
+  - first:
+      213: 7856488455620371010
+    second: mindbowlong_126
+  - first:
+      213: 1810291639065692584
+    second: mindbowlong_127
+  - first:
+      213: -3578754220302533350
+    second: mindbowlong_128
+  - first:
+      213: 6169607760503841530
+    second: mindbowlong_129
+  - first:
+      213: 5059281134829960673
+    second: mindbowlong_130
+  - first:
+      213: -984731227251744877
+    second: mindbowlong_131
+  - first:
+      213: -5227983941300610098
+    second: mindbowlong_132
+  - first:
+      213: -1620357757339658546
+    second: mindbowlong_133
+  - first:
+      213: 7472202062981029869
+    second: mindbowlong_134
+  - first:
+      213: 7860464467864946067
+    second: mindbowlong_135
+  - first:
+      213: 1508903465640511841
+    second: mindbowlong_136
+  - first:
+      213: -2575137000116074342
+    second: mindbowlong_137
+  - first:
+      213: -970032620549552783
+    second: mindbowlong_138
+  - first:
+      213: 4800079610100235334
+    second: mindbowlong_139
+  - first:
+      213: -3053055409618551825
+    second: mindbowlong_140
+  - first:
+      213: -2037723651980444631
+    second: mindbowlong_141
+  - first:
+      213: 2742200353737249925
+    second: mindbowlong_142
+  - first:
+      213: 4182586005812389263
+    second: mindbowlong_143
+  - first:
+      213: 8511465944762326373
+    second: mindbowlong_144
+  - first:
+      213: -5081925770507576175
+    second: mindbowlong_145
+  - first:
+      213: -4648811379599090418
+    second: mindbowlong_146
+  - first:
+      213: -5586218800595864214
+    second: mindbowlong_147
+  - first:
+      213: -7052930584879838799
+    second: mindbowlong_148
+  - first:
+      213: 3571815713759862269
+    second: mindbowlong_149
+  - first:
+      213: 1308205824574785593
+    second: mindbowlong_150
+  - first:
+      213: 7347410527333108436
+    second: mindbowlong_151
+  - first:
+      213: 1189277523606397107
+    second: mindbowlong_152
+  - first:
+      213: 1421898536781323508
+    second: mindbowlong_153
+  - first:
+      213: -9020958931871615765
+    second: mindbowlong_154
+  - first:
+      213: 8452202303649563004
+    second: mindbowlong_155
+  - first:
+      213: 5794174686134303879
+    second: mindbowlong_156
+  - first:
+      213: -5770391791935339226
+    second: mindbowlong_157
+  - first:
+      213: -4819083170674414443
+    second: mindbowlong_158
+  - first:
+      213: 3875564175389437185
+    second: mindbowlong_159
+  - first:
+      213: -1499913025240132647
+    second: mindbowlong_160
+  - first:
+      213: 2910586835786587172
+    second: mindbowlong_161
+  - first:
+      213: -1597534993518307818
+    second: mindbowlong_162
+  - first:
+      213: 2198311041995158825
+    second: mindbowlong_163
+  - first:
+      213: 7550706438786149756
+    second: mindbowlong_164
+  - first:
+      213: 5983997163132651352
+    second: mindbowlong_165
+  - first:
+      213: 9107141256393722089
+    second: mindbowlong_166
+  - first:
+      213: 7081173291925889509
+    second: mindbowlong_167
+  - first:
+      213: 4607063515884651551
+    second: mindbowlong_168
+  - first:
+      213: -7085773738556863386
+    second: mindbowlong_169
+  - first:
+      213: -9221132137239157763
+    second: mindbowlong_170
+  - first:
+      213: -8395364060627165827
+    second: mindbowlong_171
+  - first:
+      213: 1723126611248828012
+    second: mindbowlong_172
+  - first:
+      213: -855754888603308620
+    second: mindbowlong_173
+  - first:
+      213: 2166634407574669
+    second: mindbowlong_174
+  - first:
+      213: 414940281674663811
+    second: mindbowlong_175
+  - first:
+      213: -1577164862264187439
+    second: mindbowlong_176
+  - first:
+      213: 3720541373898212973
+    second: mindbowlong_177
+  - first:
+      213: 7376005746349302296
+    second: mindbowlong_178
+  - first:
+      213: -6939337042481090816
+    second: mindbowlong_179
+  - first:
+      213: 3546883696751529390
+    second: mindbowlong_180
+  - first:
+      213: -1797867518874611833
+    second: mindbowlong_181
+  - first:
+      213: 6261475395090754231
+    second: mindbowlong_182
+  - first:
+      213: 3290469763371781154
+    second: mindbowlong_183
+  - first:
+      213: 2477825278179656721
+    second: mindbowlong_184
+  - first:
+      213: 6337957772139099765
+    second: mindbowlong_185
+  - first:
+      213: 1540572187606297334
+    second: mindbowlong_186
+  - first:
+      213: -2442070405970769271
+    second: mindbowlong_187
+  - first:
+      213: -5691907517466517642
+    second: mindbowlong_188
+  - first:
+      213: -2697147044526794487
+    second: mindbowlong_189
+  - first:
+      213: -5326711939793230895
+    second: mindbowlong_190
+  - first:
+      213: -3328883327545965222
+    second: mindbowlong_191
+  - first:
+      213: -9196581915104258223
+    second: mindbowlong_192
+  - first:
+      213: 1718635756965076691
+    second: mindbowlong_193
+  - first:
+      213: 181816810397472046
+    second: mindbowlong_194
+  - first:
+      213: -7370043684873595013
+    second: mindbowlong_195
+  - first:
+      213: -2842704957368402908
+    second: mindbowlong_196
+  - first:
+      213: -4530485864538168036
+    second: mindbowlong_197
+  - first:
+      213: 4430268184297364419
+    second: mindbowlong_198
+  - first:
+      213: 729310000369003031
+    second: mindbowlong_199
+  - first:
+      213: 4855275595370203950
+    second: mindbowlong_200
+  - first:
+      213: 36708096153161193
+    second: mindbowlong_201
+  - first:
+      213: -8260241956397272707
+    second: mindbowlong_202
+  - first:
+      213: 5907986857381350538
+    second: mindbowlong_203
+  - first:
+      213: 3322011123116807298
+    second: mindbowlong_204
+  - first:
+      213: 1345976589728000081
+    second: mindbowlong_205
+  - first:
+      213: 3665257554047320864
+    second: mindbowlong_206
+  - first:
+      213: 6266330022591906320
+    second: mindbowlong_207
+  - first:
+      213: -8964616122043682748
+    second: mindbowlong_208
+  - first:
+      213: 5542772244107714152
+    second: mindbowlong_209
+  - first:
+      213: -5876819284300607965
+    second: mindbowlong_210
+  - first:
+      213: 6003254775767851372
+    second: mindbowlong_211
+  - first:
+      213: -8478866111388656163
+    second: mindbowlong_212
+  - first:
+      213: -2866455458555844363
+    second: mindbowlong_213
+  - first:
+      213: 193690977129229047
+    second: mindbowlong_214
+  - first:
+      213: 4077780262354960483
+    second: mindbowlong_215
+  - first:
+      213: -3748969525687849817
+    second: mindbowlong_216
+  - first:
+      213: 4989162843342011824
+    second: mindbowlong_217
+  - first:
+      213: 2948384477536768143
+    second: mindbowlong_218
+  - first:
+      213: 6511975783912456592
+    second: mindbowlong_219
+  - first:
+      213: -1464942212915198880
+    second: mindbowlong_220
+  - first:
+      213: -6429176436065418064
+    second: mindbowlong_221
+  - first:
+      213: 5001671525782676185
+    second: mindbowlong_222
+  - first:
+      213: -6685612066243658507
+    second: mindbowlong_223
+  - first:
+      213: -8898301547031527688
+    second: mindbowlong_224
+  - first:
+      213: -5520274000911359868
+    second: mindbowlong_225
+  - first:
+      213: -6248366120624818256
+    second: mindbowlong_226
+  - first:
+      213: -2309816815808665384
+    second: mindbowlong_227
+  - first:
+      213: 5737523648271021035
+    second: mindbowlong_228
+  - first:
+      213: 1989655290529834673
+    second: mindbowlong_229
+  - first:
+      213: -1078769070021892778
+    second: mindbowlong_230
+  - first:
+      213: 6646569949656183578
+    second: mindbowlong_231
+  - first:
+      213: -5970001144924573868
+    second: mindbowlong_232
+  - first:
+      213: -7978108553965574066
+    second: mindbowlong_233
+  - first:
+      213: -1294650163214837603
+    second: mindbowlong_234
+  - first:
+      213: -7364161433306427336
+    second: mindbowlong_235
+  - first:
+      213: -3704318434061208612
+    second: mindbowlong_236
+  - first:
+      213: 3255266853243208954
+    second: mindbowlong_237
+  - first:
+      213: -1085681607904789179
+    second: mindbowlong_238
+  - first:
+      213: 5769085556142498997
+    second: mindbowlong_239
+  - first:
+      213: -6416025482143834436
+    second: mindbowlong_240
+  - first:
+      213: 990762788054255473
+    second: mindbowlong_241
+  - first:
+      213: 5377521496627642319
+    second: mindbowlong_242
+  - first:
+      213: 7811984775448279829
+    second: mindbowlong_243
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mindbowlong_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42055112977d587e0800000000000000
+      internalID: -1763766763799621596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5fcf9f836892090800000000000000
+      internalID: -8058762478932396603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87408c86f50c01270800000000000000
+      internalID: 8219280835963520120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcba8ec35f9e18d0800000000000000
+      internalID: -2873684329919496961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b865f5a43bb6d7200800000000000000
+      internalID: 179417977955767947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021fc7cfa22e21940800000000000000
+      internalID: 5265519588602081568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4e79a8d7dc5b460800000000000000
+      internalID: 7256932313657238773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13231d0de3e3000c0800000000000000
+      internalID: -4611617578915122639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e7bb7184495b790800000000000000
+      internalID: -7514937365841084863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e948fbc5b4f33cc80800000000000000
+      internalID: -8303723695029910370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358325f9d8aad8fd0800000000000000
+      internalID: -2338025106295343021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee850f8d1ca79ce0800000000000000
+      internalID: -1398459916321714455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913acd52126235b50800000000000000
+      internalID: 6580645404329419545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4779c0de6e23908b0800000000000000
+      internalID: -5185557528539523212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27ec589dd074c700800000000000000
+      internalID: 559696350747092781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4608
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167272120683bd260800000000000000
+      internalID: 7123349221140801377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a72c0906fd4c6f80800000000000000
+      internalID: -8112023109692020826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e537e44a34990b610800000000000000
+      internalID: 1634975180533953374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2381c494b685d40800000000000000
+      internalID: 5573322501424427719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2ba0def8173a420800000000000000
+      internalID: 2640078669540405930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6743389bf3f2e0880800000000000000
+      internalID: -8642918684135574410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24792bf8f1c65d20800000000000000
+      internalID: 3267011854813721643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e9a201100026bb0800000000000000
+      internalID: -4944389436333187461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34d2019eed8328e0800000000000000
+      internalID: -1719374576950782917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd99aac5ebe027bb0800000000000000
+      internalID: -4939869630510753317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04954e26885d0a90800000000000000
+      internalID: -7346118083846237171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a35b797a6c404fc0800000000000000
+      internalID: -3512723689160617049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f9e00edebf06c10800000000000000
+      internalID: 2044911229911080790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8a1c0afa8a9fa80800000000000000
+      internalID: -8432523355004753742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be352ed160672ad60800000000000000
+      internalID: 7900006465004524523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7a7beb0e3ee38a0800000000000000
+      internalID: -6323366272369711156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a84565595d238a0800000000000000
+      internalID: -6326759689126901246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c92a5c9024f75e0800000000000000
+      internalID: -1909735107243893724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3f2788e2a81af0800000000000000
+      internalID: -425411045202378912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0724663d942c45510800000000000000
+      internalID: 1537066995175277168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214b8e9bde53c6160800000000000000
+      internalID: 7020045214306317330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c086602f2249eee0800000000000000
+      internalID: -1231380252934635328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d463eb38a24a450800000000000000
+      internalID: 6099046540686806418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019bfd85ee8537190800000000000000
+      internalID: -7965925535171757808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299e9031b10f8d640800000000000000
+      internalID: 5105094176698657170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4896bc475c6e944a0800000000000000
+      internalID: -6608497242447058556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4170aa9c811143350800000000000000
+      internalID: 5995435802097223444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636c8612af39f2ea0800000000000000
+      internalID: -5895330684693068234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a361e64e10c64e2f0800000000000000
+      internalID: -944511266457774534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dd4dde11a90ed10800000000000000
+      internalID: 2152890023678369046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_45
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aa2e8b3d40a0e80800000000000000
+      internalID: -8211745663170205131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_46
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f1cb8be5162f500800000000000000
+      internalID: 428511974007775026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_47
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa93c7863b3009d0800000000000000
+      internalID: -2810181062087173461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346871cfbac95b230800000000000000
+      internalID: 3653998935163766339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e8710a54f786560800000000000000
+      internalID: 7307230332423999083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff24a330a455a990800000000000000
+      internalID: -7375395767711420432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb06427a917d011f0800000000000000
+      internalID: -1076123805763215169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4a59a0af8d592d0800000000000000
+      internalID: -3272470985783794513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_53
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfab1c2c9e0a9ea0800000000000000
+      internalID: -5865359500778950720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5526ae5192f9dda0800000000000000
+      internalID: -5919433529029679777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_55
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18854d78617dd350800000000000000
+      internalID: 6043110968593319963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361fe7075679ccef0800000000000000
+      internalID: -86527830892023453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e83fef1411e4e50800000000000000
+      internalID: 6795387862896578080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b371555f1ce8020800000000000000
+      internalID: 2346025715345341319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7af925834d92130800000000000000
+      internalID: 3542595920273057698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445786355a1157b30800000000000000
+      internalID: 4284350022279525700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_61
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61aaab0ec59c79580800000000000000
+      internalID: -8820359944437323242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_62
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b2d2083e8e9c280800000000000000
+      internalID: -9022424314654414000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_63
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caabacd21a2e60e0800000000000000
+      internalID: -2274834501275505980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c72514db3705cd0800000000000000
+      internalID: -2571428130546615259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd833f2c90358b80800000000000000
+      internalID: -8393248883170112011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_66
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b21544b67acee440800000000000000
+      internalID: 4967130050215613106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_67
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef61b170d0539010800000000000000
+      internalID: 1194387182374186987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_68
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96b6993e26736da0800000000000000
+      internalID: -5952784341546912097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_69
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d97bb0a34ad0ca0800000000000000
+      internalID: -6048998155277066873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_70
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ce65f4055739470800000000000000
+      internalID: 8400186717765037121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_71
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb8226d3669af20800000000000000
+      internalID: 3434388604672589419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212d59d6d4c12cd40800000000000000
+      internalID: 5603072005278913042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff2bec46dca23ea0800000000000000
+      internalID: -5894458925861097487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_74
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ff2d5f8348888d0800000000000000
+      internalID: -2843877784507187382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_75
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb88dc8765b7cb140800000000000000
+      internalID: 4736796519411058878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_76
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41fd43d2c846e0b0800000000000000
+      internalID: -5699788276784828083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_77
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3524a29fc672cc0800000000000000
+      internalID: -3735897548468890663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_78
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f81d63961d00560800000000000000
+      internalID: 7278047247652196209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_79
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6889a0d02c1b69a10800000000000000
+      internalID: 1915914138493294726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26ad71a75ee13a40800000000000000
+      internalID: 5346316292804421166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b972d1d25e1b1b0800000000000000
+      internalID: -5642476876193096956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mindbowlong_82
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ee49de133cdd690800000000000000
+      internalID: -7575684378960531942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e21c1ba8d2ba2bf45a7d48eace490dce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":11.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mindbowlong_0: -1763766763799621596
+      mindbowlong_1: -8058762478932396603
+      mindbowlong_10: -2338025106295343021
+      mindbowlong_11: -1398459916321714455
+      mindbowlong_12: 6580645404329419545
+      mindbowlong_13: -5185557528539523212
+      mindbowlong_14: 559696350747092781
+      mindbowlong_15: 7123349221140801377
+      mindbowlong_16: -8112023109692020826
+      mindbowlong_17: 1634975180533953374
+      mindbowlong_18: 5573322501424427719
+      mindbowlong_19: 2640078669540405930
+      mindbowlong_2: 8219280835963520120
+      mindbowlong_20: -8642918684135574410
+      mindbowlong_21: 3267011854813721643
+      mindbowlong_22: -4944389436333187461
+      mindbowlong_23: -1719374576950782917
+      mindbowlong_24: -4939869630510753317
+      mindbowlong_25: -7346118083846237171
+      mindbowlong_26: -3512723689160617049
+      mindbowlong_27: 2044911229911080790
+      mindbowlong_28: -8432523355004753742
+      mindbowlong_29: 7900006465004524523
+      mindbowlong_3: -2873684329919496961
+      mindbowlong_30: -6323366272369711156
+      mindbowlong_31: -6326759689126901246
+      mindbowlong_32: -1909735107243893724
+      mindbowlong_33: -425411045202378912
+      mindbowlong_34: 1537066995175277168
+      mindbowlong_35: 7020045214306317330
+      mindbowlong_36: -1231380252934635328
+      mindbowlong_37: 6099046540686806418
+      mindbowlong_38: -7965925535171757808
+      mindbowlong_39: 5105094176698657170
+      mindbowlong_4: 179417977955767947
+      mindbowlong_40: -6608497242447058556
+      mindbowlong_41: 5995435802097223444
+      mindbowlong_42: -5895330684693068234
+      mindbowlong_43: -944511266457774534
+      mindbowlong_44: 2152890023678369046
+      mindbowlong_45: -8211745663170205131
+      mindbowlong_46: 428511974007775026
+      mindbowlong_47: -2810181062087173461
+      mindbowlong_48: 3653998935163766339
+      mindbowlong_49: 7307230332423999083
+      mindbowlong_5: 5265519588602081568
+      mindbowlong_50: -7375395767711420432
+      mindbowlong_51: -1076123805763215169
+      mindbowlong_52: -3272470985783794513
+      mindbowlong_53: -5865359500778950720
+      mindbowlong_54: -5919433529029679777
+      mindbowlong_55: 6043110968593319963
+      mindbowlong_56: -86527830892023453
+      mindbowlong_57: 6795387862896578080
+      mindbowlong_58: 2346025715345341319
+      mindbowlong_59: 3542595920273057698
+      mindbowlong_6: 7256932313657238773
+      mindbowlong_60: 4284350022279525700
+      mindbowlong_61: -8820359944437323242
+      mindbowlong_62: -9022424314654414000
+      mindbowlong_63: -2274834501275505980
+      mindbowlong_64: -2571428130546615259
+      mindbowlong_65: -8393248883170112011
+      mindbowlong_66: 4967130050215613106
+      mindbowlong_67: 1194387182374186987
+      mindbowlong_68: -5952784341546912097
+      mindbowlong_69: -6048998155277066873
+      mindbowlong_7: -4611617578915122639
+      mindbowlong_70: 8400186717765037121
+      mindbowlong_71: 3434388604672589419
+      mindbowlong_72: 5603072005278913042
+      mindbowlong_73: -5894458925861097487
+      mindbowlong_74: -2843877784507187382
+      mindbowlong_75: 4736796519411058878
+      mindbowlong_76: -5699788276784828083
+      mindbowlong_77: -3735897548468890663
+      mindbowlong_78: 7278047247652196209
+      mindbowlong_79: 1915914138493294726
+      mindbowlong_8: -7514937365841084863
+      mindbowlong_80: 5346316292804421166
+      mindbowlong_81: -5642476876193096956
+      mindbowlong_82: -7575684378960531942
+      mindbowlong_9: -8303723695029910370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

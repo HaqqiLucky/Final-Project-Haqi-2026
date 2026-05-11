@@ -33,7 +33,8 @@ public class SliderTimerGameHurufDrag : MonoBehaviour
 
     public void StartTimer()
     {
-        slider.value = durasiFlat;
+        DurasiSekarang = durasiFlat;
+        slider.value = DurasiSekarang;
         TimerActive = true;
     }
 
