@@ -1,11 +1,12 @@
-using UnityEngine;
-using UnityEngine.UI.Extensions;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
-using System.Collections.Generic;
-using UnityEngine.EventSystems;
-using TMPro;
 using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.UI.Extensions;
 
 public class GamePengenalanHurufSceneControl : MonoBehaviour
 {
@@ -19,22 +20,25 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     [SerializeField] private SliderTimerGameHurufDrag timerlama;
 
     [SerializeField] private int yangUdahBener = 0;
-    private bool isFull = false;    
+    //private bool isFull = false;    
 
     // sesi
     private int sesiSekarang = 0;
     private int totalSesi = 5;
     [SerializeField] private TextMeshProUGUI teksSesi;
-    private bool menggantiSesi = false;
+    public bool menggantiSesi = false;
     [SerializeField] SceneControl sceneControlIsiGame;
     [SerializeField] float[] arrayWaktuPerSesi = new float[5];
-    [SerializeField] int totalSkorHaha = 0;
+    //private int totalSkorHaha = 0;
     [SerializeField] CanvasGroup Emo1, Emo2, Emo3;
     [SerializeField] Animator AnimEmo1, AnimEmo2, AnimEmo3;
     [SerializeField] CanvasGroup EmojiSkorParent;
 
 
     [SerializeField] private TextMeshProUGUI teksSkorHuha;
+
+    [SerializeField] private SliderTimerGameHurufDrag slider;
+    [SerializeField] private GameObject Buttons;
 
 
     private void Awake()
@@ -48,6 +52,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     private void Start()
     {
         BukaSceme();
+        Buttons.SetActive(false);   
         //EmojiSkorParent.gameObject.SetActive(false);
     }
 
@@ -178,6 +183,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
             {
                 Debug.Log("NAMA TIDAK COCOK, HAPUS GARIS");
                 Destroy(currentLine.gameObject);
+                slider.DurasiSekarang -= 5;
             }
         }
         else
@@ -273,7 +279,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     }
 
 
-    IEnumerator PergantianSesi()
+    public IEnumerator PergantianSesi()
     {
         if (menggantiSesi)
         {
@@ -291,6 +297,9 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
                 int skorFinal = HitungTotalWaktu();
 
                 EmojiSkor(skorFinal);
+
+                yield return new WaitForSeconds(6);
+                Buttons.SetActive(true);
             }
             else
             {
@@ -391,5 +400,19 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
         }
     }
 
+    public void GoReplay()
+    {
+        //LoadingScreenSceneControl.TargetSceneName = "MengurutkanAngka";
+        LoadingScreenSceneControl.Instance.LoadScene("GamePengenalanHuruf");
+
+        //SceneManager.LoadScene(6);
+    }
+    public void GoHome()
+    {
+        //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
+        LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+
+        //SceneManager.LoadScene(6);
+    }
 
 }

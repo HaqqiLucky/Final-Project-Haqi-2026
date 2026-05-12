@@ -12,7 +12,7 @@ public class HouseHomeScreenClicked : MonoBehaviour, IPointerClickHandler, IPoin
     public void OnPointerClick(PointerEventData eventData) // wgen click
     {
         //throw new System.NotImplementedException();
-        Debug.Log("klik ke - " + klikKe);
+        //Debug.Log("klik ke - " + klikKe);
         klikKe++;
         if (klikKe == 12)
         {

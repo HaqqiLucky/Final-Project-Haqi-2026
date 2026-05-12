@@ -26,6 +26,8 @@ public class SliderTimerGameHurufDrag : MonoBehaviour
             {
                 DurasiSekarang = 0;
                 TimerActive = false;
+                sceneControl.menggantiSesi = true;
+                StartCoroutine(sceneControl.PergantianSesi());
                 //StartCoroutine(sceneControl.MengurutkanAngkaSelesai());
             }
         }

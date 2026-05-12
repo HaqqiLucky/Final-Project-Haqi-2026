@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SelectPuzzle : MonoBehaviour
 {
     public GameObject[] PuzzleOption;
-    public int Number;
+    //public int Number;
     [SerializeField] private GameObject PlayButton;
     [SerializeField] private HomeSceneControl home;
     [SerializeField] private GameObject Puzzle;
@@ -38,17 +38,5 @@ public class SelectPuzzle : MonoBehaviour
 
 
 
-    public void ConfirmLagiButForButton()
-    {
-        StartCoroutine(ConfirmationToChangeScene());
-    }
-
-    IEnumerator ConfirmationToChangeScene()
-    {
-        //home.PuzzleMenuBalloonXClick();
-        yield return new WaitForSeconds(2);
-        yield return StartCoroutine(home.KameraNaik());
-        Puzzle.SetActive(true);
-        Debug.Log("sampai di selek puzel");
-    }
+ 
 }

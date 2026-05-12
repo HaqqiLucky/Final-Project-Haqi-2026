@@ -11,7 +11,8 @@ public class SliderButHomeScene : MonoBehaviour,
     [SerializeField] private Slider slider;
     //private Transform tf;
     public float playingPingPong = 0f;
-    [SerializeField] private SelectPuzzle selectPuzzle;
+    //[SerializeField] private SelectPuzzle selectPuzzle;
+    [SerializeField] private HomeSceneControl homeSceneControl;
     private int PuzzleScene;
 
 
@@ -59,8 +60,27 @@ public class SliderButHomeScene : MonoBehaviour,
 
     public void PlayPuzzleThisOne()
     {
-        PuzzleScene = selectPuzzle.Number;
+        PuzzleScene = homeSceneControl.NumberYangDiKlik;
         Debug.Log("Masuk ke play puzzle this one dengan number " + PuzzleScene);
+
+        switch (PuzzleScene)
+        {
+            case 1:
+                LoadingScreenSceneControl.Instance.LoadScene("PengenalanAngka");
+                break;
+            case 2:
+                LoadingScreenSceneControl.Instance.LoadScene("MengurutkanAngka");
+                break;
+            case 3:
+                LoadingScreenSceneControl.Instance.LoadScene("GamePengenalanHuruf");
+                break;
+            case 4:
+                LoadingScreenSceneControl.Instance.LoadScene("PengenalanHuruf");
+                break;
+            case 5:
+                LoadingScreenSceneControl.Instance.LoadScene("CreditScene");
+                break;
+        }
         if (PuzzleScene == 0)
         {
             // mengurutkan angka
@@ -74,7 +94,7 @@ public class SliderButHomeScene : MonoBehaviour,
             // pengenalan huruf
         else if (PuzzleScene == 1)
         {
-            LoadingScreenSceneControl.Instance.LoadScene("PengenalanAngka");
+            
             //LoadingScreenSceneControl.TargetSceneName = "PengenalanAngka";
             //SceneManager.LoadScene(4);
             //SceneManager.LoadScene(3);

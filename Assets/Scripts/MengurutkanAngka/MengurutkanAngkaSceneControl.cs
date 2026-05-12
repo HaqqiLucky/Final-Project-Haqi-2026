@@ -321,13 +321,13 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         //LoadingScreenSceneControl.TargetSceneName = "MengurutkanAngka";
         LoadingScreenSceneControl.Instance.LoadScene("MengurutkanAngka");
 
-        SceneManager.LoadScene(6);
+        //SceneManager.LoadScene(6);
     }
     public void GoHome()
     {
         //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
         LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
 
-        SceneManager.LoadScene(6);
+        //SceneManager.LoadScene(6);
     }
 }

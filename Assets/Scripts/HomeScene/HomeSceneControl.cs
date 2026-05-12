@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class HomeSceneControl : MonoBehaviour
@@ -12,12 +13,12 @@ public class HomeSceneControl : MonoBehaviour
     private bool diKlik = false;
 
     [Header("GameObject")]
-    [SerializeField] private GameObject MenuToChangeColorBaloon;
+    //[SerializeField] private GameObject MenuToChangeColorBaloon;
     //[SerializeField] private GameObject ClickableObjectAtWorldSpace;
-    [SerializeField] private GameObject PaperBackgroundItem;
-    [SerializeField] private GameObject PaperBackgroundCantBeSelected;
+    //[SerializeField] private GameObject PaperBackgroundItem;
+    //[SerializeField] private GameObject PaperBackgroundCantBeSelected;
     [SerializeField] private GameObject ButtonsInPuzzleMenu;
-    [SerializeField] private GameObject AwanOut;
+    //[SerializeField] private GameObject AwanOut;
     [SerializeField] private GameObject PaperPuzzleMenu;
     [SerializeField] private GameObject Camera;
     [SerializeField] private ParticleSystem Angin;
@@ -34,12 +35,20 @@ public class HomeSceneControl : MonoBehaviour
     Vector3 PaperTargetPuzzleMenuOut = new Vector3(-1, (float)-8.78, (float)-0.75);
     Vector3 TargetKameraOut = new Vector3(0, 0, (float)-10);
 
+    [Header("MainMenuNew")]
+    [SerializeField] private GameObject GridMainMenu;
+    [SerializeField] private GameObject Puzzled;
+    [SerializeField] private GameObject GambarBuatKlikDiluar;
+    public int NumberYangDiKlik;
+    [SerializeField] private CanvasGroup KeluargaButton;
+    [SerializeField] private CanvasGroup ClickableHomeBaloon;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        AwanOut.SetActive(true);
+        //AwanOut.SetActive(true);
         LeanTween.moveLocal(Baloon, new Vector3(-309, -28, 0f), 4f).setEase(LeanTweenType.easeOutQuart);
     }
 
@@ -89,5 +98,92 @@ public class HomeSceneControl : MonoBehaviour
             .setEaseInOutBack();
         yield return null;
     }
+
+    public void NaikkanBendaMainMenu()
+    {
+        GambarBuatKlikDiluar.SetActive(true);
+
+        LeanTween.moveY(GridMainMenu, 815f, 2f)
+            .setEaseInOutBounce();
+    }
+
+    public void TurunkanBendaMainMenu()
+    {
+        GambarBuatKlikDiluar.SetActive(false);
+
+        LeanTween.moveY(GridMainMenu, -313f, 2f)
+            .setEaseInOutBounce();
+    }
+
+
+
+    // ini scene control litteraly habis ini aku ngatur semua navigasi
+    public void AyokKePengenalanAngka(int inputhm)
+    {
+        Debug.Log(inputhm);
+        TurunkanBendaMainMenu();
+        StartCoroutine(ConfirmationToChangeScene());
+        NumberYangDiKlik = inputhm;
+    }
+    public void AyokKePengenalanHuruf(int inputhm)
+    {
+        Debug.Log(inputhm);
+        TurunkanBendaMainMenu();
+        StartCoroutine(ConfirmationToChangeScene());
+        NumberYangDiKlik = inputhm;
+    }
+    public void AyokKeGameAngka(int inputhm)
+    {
+        Debug.Log(inputhm);
+        StartCoroutine(ConfirmationToChangeScene());
+        TurunkanBendaMainMenu();
+        NumberYangDiKlik = inputhm;
+    }
+    public void AyokKeGameHuruf(int inputhm)
+    {
+        Debug.Log(inputhm);
+        TurunkanBendaMainMenu();
+        StartCoroutine(ConfirmationToChangeScene());
+        NumberYangDiKlik = inputhm;
+    }
+    public void AyokKCreditScene(int inputhm)
+    {
+        Debug.Log(inputhm);
+        TurunkanBendaMainMenu();
+        StartCoroutine(ConfirmationToChangeScene());
+        NumberYangDiKlik = inputhm;
+
+    }
+    public void AyokKeluar()
+    {
+        Application.Quit();
+    }
+
+
+    // ini di panggil tiap button di semua main menu di klik
+
+    IEnumerator ConfirmationToChangeScene()
+    {
+        //home.PuzzleMenuBalloonXClick();
+        yield return new WaitForSeconds(3);
+        KuranginAlphaKeluagaCanvasIni();
+        yield return StartCoroutine(KameraNaik());
+        Puzzled.SetActive(true);
+        Debug.Log("sampai di selek puzel");
+    }
+
+    private void KuranginAlphaKeluagaCanvasIni()
+    {
+        LeanTween.value(KeluargaButton.gameObject, 1f, 0f, 0.2f)
+            .setOnUpdate((float val) => {
+                KeluargaButton.alpha = val;
+            });
+        LeanTween.value(ClickableHomeBaloon.gameObject, 1f, 0f, 0.2f)
+            .setOnUpdate((float val) => {
+                ClickableHomeBaloon.alpha = val;
+            });
+
+    }
+
 
 }
