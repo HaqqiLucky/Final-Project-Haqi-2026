@@ -25,12 +25,16 @@ public class TracingHurufSceneControl : MonoBehaviour
     private GameObject currentImageThisLetterHehe;
     //private bool loadingProses = false;
     [Header("PengenalanHurufMoozik")]
-    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioSource Adsos;
+    [SerializeField] private AudioSource AdsosCanvas;
     [SerializeField] private AudioClip[] musiks;
     private int indexMusik = 0;
 
     [Range(0f, 1f)]
     [SerializeField] private float volume = 0.362f;
+
+
+    //private AudioClip A, untukApel;
     //public bool sudahKlik = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -46,8 +50,8 @@ public class TracingHurufSceneControl : MonoBehaviour
     }
     private void PlayNext()
     {
-        bgm.clip = musiks[indexMusik];
-        bgm.Play();
+        Adsos.clip = musiks[indexMusik];
+        Adsos.Play();
         indexMusik = (indexMusik + 1) % musiks.Length;
     }
 
@@ -60,8 +64,8 @@ public class TracingHurufSceneControl : MonoBehaviour
     void Update()
     {
         // buat volume
-        bgm.volume = volume;
-        if (!bgm.isPlaying) PlayNext();
+        Adsos.volume = volume;
+        if (!Adsos.isPlaying) PlayNext();
     }
     IEnumerator StartUpPanelNaik()
     {
@@ -93,6 +97,9 @@ public class TracingHurufSceneControl : MonoBehaviour
         string formatTampilan = baseChar.ToString().ToUpper() + baseChar.ToString().ToLower();
 
         HurufMunculSekarang.text = formatTampilan;
+
+        //add audio
+        CariAudioDariResouces();                
         CariGambarDariParentGambarUlala();
     }
 
@@ -158,6 +165,58 @@ public class TracingHurufSceneControl : MonoBehaviour
             }
         }
     }
+
+    private void CariAudioDariResouces()
+    {
+        AudioClip untukApel = null;
+        // Path harus sesuai folder di gambar
+        AudioClip[] SemuaClipUntuk = Resources.LoadAll<AudioClip>("PengenalanHuruf/untukkamu");
+
+        // Pastikan hurufSekarang tidak kosong
+        if (string.IsNullOrEmpty(hurufSekarang)) return;
+
+        // Ambil huruf pertama (pakai index 0, bukan 1 atau -1)
+        char hurufTarget = hurufSekarang[0];
+
+        foreach (AudioClip untuk in SemuaClipUntuk)
+        {
+            // File "untukapel" -> index 5 adalah 'a'
+            if (untuk.name.Length > 5)
+            {
+                // Gunakan char.ToLower supaya 'A' cocok dengan 'a' di nama file
+                if (char.ToLower(untuk.name[5]) == char.ToLower(hurufTarget))
+                {
+                    untukApel = untuk;
+                    break; // Keluar loop jika sudah ketemu
+                }
+            }
+        }
+
+        // Load suara hurufnya (misal "a.mp3" di folder PengenalanHuruf)
+        AudioClip A = Resources.Load<AudioClip>("PengenalanHuruf/" + hurufTarget);
+
+        if (A != null && untukApel != null)
+        {
+            StartCoroutine(AntrianAudio(A, untukApel));
+        }
+        else
+        {
+            Debug.LogError("Audio tidak ditemukan! Cek nama file atau path folder.");
+        }
+    }
+
+
+    IEnumerator AntrianAudio(AudioClip pertama, AudioClip kedua)
+    {
+        AdsosCanvas.clip = pertama;
+        AdsosCanvas.PlayDelayed(1f);
+        yield return new WaitForSeconds(pertama.length + 1f);
+        AdsosCanvas.clip = kedua;
+        AdsosCanvas.Play();
+    }
+
+
+
     public void NextButtonInAlphabet()
     {
         // 1. Ambil karakter saat ini (asumsi formatnya "A" atau "Aa")
@@ -178,13 +237,5 @@ public class TracingHurufSceneControl : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(SkenarioBukaTutupDiawal(currentKarakter.ToString()));
     }
-
-
-
-    // setiap 5 huruf yang 
-
-    
-
-
 
 }

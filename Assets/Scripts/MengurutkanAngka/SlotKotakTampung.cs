@@ -11,6 +11,8 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
     private ParticleSystem partikelOnDestroy;
     private bool UdahJalan = false;
     private Rigidbody2D rb;
+    private AudioSource asors;
+    [SerializeField] private AudioClip correct, wrong, hancur;
     protected void Awake()
     {
         mengurutkanAngkaSceneControl = FindFirstObjectByType<MengurutkanAngkaSceneControl>(); // yang dari ai dan aku blm paham
@@ -22,6 +24,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        asors = mengurutkanAngkaSceneControl.GetComponent<AudioSource>();
     }
 
     public int slotIndex;
@@ -48,9 +51,11 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
                 draggableItemAngkas.parentAfterDrag = transform;
                 LeanTween.moveLocalY(gameObject, transform.localPosition.y + 100f, 0.2f)
                     .setLoopPingPong(2);
+                asors.PlayOneShot(correct);
                 //mengurutkanAngkaSceneControl.PenghitungAmalKebenaran++;
             } else
             {
+                asors.PlayOneShot(wrong);
                 //Debug.Log("slot ke " + slotIndex + "sudah salah yaitu " + AngkaYangDiDrag);
                 //LeanTween.rotateZ(this.gameObject, 30f, 0.5f)
                 //    .setEase(LeanTweenType.easeInOutSine)  // di cek nanti sine itu apa
@@ -94,7 +99,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
     {
         if (collision.gameObject.CompareTag("PenghancurPrefab"))
         {
-            
+            asors.PlayOneShot(hancur);
             mengurutkanAngkaSceneControl.TotalYangSudahDiHancurkan += 1;
             partikelOnDestroy.transform.position = this.transform.position;
             partikelOnDestroy.Play();

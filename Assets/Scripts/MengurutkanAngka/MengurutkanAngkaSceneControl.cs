@@ -49,6 +49,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [SerializeField] private AudioSource bgm;
     [SerializeField] private AudioClip[] musiks;
     private int indexMusik = 0;
+    [SerializeField] private AudioClip confentii;
 
     [Range(0f, 1f)]
     [SerializeField] private float volume = 0.362f;
@@ -328,6 +329,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     IEnumerator SkoringScenario()
     {
         fireworks.Play();
+        bgm.PlayOneShot(confentii);
         shape1.SetActive(true);
         LeanTween.scaleX(shape1, 7, 2f).setEaseOutBack();
         shape2.SetActive(true);

@@ -6309,6 +6309,7 @@ MonoBehaviour:
   musiks:
   - {fileID: 8300000, guid: c5ee8e674e2874e4d90fae623661d1e5, type: 3}
   - {fileID: 8300000, guid: 16b7ba244c4a71c4490850ab4ea60967, type: 3}
+  confentii: {fileID: 8300000, guid: 1593eda6381016543b004e3524f3caf2, type: 3}
   volume: 0.362
 --- !u!4 &653918756
 Transform:
@@ -42430,6 +42431,10 @@ MonoBehaviour:
   teksSkor3D: {fileID: 2040820044}
   buttons: {fileID: 1123470744}
   sceneControl: {fileID: 653918755}
+  asor: {fileID: 653918757}
+  win1: {fileID: 8300000, guid: 8dc43f09ebca45d459e14479eeaf6e2b, type: 3}
+  win2: {fileID: 8300000, guid: c5ad8315390a7f14781738dea06f0c1e, type: 3}
+  win3: {fileID: 8300000, guid: 3e7d5460a84ee7e4f973ab17bf9226db, type: 3}
 --- !u!1 &1962735061
 GameObject:
   m_ObjectHideFlags: 0

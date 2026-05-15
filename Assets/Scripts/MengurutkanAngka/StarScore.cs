@@ -9,8 +9,18 @@ public class StarScore : MonoBehaviour
     [SerializeField] private GameObject star3;
     [SerializeField] private TextMeshPro teksSkor3D;
     [SerializeField] private CanvasGroup buttons;
+    private int skor;
     //private Vector3 BintangBelumNaik = new Vector3();
     [SerializeField] MengurutkanAngkaSceneControl sceneControl;
+    [SerializeField] private AudioSource asor;
+    [SerializeField] private AudioClip win1, win2, win3;
+
+
+    private void Awake()
+    {
+        skor = sceneControl.HitungSkorAkhir();
+    }
+
     void Start()
     {
         //StarScenario();
@@ -19,6 +29,8 @@ public class StarScore : MonoBehaviour
         //star3.transform.position = new Vector3(transform.position.x, 175f, 0);
         StarScenario();
         StartCoroutine(AnimasiCountingSkorDiLayar());
+        
+        StarSoundScenario();
 
 
     }
@@ -32,7 +44,7 @@ public class StarScore : MonoBehaviour
     IEnumerator AnimasiCountingSkorDiLayar()
     {
         //teksSkor = GetComponent
-        int targetSkor = sceneControl.HitungSkorAkhir();
+        
         float durasi = 5f;
         float waktuBerjalan = 0f;
         int skorAwal = 0;
@@ -42,7 +54,7 @@ public class StarScore : MonoBehaviour
             waktuBerjalan += Time.deltaTime;
 
             float lerpPercent = waktuBerjalan / durasi;
-            int skorSekarang = Mathf.RoundToInt(Mathf.Lerp(skorAwal, targetSkor, lerpPercent));
+            int skorSekarang = Mathf.RoundToInt(Mathf.Lerp(skorAwal, skor, lerpPercent));
 
             teksSkor3D.text = skorSekarang.ToString();
 
@@ -55,7 +67,6 @@ public class StarScore : MonoBehaviour
 
     private void StarScenario()
     {
-        int skor = sceneControl.HitungSkorAkhir();
         //Debug.Log(skor);
         if (skor >= 1000)
         {
@@ -73,6 +84,22 @@ public class StarScore : MonoBehaviour
             LeanTween.moveY(star3, 3f, 1f)
                 .setEaseInOutBack()
                 .setDelay(1);
+        }
+    }
+
+    private void StarSoundScenario()
+    {
+        switch (skor)
+        {
+            case >= 8600:
+                asor.PlayOneShot(win3);
+                break;
+            case >= 4900:
+                asor.PlayOneShot(win2);
+                break;
+            case >= 1000:
+                asor.PlayOneShot(win1);
+                break;
         }
     }
 }

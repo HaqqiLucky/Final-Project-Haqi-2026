@@ -115,6 +115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6af569ff5f5de424296d228d4d4e04c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  correct: {fileID: 8300000, guid: 87e2db9df59e9e848a7c690eca188bc7, type: 3}
+  wrong: {fileID: 8300000, guid: 1878f8b44ee00af48ab75f28602c5b32, type: 3}
+  hancur: {fileID: 8300000, guid: f5ab53dd930c47e4597cc16293566dd7, type: 3}
   slotIndex: 0
 --- !u!50 &7281550060795659809
 Rigidbody2D:
