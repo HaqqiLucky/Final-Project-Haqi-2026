@@ -1,14 +1,16 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class SlotKotakTampung : MonoBehaviour, IDropHandler, IPointerClickHandler
+public class SlotKotakTampung : MonoBehaviour, IDropHandler
 {
     MengurutkanAngkaSceneControl mengurutkanAngkaSceneControl;
     //[SerializeField] private ParticleSystem confentiiOnDestroy;
     private ParticleSystem partikelOnDestroy;
-    private bool UdahMiring = false;
+    private bool UdahJalan = false;
+    private Rigidbody2D rb;
     protected void Awake()
     {
         mengurutkanAngkaSceneControl = FindFirstObjectByType<MengurutkanAngkaSceneControl>(); // yang dari ai dan aku blm paham
@@ -19,7 +21,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler, IPointerClickHandle
     }
     private void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public int slotIndex;
@@ -64,22 +66,27 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler, IPointerClickHandle
 
     }
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (mengurutkanAngkaSceneControl.SelesaiThisStage == true && UdahMiring == false)
-        {
-            LeanTween.rotateAround(this.gameObject, Vector3.forward, -33.115f, 0.1f)
-                .setEaseInOutBack();
-            rb.simulated = false;
-            UdahMiring = true;
-        }
 
-        else if (UdahMiring == true)
+
+    IEnumerator SelesaiNaik()
+    {
+        //Debug.Log("smpe sini");
+        rb.simulated = false;
+        LeanTween.rotateAround(this.gameObject, Vector3.forward, -33.115f, 0.1f)
+                    .setEaseInOutBack();
+        yield return new WaitForSeconds(2f);
+        float delay = Random.Range(1.0f, 10.0f);
+        yield return new WaitForSeconds(delay);
+        rb.simulated = true;
+
+    }
+
+    private void Update()
+    {
+        if (mengurutkanAngkaSceneControl.SudahNaik && !UdahJalan)
         {
-            rb.simulated = true;
-            //rb.AddForce(Vector2.down * 50f, ForceMode2D.Impulse);
-            //LeanTween.moveY(this.gameObject, 50f, 0.3f);
+            StartCoroutine(SelesaiNaik());
+            UdahJalan = true;
         }
     }
 

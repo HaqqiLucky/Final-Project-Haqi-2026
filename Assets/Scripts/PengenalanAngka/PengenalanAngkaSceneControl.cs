@@ -1,7 +1,9 @@
  using System.Collections;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 public class PengenalanAngkaSceneControl : MonoBehaviour
@@ -33,12 +35,33 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     //[Header("Prefabs Skies animasi transisi ganti angka")]
     //private GameObject Skyday1;
 
+    [Header("PengenalanAngkaMoozik")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip[] musiks;
+    private int indexMusik = 0;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float volume = 0.362f;
+
+
+    [SerializeField] private AudioClip satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh;
 
     void Start()
     {
         Camera.main.gameObject.transform.position = Vector3.zero;
         MainFunctionPerulanganMasuk();
         //MoodletBacksoundSoundEffectController.InstanceMoodlet.BacksoundLogin();
+
+        musiks = musiks.OrderBy(x => Random.value).ToArray();
+        PlayNext();
+
+    }
+    // bwat gaca lagu
+    private void PlayNext()
+    {
+        audioSource.clip = musiks[indexMusik];
+        audioSource.Play();
+        indexMusik = (indexMusik + 1) % musiks.Length;
     }
 
 
@@ -52,6 +75,12 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
 
             SceneManager.LoadScene(4);
         }
+
+
+
+        // buat volume
+        audioSource.volume = volume;
+        if (!audioSource.isPlaying) PlayNext();
     }
 
     private void MainFunctionPerulanganMasuk()
@@ -163,6 +192,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     public void EveryButtonClicked()
     {
         JumlahHewanYangDiklik++;
+        PlayAudioAngkaYuhu();
 
         if (currentAngka == JumlahHewanYangDiklik)
         {
@@ -268,6 +298,44 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         yield return null;
     }
 
+    private void PlayAudioAngkaYuhu()
+    {
+        switch (JumlahHewanYangDiklik)
+        {
+            case 1:
+                audioSource.PlayOneShot(satu);
+                break;
+            case 2:
+                audioSource.PlayOneShot(dua);
+                break;
+            case 3:
+                audioSource.PlayOneShot(tiga);
+                break;
+            case 4:
+                audioSource.PlayOneShot(empat);
+                break;
+            case 5:
+                audioSource.PlayOneShot(lima);
+                break;
+            case 6:
+                audioSource.PlayOneShot(enam);
+                break;
+            case 7:
+                audioSource.PlayOneShot(tujuh);
+                break;
+            case 8:
+                audioSource.PlayOneShot(delapan);
+                break;
+            case 9:
+                audioSource.PlayOneShot(sembilan);
+                break;
+            case 10:
+                audioSource.PlayOneShot(sepuluh);
+                break;
+            default:
+                break;
+        }
+    }
 
 
 }

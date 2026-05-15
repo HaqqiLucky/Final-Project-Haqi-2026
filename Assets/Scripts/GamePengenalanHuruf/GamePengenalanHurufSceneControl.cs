@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UI.Extensions;
@@ -41,6 +43,15 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     [SerializeField] private GameObject Buttons;
 
 
+
+    [Header("GameHurufMoozik")]
+    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioClip[] musiks;
+    private int indexMusik = 0;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float volume = 0.362f;
+
     private void Awake()
     {
         for (int i = 0; i < arrayWaktuPerSesi.Length; i++)
@@ -52,12 +63,25 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     private void Start()
     {
         BukaSceme();
-        Buttons.SetActive(false);   
+        Buttons.SetActive(false);
         //EmojiSkorParent.gameObject.SetActive(false);
-    }
 
+
+        musiks = musiks.OrderBy(x => Random.value).ToArray();
+        PlayNext();
+    }
+    private void PlayNext()
+    {
+        bgm.clip = musiks[indexMusik];
+        bgm.Play();
+        indexMusik = (indexMusik + 1) % musiks.Length;
+    }
     void Update()
     {
+        // buat volume
+        bgm.volume = volume;
+        if (!bgm.isPlaying) PlayNext();
+
         var pointer = Pointer.current;
         if (pointer == null) return;
 

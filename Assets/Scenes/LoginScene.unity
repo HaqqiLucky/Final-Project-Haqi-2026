@@ -1499,6 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.3
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &209498043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1938,6 +1939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.1
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &233806155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3921,6 +3923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.2
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1 &437485325
 GameObject:
   m_ObjectHideFlags: 0
@@ -6210,6 +6213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.1
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!4 &663717694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2445736762017319790, guid: 7533cee60173e134ab398ad9d425846a, type: 3}
@@ -6320,6 +6324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.3
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &675123175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6918,6 +6923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.6
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &759824997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7690,6 +7696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.2
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &890544567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7917,6 +7924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.4
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1 &920178555
 GameObject:
   m_ObjectHideFlags: 0
@@ -8609,6 +8617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.3
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &973162039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9680,6 +9689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.2
   bgRenderer: {fileID: 1062781288}
+  urutanSortingOrder: 0
 --- !u!23 &1062781288
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12623,6 +12633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.3
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &1453268114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13300,6 +13311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.1
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!224 &1511146557 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6620370664737877675, guid: 377e7eb4afbbb0d43b6b42da20642c1c, type: 3}
@@ -14154,7 +14166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354, y: 91}
+  m_AnchoredPosition: {x: 353.13324, y: 82.814476}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!96 &1624686300
@@ -14207,7 +14219,7 @@ TrailRenderer:
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Time: 0.4
-  m_PreviewTimeScale: 1
+  m_PreviewTimeScale: 0
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.5
@@ -15485,7 +15497,7 @@ ParticleSystem:
       repeatInterval: 1
       probability: 1
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -15496,22 +15508,22 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1
           value: 1
-          inSlope: 1
+          inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -15818,7 +15830,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 0}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -15842,7 +15854,7 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_ColorSpace: -1
+        m_ColorSpace: 0
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
       minGradient:
@@ -20627,104 +20639,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6620370664737877675, guid: 377e7eb4afbbb0d43b6b42da20642c1c, type: 3}
   m_PrefabInstance: {fileID: 1712510226}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1721001270
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1721001271}
-  - component: {fileID: 1721001274}
-  - component: {fileID: 1721001273}
-  - component: {fileID: 1721001272}
-  m_Layer: 5
-  m_Name: Mouse (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1721001271
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721001270}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1935350916}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 102.5, y: 153.51}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1721001272
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721001270}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40b2cec49ca79144fb3cabeaa2cdfae9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1721001273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721001270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -372690001003160315, guid: 0c82a1d2ac5b4b74d88d7cd45c9659bf, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1721001274
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721001270}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1741047210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20952,6 +20866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteSky
   speed: 0.2
   bgRenderer: {fileID: 0}
+  urutanSortingOrder: 0
 --- !u!1001 &1794231817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22449,7 +22364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1935350916
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22462,7 +22377,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1721001271}
   - {fileID: 927784163}
   m_Father: {fileID: 920178559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

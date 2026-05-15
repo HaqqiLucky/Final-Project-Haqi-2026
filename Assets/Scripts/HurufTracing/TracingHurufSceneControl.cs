@@ -1,6 +1,7 @@
 using System.CodeDom.Compiler;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,7 +24,13 @@ public class TracingHurufSceneControl : MonoBehaviour
     
     private GameObject currentImageThisLetterHehe;
     //private bool loadingProses = false;
+    [Header("PengenalanHurufMoozik")]
+    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioClip[] musiks;
+    private int indexMusik = 0;
 
+    [Range(0f, 1f)]
+    [SerializeField] private float volume = 0.362f;
     //public bool sudahKlik = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,6 +40,15 @@ public class TracingHurufSceneControl : MonoBehaviour
         //Invoke("TransisiTutup", 2f);
         Blur.SetActive(false);
         StartCoroutine(StartUpPanelNaik());
+
+        musiks = musiks.OrderBy(x => Random.value).ToArray();
+        PlayNext();
+    }
+    private void PlayNext()
+    {
+        bgm.clip = musiks[indexMusik];
+        bgm.Play();
+        indexMusik = (indexMusik + 1) % musiks.Length;
     }
 
     //private void Awake()
@@ -43,7 +59,9 @@ public class TracingHurufSceneControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // buat volume
+        bgm.volume = volume;
+        if (!bgm.isPlaying) PlayNext();
     }
     IEnumerator StartUpPanelNaik()
     {

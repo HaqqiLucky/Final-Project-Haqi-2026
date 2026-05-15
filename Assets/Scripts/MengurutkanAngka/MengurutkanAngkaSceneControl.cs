@@ -1,9 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MengurutkanAngkaSceneControl : MonoBehaviour
@@ -18,7 +16,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [SerializeField] private RectTransform panelTengahBawah;
     [SerializeField] private ParticleSystem ConfentiKiri;
     [SerializeField] private ParticleSystem ConfentiKanan;
-    [SerializeField] private GameObject Trains;
+    [SerializeField] private GameObject TangkapIniHancurinPrefa;
     [SerializeField] private Image overlayUIOut;
     [SerializeField] private Image overlayUIIn;
     [SerializeField] private ParticleSystem fireworks;
@@ -29,6 +27,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     //public int PenghitungAmalKebenaran;
     [SerializeField] private GameObject skorParent;
     //private bool isSelesaiRunning = false;
+    //[SerializeField] private SlotKotakTampung slotKotakTampung;
 
     [Header("Arrays")]
     [SerializeField] private int[] Numbers = new int[20];
@@ -41,9 +40,18 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
 
     [Header("Kebutuhan Plot")]
     public int TotalYangSudahDiHancurkan;
+    public bool SudahNaik = false;
 
-    //[Header("Referensi")]
-    //[SerializeField] private Train keretah;
+    [Header("Referensi")]
+    [SerializeField] private CanvasGroup ButtonsYangTerakhir;
+
+    [Header("MengurutkanAngkaMoozik")]
+    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioClip[] musiks;
+    private int indexMusik = 0;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float volume = 0.362f;
 
     void Start()
     {
@@ -58,7 +66,12 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         Prefabs55();
         BoxTengahBersatu = BoxTengahAtas.Concat(BoxTengahBawah).ToArray();
         overlayUIOut.gameObject.SetActive(false);
-        Trains.SetActive(false);
+        TangkapIniHancurinPrefa.SetActive(false);
+
+
+        musiks = musiks.OrderBy(x => Random.value).ToArray();
+        PlayNext();
+
 
     }
 
@@ -66,8 +79,18 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     void Update()
     {
         //PengecekanRutinKotaks();
+        bgm.volume = volume;
+        if (!bgm.isPlaying) PlayNext();
     }
-    
+
+    // bwat gaca lagu
+    private void PlayNext()
+    {
+        bgm.clip = musiks[indexMusik];
+        bgm.Play();
+        indexMusik = (indexMusik + 1) % musiks.Length;
+    }
+
     private void TransisiKebalikan()
     {
         LeanTween.value(overlayUIIn.gameObject, 1f, 0f, 2f)
@@ -235,16 +258,22 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         ConfentiKanan.Play();
         ConfentiKiri.Play();
     }
-    IEnumerator Train()
-    {
-        //Debug.Log("sampe sini88");
-        //yield return new WaitForSecondsRealtime(2f);
-        Trains.SetActive(true);
-        yield return new WaitForSeconds(47f);
-        Trains.SetActive(false);
-        Skoring();
-        //Debug.Log("sampe sini1");
+    //IEnumerator Train()
+    //{
+    //    //Debug.Log("sampe sini88");
+    //    //yield return new WaitForSecondsRealtime(2f);
+    //    TangkapIni.SetActive(true);
+    //    yield return new WaitForSeconds(47f);
+    //    TangkapIni.SetActive(false);
+    //    Skoring();
+    //    //Debug.Log("sampe sini1");
 
+    //}
+
+    IEnumerator KelarJatoh()
+    {
+        yield return new WaitForSeconds(14f);
+        Skoring();
     }
 
     private void Skoring()
@@ -265,11 +294,26 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         panelKiri.gameObject.SetActive(false);
         //Debug.Log("sampe sini");
         yield return new WaitForSeconds(2);
-        StartCoroutine(Train());
+        SudahNaik = true;
+        TangkapIniHancurinPrefa.SetActive(true);
+        //NaikinAlphaPenghancurPrefab();
+        //Debug.Log("harusnya udah true");
+        StartCoroutine(KelarJatoh());
     }
+
+    //private void NaikinAlphaPenghancurPrefab()
+    //{
+    //    LeanTween.value(TangkapIniHancurinPrefa.gameObject, 0f, 1f, 1f)
+    //     .setOnUpdate((float val) => {
+    //         // 'val' adalah angka yang terus berubah dari 0 ke 1
+    //         TangkapIniHancurinPrefa.alpha = val;
+    // });
+    //}
 
     private void OverlayUIWork()
     {
+        TangkapIniHancurinPrefa.SetActive(false);
+
         overlayUIOut.gameObject.SetActive(true);
         LeanTween.value(overlayUIOut.gameObject, 0f, 1f, 2f)
            .setEaseInOutBack()
@@ -290,6 +334,18 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         yield return null;
         skorParent.SetActive(true);
         HitungSkorAkhir();
+        yield return new WaitForSeconds(5f);
+        ButtonsActiveandAnimate();
+    }
+
+    private void ButtonsActiveandAnimate()
+    {
+        ButtonsYangTerakhir.gameObject.SetActive(true);
+        LeanTween.value(ButtonsYangTerakhir.gameObject, 0f, 1f, 1f)
+            .setOnUpdate((float val) => {
+                // 'val' adalah angka yang terus berubah dari 0 ke 1
+                ButtonsYangTerakhir.alpha = val;
+            });
     }
 
     // penghitungan sekor tralala

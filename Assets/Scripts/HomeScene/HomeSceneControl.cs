@@ -1,5 +1,9 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -39,9 +43,17 @@ public class HomeSceneControl : MonoBehaviour
     [SerializeField] private GameObject GridMainMenu;
     [SerializeField] private GameObject Puzzled;
     [SerializeField] private GameObject GambarBuatKlikDiluar;
-    public int NumberYangDiKlik;
-    [SerializeField] private CanvasGroup KeluargaButton;
-    [SerializeField] private CanvasGroup ClickableHomeBaloon;
+    public int NumberYangDiKlik = 0 ;
+    [SerializeField] private GameObject KeluargaButton;
+    [SerializeField] private GameObject ClickableHomeBaloon;
+
+    [Header("BacksoundHomeScreen")]
+    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioClip[] musiks;
+    private int indexMusik = 0;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float volume = 0.362f;
 
 
 
@@ -49,13 +61,60 @@ public class HomeSceneControl : MonoBehaviour
     void Start()
     {
         //AwanOut.SetActive(true);
+        //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.happy);
         LeanTween.moveLocal(Baloon, new Vector3(-309, -28, 0f), 4f).setEase(LeanTweenType.easeOutQuart);
-    }
+
+        // ini ordering musik
+        musiks = musiks.OrderBy(x => Random.value).ToArray();
+        PlayNext();
 
     // Update is called once per frame
+    }
     void Update()
     {
-        
+
+        // buat volume
+        bgm.volume = volume;
+        if (!bgm.isPlaying) PlayNext();
+
+
+
+        //if (Mouse.current.leftButton.wasPressedThisFrame)
+        //{
+        //    // 1. Siapkan data posisi pointer
+        //    PointerEventData eventData = new PointerEventData(EventSystem.current);
+        //    eventData.position = Mouse.current.position.ReadValue();
+
+        //    // 2. Wadah untuk menampung semua UI yang kena tembak klik
+        //    List<RaycastResult> results = new List<RaycastResult>();
+
+        //    // 3. Tembakkan raycast ke semua UI di posisi tersebut
+        //    EventSystem.current.RaycastAll(eventData, results);
+
+        //    if (results.Count > 0)
+        //    {
+        //        // results[0] adalah yang PALING DEPAN (yang menghalangi klik)
+        //        Debug.Log("Objek yang kena klik: " + results[0].gameObject.name);
+
+        //        // Kalau kamu mau liat semua lapisan yang kena klik:
+        //        foreach (var hit in results)
+        //        {
+        //            Debug.Log("Di lapisan bawahnya ada: " + hit.gameObject.name);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        Debug.Log("Klik di area kosong (tidak kena UI apapun)");
+        //    }
+        //}
+    }
+
+    // bwat gaca lagu
+    private void PlayNext()
+    {
+        bgm.clip = musiks[indexMusik];
+        bgm.Play();
+        indexMusik = (indexMusik + 1) % musiks.Length;
     }
 
 
@@ -101,6 +160,7 @@ public class HomeSceneControl : MonoBehaviour
 
     public void NaikkanBendaMainMenu()
     {
+        //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.ok);
         GambarBuatKlikDiluar.SetActive(true);
 
         LeanTween.moveY(GridMainMenu, 815f, 2f)
@@ -109,6 +169,15 @@ public class HomeSceneControl : MonoBehaviour
 
     public void TurunkanBendaMainMenu()
     {
+        //if (NumberYangDiKlik != 0)
+        //{
+        //    MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.kaget);
+        //} else
+        //{
+        //    MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.yawn);
+
+        //}
+
         GambarBuatKlikDiluar.SetActive(false);
 
         LeanTween.moveY(GridMainMenu, -313f, 2f)
@@ -166,24 +235,27 @@ public class HomeSceneControl : MonoBehaviour
     {
         //home.PuzzleMenuBalloonXClick();
         yield return new WaitForSeconds(3);
-        KuranginAlphaKeluagaCanvasIni();
+        ClickableHomeBaloon.SetActive(false);
+        KeluargaButton.SetActive(false);
         yield return StartCoroutine(KameraNaik());
         Puzzled.SetActive(true);
         Debug.Log("sampai di selek puzel");
     }
 
-    private void KuranginAlphaKeluagaCanvasIni()
-    {
-        LeanTween.value(KeluargaButton.gameObject, 1f, 0f, 0.2f)
-            .setOnUpdate((float val) => {
-                KeluargaButton.alpha = val;
-            });
-        LeanTween.value(ClickableHomeBaloon.gameObject, 1f, 0f, 0.2f)
-            .setOnUpdate((float val) => {
-                ClickableHomeBaloon.alpha = val;
-            });
+    //private void KuranginAlphaKeluagaCanvasIni()
+    //{
+    //    LeanTween.value(KeluargaButton.gameObject, 1f, 0f, 0.2f)
+    //        .setOnUpdate((float val) => {
+    //            KeluargaButton.alpha = val;
+    //        });
+    //    LeanTween.value(ClickableHomeBaloon.gameObject, 1f, 0f, 0.2f)
+    //        .setOnUpdate((float val) => {
+    //            ClickableHomeBaloon.alpha = val;
+    //        });
 
-    }
+    //}
+
+
 
 
 }
