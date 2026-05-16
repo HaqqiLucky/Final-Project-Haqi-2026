@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -32,8 +33,8 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     [SerializeField] SceneControl sceneControlIsiGame;
     [SerializeField] float[] arrayWaktuPerSesi = new float[5];
     //private int totalSkorHaha = 0;
-    [SerializeField] CanvasGroup Emo1, Emo2, Emo3;
-    [SerializeField] Animator AnimEmo1, AnimEmo2, AnimEmo3;
+    [SerializeField] GameObject Star1, Star2, Star3;
+    //[SerializeField] Animator AnimEmo1, AnimEmo2, AnimEmo3;
     [SerializeField] CanvasGroup EmojiSkorParent;
 
 
@@ -41,16 +42,26 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
     [SerializeField] private SliderTimerGameHurufDrag slider;
     [SerializeField] private GameObject Buttons;
+    [SerializeField] private GameObject Stars;
 
 
 
     [Header("GameHurufMoozik")]
-    [SerializeField] private AudioSource bgm;
+    [SerializeField] private AudioSource asorSceneControl;
     [SerializeField] private AudioClip[] musiks;
     private int indexMusik = 0;
-
     [Range(0f, 1f)]
     [SerializeField] private float volume = 0.362f;
+
+
+    [SerializeField] private AudioSource asorCanvas;
+    [SerializeField] private AudioClip correctsekali, correcttigakali, salah;
+
+    [SerializeField] private AudioClip starasors1, starasors2, starasors3;
+
+
+    //[SerializeField] private GameObject FireworksParent;
+    [SerializeField] private ParticleSystem Fireworks;
 
     private void Awake()
     {
@@ -58,6 +69,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
         {
             arrayWaktuPerSesi[i] = -1f;
         }
+        Fireworks.Stop();
     }
 
     private void Start()
@@ -72,15 +84,15 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     }
     private void PlayNext()
     {
-        bgm.clip = musiks[indexMusik];
-        bgm.Play();
+        asorSceneControl.clip = musiks[indexMusik];
+        asorSceneControl.Play();
         indexMusik = (indexMusik + 1) % musiks.Length;
     }
     void Update()
     {
         // buat volume
-        bgm.volume = volume;
-        if (!bgm.isPlaying) PlayNext();
+        asorSceneControl.volume = volume;
+        if (!asorSceneControl.isPlaying) PlayNext();
 
         var pointer = Pointer.current;
         if (pointer == null) return;
@@ -115,12 +127,12 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
             GameObject target = FindParentWithTag(hitObj, "Gambar");
 
             // Debug untuk tahu apa yang kena klik
-            Debug.Log("Raycast Start menyentuh: " + hitObj.name + " | Parent Tag Gambar: " + (target != null ? target.name : "KOSONG"));
+            //Debug.Log("Raycast Start menyentuh: " + hitObj.name + " | Parent Tag Gambar: " + (target != null ? target.name : "KOSONG"));  
 
             if (target != null)
             {
                 startObject = target;
-                Debug.Log("Mulai narik dari: " + startObject.name);
+                //Debug.Log("Mulai narik dari: " + startObject.name);
 
                 // 1. Spawn garis
                 GameObject newLineObj = Instantiate(linePrefab, canvasRect);
@@ -194,25 +206,29 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
                 RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, screenPos, null, out endPoint);
                 currentLine.Points = new Vector2[2] { startPoint, endPoint };
                 currentLine.SetAllDirty();
-                yangUdahBener += 1; 
+                yangUdahBener += 1;
+
+                asorCanvas.PlayOneShot(correctsekali);
 
                 if (yangUdahBener == 3)
                 {
                     menggantiSesi = true;
+                    asorCanvas.PlayOneShot(correcttigakali);
                     StartCoroutine(PergantianSesi());
                 }
 
             }
             else
             {
-                Debug.Log("NAMA TIDAK COCOK, HAPUS GARIS");
+                //Debug.Log("NAMA TIDAK COCOK, HAPUS GARIS");
                 Destroy(currentLine.gameObject);
                 slider.DurasiSekarang -= 5;
+                asorSceneControl.PlayOneShot(salah);
             }
         }
         else
         {
-            Debug.Log("MELESET / TIDAK KENA TAG TULISAN");
+            //Debug.Log("MELESET / TIDAK KENA TAG TULISAN");
             Destroy(currentLine.gameObject);
         }
         currentLine = null;
@@ -317,12 +333,23 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
                     .setOnUpdate((float val) => {
                         EmojiSkorParent.alpha = val;
                     });
+                //Stars.SetActive(true);
+
 
                 int skorFinal = HitungTotalWaktu();
 
-                EmojiSkor(skorFinal);
+                //EmojiSkor(skorFinal);
 
-                yield return new WaitForSeconds(6);
+                // naikin bintang
+                //NaikinBintang(skorFinal);
+                //Invoke("NaikinBintang(skorFinal)", 2f);
+                StarSoundScenario(skorFinal);
+                LeanTween.delayedCall(4f, () => NaikinBintang(skorFinal));
+                Fireworks.Play();
+                yield return new WaitForSeconds(2);
+                //Fireworks.SetActive(true);
+                //FireworksParent.SetActive(true);
+                
                 Buttons.SetActive(true);
             }
             else
@@ -334,6 +361,44 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
         }
     }
 
+    private void NaikinBintang(int skorYuhu)
+    {
+
+        if (skorYuhu >= 1000)
+        {
+            LeanTween.moveY(Star1, 350, 1f)
+                .setEaseInOutBack();
+        }
+        if (skorYuhu >= 7000)
+        {
+            LeanTween.moveY(Star3, 350, 1f)
+                .setEaseInOutBack() 
+                .setDelay(0.5f);
+        }
+        if (skorYuhu >= 9600)
+        {
+            LeanTween.moveY(Star2, 390, 1f)
+                .setEaseInOutBack()
+                .setDelay(1);
+        }
+    }
+
+    private void StarSoundScenario(int skorYuhuu)
+    {
+        switch (skorYuhuu)
+        {
+            case >= 9600:
+                asorCanvas.PlayOneShot(starasors3);
+                break;
+            case >= 4900:
+                asorCanvas.PlayOneShot(starasors2);
+                break;
+            case >= 1000:
+                asorCanvas.PlayOneShot(starasors1);
+                break;
+        }
+    }
+
     private bool CekPenuh()
     {
         for (int i = 0; i < arrayWaktuPerSesi.Length; i++)
@@ -342,8 +407,6 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
         }
         return true;
     }
-
-
 
     private void HancurkanSemuaPrefabYangMengangguPergantianScene()
     {
@@ -363,6 +426,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
     private int HitungTotalWaktu()
     {
+        // total
         float total = 0;
 
         foreach (float waktu in arrayWaktuPerSesi)
@@ -375,7 +439,9 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
 
         int titil = Mathf.CeilToInt(total);
-        Debug.Log(titil);
+        titil *= 100;
+        //Debug.Log(titil);
+
         LeanTween.value(gameObject, 0f, titil, 5f)
             .setEase(LeanTweenType.easeOutQuad)
             .setOnUpdate((float val) => {
@@ -385,28 +451,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
         return titil;
     }
 
-    private void EmojiSkor(int skor)
-    {
-        // Durasi animasi skor kamu kan 5 detik.
-        // Kita bagi kemunculan emot berdasarkan proporsi skornya.
 
-        float durasiTotal = 5f;
-
-        // Emot 1 muncul hampir instan
-        StartCoroutine(JedaEmot(Emo1, AnimEmo1, "1Ngangguk", 0.1f));
-
-        // Emot 2 muncul di tengah-tengah animasi (misal detik ke-2.5)
-        if (skor >= 50)
-        {
-            StartCoroutine(JedaEmot(Emo2, AnimEmo2, "2Horrmat", durasiTotal * 0.5f));
-        }
-
-        // Emot 3 muncul di akhir animasi (misal detik ke-4.5)
-        if (skor >= 80)
-        {
-            StartCoroutine(JedaEmot(Emo3, AnimEmo3, "3mindblowing", durasiTotal * 0.9f));
-        }
-    }
 
     // Gunakan Coroutine agar lebih gampang ngatur jeda waktunya
     IEnumerator JedaEmot(CanvasGroup cg, Animator anim, string clipName, float delay)
@@ -438,5 +483,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
         //SceneManager.LoadScene(6);
     }
+
+
 
 }

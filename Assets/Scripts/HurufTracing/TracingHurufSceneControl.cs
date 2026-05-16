@@ -33,7 +33,8 @@ public class TracingHurufSceneControl : MonoBehaviour
     [Range(0f, 1f)]
     [SerializeField] private float volume = 0.362f;
 
-
+    AudioClip untukApel = null;
+    AudioClip A;
     //private AudioClip A, untukApel;
     //public bool sudahKlik = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -168,7 +169,7 @@ public class TracingHurufSceneControl : MonoBehaviour
 
     private void CariAudioDariResouces()
     {
-        AudioClip untukApel = null;
+        
         // Path harus sesuai folder di gambar
         AudioClip[] SemuaClipUntuk = Resources.LoadAll<AudioClip>("PengenalanHuruf/untukkamu");
 
@@ -193,7 +194,7 @@ public class TracingHurufSceneControl : MonoBehaviour
         }
 
         // Load suara hurufnya (misal "a.mp3" di folder PengenalanHuruf)
-        AudioClip A = Resources.Load<AudioClip>("PengenalanHuruf/" + hurufTarget);
+        A = Resources.Load<AudioClip>("PengenalanHuruf/" + hurufTarget);
 
         if (A != null && untukApel != null)
         {
@@ -205,6 +206,17 @@ public class TracingHurufSceneControl : MonoBehaviour
         }
     }
 
+
+    public void HurufClicked()
+    {
+        AdsosCanvas.clip = A;
+        AdsosCanvas.Play();
+    }
+    public void GambarClicked()
+    {
+        AdsosCanvas.clip = untukApel;
+        AdsosCanvas.Play();
+    }
 
     IEnumerator AntrianAudio(AudioClip pertama, AudioClip kedua)
     {
