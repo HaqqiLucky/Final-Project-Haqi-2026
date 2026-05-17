@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f66aa4e4ec1d674ab086dcb79c6d153
+guid: 0ee6bc377e8d3ac4b81d4330b0a48c8f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9223277146208604478
-    second: pisang_0
+      213: -7119737872854467957
+    second: psng_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pisang_0
+      name: psng_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 814
-        height: 629
+        width: 2360
+        height: 1824
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cee1437d46500080800000000000000
-      internalID: -9223277146208604478
+      spriteID: b8a3d9a602c913d90800000000000000
+      internalID: -7119737872854467957
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pisang_0: -9223277146208604478
+      psng_0: -7119737872854467957
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

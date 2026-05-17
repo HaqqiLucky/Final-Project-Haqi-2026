@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 208c7018e6bc98a40a4e15b91af781a8
+guid: 221d8b660ce5e5b44973eded3d38df75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4921332699223288634
-    second: wortel_0
+      213: -6121449303554152973
+    second: wor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wortel_0
+      name: wor_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1191
-        height: 458
+        width: 3336
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c418410cf9e3bbb0800000000000000
-      internalID: -4921332699223288634
+      spriteID: 3f5a71f8a4e3c0ba0800000000000000
+      internalID: -6121449303554152973
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wortel_0: -4921332699223288634
+      wor_0: -6121449303554152973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

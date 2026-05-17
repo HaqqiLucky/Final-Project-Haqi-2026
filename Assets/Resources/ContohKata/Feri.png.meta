@@ -3,8 +3,8 @@ guid: d5013dad2f95cd64d9ce7d468ab165c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1850804200837501314
-    second: feriNobg_0
+      213: -439890671543990726
+    second: feri_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: feriNobg_0
+      name: feri_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2022
-        height: 1216
+        width: 2663
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7ea744a26f9056e0800000000000000
-      internalID: -1850804200837501314
+      spriteID: a36cc9ec3c135e9f0800000000000000
+      internalID: -439890671543990726
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      feriNobg_0: -1850804200837501314
+      feri_0: -439890671543990726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

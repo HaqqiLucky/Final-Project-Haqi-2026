@@ -23,7 +23,7 @@ public class BackToHomeScreen : MonoBehaviour, IPointerDownHandler, IPointerUpHa
                 isHolding = false; // Stop agar tidak load scene berkali-kali
                 slider.value = 100;
                 LeanTween.scale(this.gameObject, new Vector3(1.1f, 1.1f, 1.1f), 0.5f);
-                LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+                LoadingScreenSceneControl.Instance.LoadScene("LoginScene");
             }
         }
         else

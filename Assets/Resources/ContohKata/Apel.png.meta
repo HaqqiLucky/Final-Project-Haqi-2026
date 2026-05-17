@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be93c5e3d402e2c4e8cbed67b10697f2
+guid: 4f38076a82240a2449b8ad30184ea2a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2947435446522389052
-    second: apelnobg_0
+      213: -8716696039539033177
+    second: apelpiksel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: apelnobg_0
+      name: apelpiksel_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 962
-        height: 1196
+        width: 1852
+        height: 2304
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cd53abd31b9817d0800000000000000
-      internalID: -2947435446522389052
+      spriteID: 7abb8349223180780800000000000000
+      internalID: -8716696039539033177
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      apelnobg_0: -2947435446522389052
+      apelpiksel_0: -8716696039539033177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

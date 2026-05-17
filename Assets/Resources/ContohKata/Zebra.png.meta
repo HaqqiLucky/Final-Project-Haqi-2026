@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a271d9c2bd864d84c9b67c021a861eaf
+guid: be0fadb42906a924aa4a7825ad154a50
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2412525675868892666
-    second: zebra_0
+      213: 3596391661435336596
+    second: zebr_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zebra_0
+      name: zebr_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 194
         y: 0
-        width: 558
-        height: 638
+        width: 1922
+        height: 1818
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afdaca1f1530b7120800000000000000
-      internalID: 2412525675868892666
+      spriteID: 497b70d5923f8e130800000000000000
+      internalID: 3596391661435336596
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      zebra_0: 2412525675868892666
+      zebr_0: 3596391661435336596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

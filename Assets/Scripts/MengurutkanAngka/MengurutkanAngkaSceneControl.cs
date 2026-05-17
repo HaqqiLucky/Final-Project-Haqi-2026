@@ -388,7 +388,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     public void GoHome()
     {
         //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
-        LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+        LoadingScreenSceneControl.Instance.LoadScene("LoginScene");
 
         //SceneManager.LoadScene(6);
     }

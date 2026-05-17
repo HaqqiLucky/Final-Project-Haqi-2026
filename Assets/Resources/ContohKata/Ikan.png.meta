@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8c4f4be776693e948a9a55a3e86da5cc
+guid: 0fd14d908e7eac548a66092787d6b338
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7692286120508068579
-    second: ikan_0
+      213: -2246619650452779980
+    second: ik_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ikan_0
+      name: ik_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 68
         y: 0
-        width: 897
-        height: 578
+        width: 2514
+        height: 1664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1de27467828f3590800000000000000
-      internalID: -7692286120508068579
+      spriteID: 43c895db45762d0e0800000000000000
+      internalID: -2246619650452779980
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ikan_0: -7692286120508068579
+      ik_0: -2246619650452779980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

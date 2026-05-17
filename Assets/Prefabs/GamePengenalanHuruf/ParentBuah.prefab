@@ -85,6 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4388447917168279432}
   - component: {fileID: 7415933126739701960}
+  - component: {fileID: -7148463404217457123}
   m_Layer: 5
   m_Name: ParentBuah
   m_TagString: Gambar
@@ -138,3 +139,15 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!225 &-7148463404217457123
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5949472940539922823}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

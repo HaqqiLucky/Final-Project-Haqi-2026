@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6acac681f9f4234a9e4f6082d2b1a38
+guid: abf87af0050cce94ca81e532aab40f5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1513754335273480690
-    second: susu_0
+      213: -4301329749613159308
+    second: sus_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: susu_0
+      name: sus_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 268
-        height: 637
+        width: 1344
+        height: 3194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0e01d8c3701efae0800000000000000
-      internalID: -1513754335273480690
+      spriteID: 47cdc74d16b9e44c0800000000000000
+      internalID: -4301329749613159308
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      susu_0: -1513754335273480690
+      sus_0: -4301329749613159308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

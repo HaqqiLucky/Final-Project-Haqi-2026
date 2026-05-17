@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: aa2b6363ec3532f4e82ecd34a3575bda
+guid: e831b826535ab8142805cd504878c4eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4573718330852211691
-    second: obat_0
+      213: -7677308403271128811
+    second: obat(1)_0
   - first:
-      213: 1190255977957308332
-    second: obat_1
+      213: 4786316429755814557
+    second: obat(1)_1
   - first:
-      213: 3347063977173203114
-    second: obat_2
+      213: 1982576218890939542
+    second: obat(1)_2
   - first:
-      213: 3609087367655333073
-    second: obat_3
+      213: -985184853652088468
+    second: obat(1)_3
   - first:
-      213: 1279159965315241904
-    second: obat_4
+      213: 7012514380486607020
+    second: obat(1)_4
   - first:
-      213: 3265327662678241230
-    second: obat_5
+      213: 7671174482720253275
+    second: obat(1)_5
   - first:
-      213: -3138254707322321466
-    second: obat_6
+      213: -9189506431120872106
+    second: obat(1)_6
   - first:
-      213: 876864572260516868
-    second: obat_7
+      213: -7118037431197033487
+    second: obat(1)_7
   - first:
-      213: 2302563743968554939
-    second: obat_8
+      213: -4015372075165323182
+    second: obat(1)_8
   - first:
-      213: 2671728714022302554
-    second: obat_9
+      213: -818618351694249223
+    second: obat(1)_9
   - first:
-      213: -2404929691975163645
-    second: obat_10
+      213: 3155141108084020682
+    second: obat(1)_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -143,23 +143,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obat_0
+      name: obat(1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1408
-        height: 768
+        x: 81
+        y: 1008
+        width: 243
+        height: 195
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beb732dd69c197f30800000000000000
-      internalID: 4573718330852211691
+      spriteID: 51927efeea8b47590800000000000000
+      internalID: -7677308403271128811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1116
+        width: 158
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9216321f696c6240800000000000000
+      internalID: 4786316429755814557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1008
+        width: 266
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ca1232196838b10800000000000000
+      internalID: 1982576218890939542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_3
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 730
+        width: 1340
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69d8f7689be352f0800000000000000
+      internalID: -985184853652088468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 799
+        width: 158
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca00937dca4715160800000000000000
+      internalID: 7012514380486607020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 853
+        width: 245
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55e4946c8c757a60800000000000000
+      internalID: 7671174482720253275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 402
+        width: 690
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d6fd7c690587080800000000000000
+      internalID: -9189506431120872106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 368
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb11975ba6a73d90800000000000000
+      internalID: -7118037431197033487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_8
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 127
+        width: 693
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2507fba3f588648c0800000000000000
+      internalID: -4015372075165323182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 97
+        width: 531
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f206a442fea3a4f0800000000000000
+      internalID: -818618351694249223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obat(1)_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 558
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac594930f1059cb20800000000000000
+      internalID: 3155141108084020682
       vertices: []
       indices: 
       edges: []
@@ -168,7 +388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6bcf715cf8df8364a8ea700c7bf8255a
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -176,11 +396,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1408.0,"y":768.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      obat_0: 4573718330852211691
+      obat(1)_0: -7677308403271128811
+      obat(1)_1: 4786316429755814557
+      obat(1)_10: 3155141108084020682
+      obat(1)_2: 1982576218890939542
+      obat(1)_3: -985184853652088468
+      obat(1)_4: 7012514380486607020
+      obat(1)_5: 7671174482720253275
+      obat(1)_6: -9189506431120872106
+      obat(1)_7: -7118037431197033487
+      obat(1)_8: -4015372075165323182
+      obat(1)_9: -818618351694249223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

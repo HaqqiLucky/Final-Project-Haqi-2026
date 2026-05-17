@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9393e1b585253fb4caabacf3c93e4a45
+guid: 7d569153040d0ab499a239d11be875cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7314025089600661367
-    second: mobil_0
+      213: 1406171561453822960
+    second: mobi_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mobil_0
+      name: mobi_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1076
-        height: 515
+        width: 2942
+        height: 1408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77721ff4113a08560800000000000000
-      internalID: 7314025089600661367
+      spriteID: 0f326bdb599b38310800000000000000
+      internalID: 1406171561453822960
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mobil_0: 7314025089600661367
+      mobi_0: 1406171561453822960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
