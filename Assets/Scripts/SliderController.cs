@@ -18,7 +18,7 @@ public class SliderController : MonoBehaviour
 
     private void Start()
     {
-        MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.wave);
+        //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.wave);
     }
 
     private void Update()
@@ -32,7 +32,7 @@ public class SliderController : MonoBehaviour
             if (waktu >= 2.4 & waktu < 5)
             {
                 //MouseAnimController.InstanceMoodlet.ChangeMoodlet(MouseAnimController.MoodletState.kaget);
-                MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.ok);
+                //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.ok);
                 bolehSad = true;
             }
             //if (Mouse.current.leftButton.wasReleasedThisFrame )
@@ -61,7 +61,7 @@ public class SliderController : MonoBehaviour
         } else if (!Mouse.current.leftButton.isPressed && !doneKah && bolehSad)
         {
             waktu = Mathf.MoveTowards(waktu, 0f, Time.deltaTime);
-            MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.sad);
+            //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.sad);
             //waktu = Mathf.MoveTowards(sliderBulet.value, 0f, Time.deltaTime * 2f);
         }
     }

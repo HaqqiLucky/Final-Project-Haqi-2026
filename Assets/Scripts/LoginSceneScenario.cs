@@ -1,10 +1,13 @@
 using DG.Tweening;
 using System.Collections;
 using Unity.VectorGraphics;
+using Unity.VisualScripting;
+using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 
 public class LoginSceneScenario : MonoBehaviour
 {
@@ -24,7 +27,7 @@ public class LoginSceneScenario : MonoBehaviour
     //[SerializeField] private GameObject sliderControl;
     [SerializeField] private TMPro.TextMeshProUGUI tekanUntukMulai;
     [SerializeField] private GameObject moodletEmoji;
-
+    [SerializeField] private CanvasGroup ButtonsHomeScreen;
 
 
     [Header("Audio Backsound - Audio Source LoginScene")]
@@ -32,13 +35,18 @@ public class LoginSceneScenario : MonoBehaviour
     [SerializeField] private AudioClip backsoundLogin1;
 
 
+
+
+    [SerializeField] private ParticleSystem anginKeKiri;
+
     //[SerializeField] private SliderController sliderBool;
 
-
+    public bool keMainMenu = false;
 
 
     void Start()
     {
+        ButtonsHomeScreen.gameObject.SetActive(false);
         moodletEmoji.SetActive(true);
         BacksoundLogin();
     }
@@ -60,7 +68,7 @@ public class LoginSceneScenario : MonoBehaviour
 
     public IEnumerator WakeMeUpInside()
     {
-        MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.confetii);
+        //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.confetii);
         //StartCoroutine(SkenarioHasLogin());
         fadeInOutCanvasForCircle.SetActive(true);
         //Debug.Log("masuk skenario ini");
@@ -79,7 +87,7 @@ public class LoginSceneScenario : MonoBehaviour
         balonUdara.SetActive(true);
         yield return new WaitForSeconds(4f);
         tekanUntukMulai.gameObject.SetActive(true);
-        MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.happy);
+        //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.happy);
         //Debug.Log("background aman");
         //Debug.Log("masuk poit");
         //GoingToMenu();
@@ -90,8 +98,43 @@ public class LoginSceneScenario : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasReleasedThisFrame && tekanUntukMulai.gameObject.activeSelf)
         {
-            StartCoroutine(ItsGoingDown());
+            Debug.Log("Ayok ke main menu");
+            StartCoroutine(PindahKeMainMenu());
+
+            //StartCoroutine(ItsGoingDown());
         }
+    }
+
+    //private void PerpindahanKeMainMenu()
+    //{
+    //    keMainMenu = true;
+
+    //}
+
+    IEnumerator PindahKeMainMenu()
+    {
+        tekanUntukMulai.gameObject.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        keMainMenu = true;
+        anginKeKiri.Play();
+        //anginKeKiri.gameObject.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        keMainMenu = !keMainMenu;
+        anginKeKiri.Stop();
+        yield return new WaitForSeconds(1f);
+        NyalakanButtons();
+        //ButtonsHomeScreen.SetActive(true);
+        //anginKeKiri.gameObject.SetActive(false);
+    }
+
+    private void NyalakanButtons()
+    {
+        ButtonsHomeScreen.gameObject.SetActive(true);
+        LeanTween.value(ButtonsHomeScreen.gameObject, 0, 1, 1f)
+            .setOnUpdate((float val) =>
+            {
+                ButtonsHomeScreen.alpha = val;
+            });
     }
 
     IEnumerator ItsGoingDown()

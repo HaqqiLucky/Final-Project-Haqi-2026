@@ -18,9 +18,9 @@ public class MoodletBacksoundSoundEffectController : MonoBehaviour
     //public bool MouseTutorial = false;
 
     // audio    
-    [Header("Audio Moodlet - Audio Source Emoji")]
-    [SerializeField] private AudioSource srcEmoji;
-    [SerializeField] private AudioClip audioHappy, audioWave, audioSmile, audioKaget, audioYawn, audioSad, audioOk,audioConfetii;
+    //[Header("Audio Moodlet - Audio Source Emoji")]
+    //[SerializeField] private AudioSource srcEmoji;
+    //[SerializeField] private AudioClip audioHappy, audioWave, audioSmile, audioKaget, audioYawn, audioSad, audioOk,audioConfetii;
 
 
 
@@ -42,20 +42,20 @@ public class MoodletBacksoundSoundEffectController : MonoBehaviour
 
     private void Awake()
     {
-        if (InstanceMoodlet != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            InstanceMoodlet = this;
-            DontDestroyOnLoad(this.gameObject);
+        //if (InstanceMoodlet != null)
+        //{
+        //    Destroy(gameObject);
+        //}
+        //else
+        //{
+        //    InstanceMoodlet = this;
+        //    DontDestroyOnLoad(this.gameObject);
 
 
-            EmojiAnim = Emoji.GetComponent<Animator>();
-            if (srcEmoji == null) srcEmoji = GetComponent<AudioSource>();
+        //    EmojiAnim = Emoji.GetComponent<Animator>();
+        //    if (srcEmoji == null) srcEmoji = GetComponent<AudioSource>();
 
-        }
+        //}
     }
 
     private void StartMelebar()
@@ -72,67 +72,67 @@ public class MoodletBacksoundSoundEffectController : MonoBehaviour
     // 3   kaget
     //  4  yawn
 
-    public void ChangeMoodlet(MoodletState newState)
-    {
-        if (newState == moodletState) return;
-        moodletState = newState;
-        MoodletController();
-    }
+    //public void ChangeMoodlet(MoodletState newState)
+    //{
+    //    if (newState == moodletState) return;
+    //    moodletState = newState;
+    //    MoodletController();
+    //}
 
-    private void MoodletController()
-    {
-        switch (moodletState)
-        {
-            case MoodletState.yawn:
-                //srcEmoji.clip = audioYawn;
-                srcEmoji.PlayOneShot(audioYawn);
-                EmojiAnim.SetInteger("emoNumber", 4);
-                break;
-            case MoodletState.smile:
-                //srcEmoji.clip = audioSmile;
-                srcEmoji.PlayOneShot(audioSmile);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 2);
-                break;
-            case MoodletState.happy:
-                //srcEmoji.clip = audioHappy;
-                srcEmoji.PlayOneShot(audioHappy);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 0);
-                break;
-            case MoodletState.wave:
-                //srcEmoji.clip = audioWave;
-                srcEmoji.PlayOneShot(audioWave);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 1);
-                break;
-            case MoodletState.kaget:
-                //srcEmoji.clip = audioKaget;
-                srcEmoji.PlayOneShot(audioKaget);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 3);
-                break;
-            case MoodletState.sad:
-                //srcEmoji.clip = audioSad;
-                srcEmoji.PlayOneShot(audioSad);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 5);
-                break;
-            case MoodletState.ok:
-                //srcEmoji.clip = audioSad;
-                srcEmoji.PlayOneShot(audioOk);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 6);
-                break;
-            case MoodletState.confetii:
-                //srcEmoji.clip = audioSad;
-                srcEmoji.PlayOneShot(audioConfetii);
-                //srcEmoji.Play();
-                EmojiAnim.SetInteger("emoNumber", 7);
-                break;
+    //private void MoodletController()
+    //{
+    //    switch (moodletState)
+    //    {
+    //        case MoodletState.yawn:
+    //            //srcEmoji.clip = audioYawn;
+    //            srcEmoji.PlayOneShot(audioYawn);
+    //            EmojiAnim.SetInteger("emoNumber", 4);
+    //            break;
+    //        case MoodletState.smile:
+    //            //srcEmoji.clip = audioSmile;
+    //            srcEmoji.PlayOneShot(audioSmile);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 2);
+    //            break;
+    //        case MoodletState.happy:
+    //            //srcEmoji.clip = audioHappy;
+    //            srcEmoji.PlayOneShot(audioHappy);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 0);
+    //            break;
+    //        case MoodletState.wave:
+    //            //srcEmoji.clip = audioWave;
+    //            srcEmoji.PlayOneShot(audioWave);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 1);
+    //            break;
+    //        case MoodletState.kaget:
+    //            //srcEmoji.clip = audioKaget;
+    //            srcEmoji.PlayOneShot(audioKaget);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 3);
+    //            break;
+    //        case MoodletState.sad:
+    //            //srcEmoji.clip = audioSad;
+    //            srcEmoji.PlayOneShot(audioSad);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 5);
+    //            break;
+    //        case MoodletState.ok:
+    //            //srcEmoji.clip = audioSad;
+    //            srcEmoji.PlayOneShot(audioOk);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 6);
+    //            break;
+    //        case MoodletState.confetii:
+    //            //srcEmoji.clip = audioSad;
+    //            srcEmoji.PlayOneShot(audioConfetii);
+    //            //srcEmoji.Play();
+    //            EmojiAnim.SetInteger("emoNumber", 7);
+    //            break;
 
-        }
-    }
+    //    }
+    //}
 
 
 }
