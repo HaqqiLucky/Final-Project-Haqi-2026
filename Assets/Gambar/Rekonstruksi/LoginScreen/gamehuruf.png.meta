@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bcad7a7c824611e47b3697e832564771
+guid: 510740b708f38bb45bad113ac6eaf413
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2927895231093483336
-    second: koz_0
+      213: 6996208918561082043
+    second: gamehuruf_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: koz_0
+      name: gamehuruf_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2730
-        height: 1536
+        width: 725
+        height: 713
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 455, y: 378, z: 439, w: 432}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b8dc1bccc60e57d0800000000000000
-      internalID: -2927895231093483336
+      spriteID: bbac045a1f6871160800000000000000
+      internalID: 6996208918561082043
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 053bdae6557c3674084d72809a5e39de
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      koz_0: -2927895231093483336
+      gamehuruf_0: 6996208918561082043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -41,6 +41,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [Header("Kebutuhan Plot")]
     public int TotalYangSudahDiHancurkan;
     public bool SudahNaik = false;
+    [SerializeField] private GameObject BatasKananKiri;
 
     [Header("Referensi")]
     [SerializeField] private CanvasGroup ButtonsYangTerakhir;
@@ -296,6 +297,8 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         //Debug.Log("sampe sini");
         yield return new WaitForSeconds(2);
         SudahNaik = true;
+        BatasKananKiri.SetActive(true);
+        yield return new WaitForSeconds(1f);
         TangkapIniHancurinPrefa.SetActive(true);
         //NaikinAlphaPenghancurPrefab();
         //Debug.Log("harusnya udah true");
@@ -313,6 +316,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
 
     private void OverlayUIWork()
     {
+        BatasKananKiri.SetActive(false);
         TangkapIniHancurinPrefa.SetActive(false);
 
         overlayUIOut.gameObject.SetActive(true);

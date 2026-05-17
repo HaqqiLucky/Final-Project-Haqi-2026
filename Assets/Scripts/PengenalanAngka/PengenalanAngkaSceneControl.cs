@@ -71,9 +71,9 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         {
             //SceneManager.LoadScene(1);
             //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
-            LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+            LoadingScreenSceneControl.Instance.LoadScene("LoginScene");
 
-            SceneManager.LoadScene(4);
+            //SceneManager.LoadScene(4);
         }
 
 
@@ -88,7 +88,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         backrgroundAngka.SetActive(false);
         TakeTheAnimals();
         Angka1Sampai10danButtonAcak();
-        LeanTween.moveLocalX(panel, 311f, 1f)
+        LeanTween.moveLocalX(panel, 285f, 1f)
             .setEase(LeanTweenType.linear);
 
         LeanTween.moveLocalY(panel, panel.transform.localPosition.y + 3f, 0.5f)
@@ -273,7 +273,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         LeanTween.rotate(Balud, Vector3.zero, 1)
             .setEaseInOutBack();
         HancurkanPrefabHahahaha();
-        MainFunctionPerulanganMasuk();
+        MainFunctionPerulanganMasuk(); 
     }
 
     private void TriggerAnimasiTerbangkeKanan()

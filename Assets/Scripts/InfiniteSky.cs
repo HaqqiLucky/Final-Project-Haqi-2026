@@ -1,18 +1,19 @@
 using System.Globalization;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InfiniteSky : MonoBehaviour
 {
     public float speed;
     [SerializeField] private Renderer bgRenderer;
     [SerializeField] private int urutanSortingOrder;
-    private LoginSceneScenario sceneControl;
+    [SerializeField] private LoginSceneScenario sceneControl;
 
     void Start()
     {
         bgRenderer.sortingLayerName = "SkyClouds";
         bgRenderer.sortingOrder = urutanSortingOrder;
-        sceneControl = Object.FindAnyObjectByType<LoginSceneScenario>(); 
+        //sceneControl = Object.FindAnyObjectByType<LoginSceneScenario>(); 
         
     }
 
@@ -21,11 +22,14 @@ public class InfiniteSky : MonoBehaviour
     {
 
         float currentSpeed = speed;
-
-        if (sceneControl.keMainMenu == true)
+        if (SceneManager.GetActiveScene().name == "LoginScene")
         {
-            currentSpeed = speed * 40;
+            if (sceneControl.keMainMenu == true)
+            {
+                currentSpeed = speed * 40;
+            }
         }
+
 
         bgRenderer.material.mainTextureOffset += new Vector2(currentSpeed * Time.deltaTime, 0);
 

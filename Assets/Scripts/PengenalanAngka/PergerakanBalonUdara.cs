@@ -2,29 +2,36 @@ using UnityEngine;
 
 public class PergerakanBalonUdara : MonoBehaviour
 {
-    [SerializeField] private GameObject Balud;
-    void Start()
+    private RectTransform rectTransform;
+
+    void Awake()
     {
-        BalonUdaraTerbangStart( new Vector2(-6.13f, -0.36f), 3f);
+        rectTransform = GetComponent<RectTransform>();
     }
 
-    void Update()
+    void Start()
     {
-        
+        // Target posisi X = 0, Y = -42f
+        BalonUdaraTerbangStart(new Vector2(0f, -42f), 3f);
     }
 
     private void BalonUdaraTerbangStart(Vector2 position, float time)
     {
-        Balud.LeanMove(position, time)
+        LeanTween.cancel(rectTransform);
+
+
+        LeanTween.move(rectTransform, position, time)
             .setEaseOutBack()
             .setIgnoreTimeScale(true)
             .setDelay(0.25f);
     }
 
-
     public void BalonUdaraTerbangHabisSelesai(Vector2 positionTerbangKeatas, float time)
     {
-        Balud.LeanMove(positionTerbangKeatas, time)
+        LeanTween.cancel(rectTransform);
+
+        // PERUBAHAN DI SINI JUGA
+        LeanTween.move(rectTransform, positionTerbangKeatas, time)
             .setEaseInBack()
             .setIgnoreTimeScale(true)
             .setDelay(0.25f);

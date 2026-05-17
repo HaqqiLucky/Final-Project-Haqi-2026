@@ -28,6 +28,9 @@ public class LoginSceneScenario : MonoBehaviour
     [SerializeField] private TMPro.TextMeshProUGUI tekanUntukMulai;
     [SerializeField] private GameObject moodletEmoji;
     [SerializeField] private CanvasGroup ButtonsHomeScreen;
+    [SerializeField] private RectTransform panelHurufRect;
+    [SerializeField] private RectTransform panelAngkaRect;
+    [SerializeField] private GameObject LayarHitam;
 
 
     [Header("Audio Backsound - Audio Source LoginScene")]
@@ -135,6 +138,47 @@ public class LoginSceneScenario : MonoBehaviour
             {
                 ButtonsHomeScreen.alpha = val;
             });
+    }
+
+    public void NaikanPanelHuruf()
+    {
+        LayarHitam.SetActive(true);
+        LeanTween.moveY(panelHurufRect, 0f, 1.2f)
+            .setEase(LeanTweenType.easeOutBack);
+    }
+    public void NaikanPanelAngka()
+    {
+        LayarHitam.SetActive(true);
+        LeanTween.moveY(panelAngkaRect, 0f, 1.2f)
+            .setEase(LeanTweenType.easeOutBack);
+    }
+
+    public void LayarHitamDiklik()
+    {
+
+        LayarHitam.SetActive(false);
+        LeanTween.moveY(panelAngkaRect, -1500f, 1.2f)
+            .setEase(LeanTweenType.easeOutBack);
+
+        LeanTween.moveY(panelHurufRect, -1500f, 1.2f)
+            .setEase(LeanTweenType.easeOutBack);
+    }
+
+    public void KePengenalanHuruf()
+    {
+        LoadingScreenSceneControl.Instance.LoadScene("PengenalanHuruf");
+    }
+    public void KePengenalanAngka()
+    {
+        LoadingScreenSceneControl.Instance.LoadScene("PengenalanAngka");
+    }
+    public void KeGameHuruf()
+    {
+        LoadingScreenSceneControl.Instance.LoadScene("GamePengenalanHuruf");
+    }
+    public void KeGameAngka()
+    {
+        LoadingScreenSceneControl.Instance.LoadScene("MengurutkanAngka");
     }
 
     IEnumerator ItsGoingDown()
