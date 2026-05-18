@@ -8,7 +8,7 @@ public class CreditSceneSceneControl : MonoBehaviour
     [SerializeField] private AudioSource SpeakerCredit;
 
     // Titik koordinat Y tujuan (atas layar, misal: 1500 atau 2000 tergantung panjang teks)
-    private float targetY = 3829f;
+    private float targetY = 2132;
 
     // Durasi jalannya teks dalam detik. Makin besar angkanya, makin pelan jalannya!
     [SerializeField] private float duration = 120f;

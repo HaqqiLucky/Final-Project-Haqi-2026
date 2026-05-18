@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3332cc92f32650b48985faa58f2441fd
+guid: 13af5422f45e9084280d18ac132aa52c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2312053440448338064
-    second: mouseidleagain_0
+      213: 7284191932470214895
+    second: Screenshot 2026-05-18 175944_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouseidleagain_0
+      name: Screenshot 2026-05-18 175944_0
       rect:
         serializedVersion: 2
-        x: 250
-        y: 60
-        width: 578
-        height: 987
+        x: 0
+        y: 0
+        width: 827
+        height: 448
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0776b5c45afe9efd0800000000000000
-      internalID: -2312053440448338064
+      spriteID: fe047a228f5a61560800000000000000
+      internalID: 7284191932470214895
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mouseidleagain_0: -2312053440448338064
+      Screenshot 2026-05-18 175944_0: 7284191932470214895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

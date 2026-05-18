@@ -55,7 +55,27 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [Range(0f, 1f)]
     [SerializeField] private float volume = 0.362f;
 
+
+
+    [Header("Tutorial")]
+    [SerializeField] GameObject Tutorial;
+    [SerializeField] Image ImageTutorial;
+    [SerializeField] private TextMeshProUGUI teksTutor;
+    [SerializeField] private AudioSource asorCanvas;
+    [SerializeField] private AudioClip tutor1, tutor2;
+    private int tutorke = 1;
+    //private bool tutorDone = false;
+
     void Start()
+    {
+        Tutor1();
+        //if (tutorDone)
+        //{
+        //    GantiStart();
+        //}
+    }
+
+    private void GantiStart()
     {
         shape1.transform.localScale = new Vector3(0.1f, 0.02f, 1);
         TotalYangSudahDiHancurkan = 0;
@@ -73,8 +93,17 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
 
         musiks = musiks.OrderBy(x => Random.value).ToArray();
         PlayNext();
+    }
 
+    private void Tutor1()
+    {
+        asorCanvas.clip = tutor1;
+        asorCanvas.Play();
+    }
 
+    public void OkTambah()
+    {
+        tutorke++;
     }
 
 
@@ -391,5 +420,53 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         LoadingScreenSceneControl.Instance.LoadScene("LoginScene");
 
         //SceneManager.LoadScene(6);
+
     }
+    private void Tutor2()
+    {
+        tutorke++;
+        asorCanvas.clip = tutor2;
+        asorCanvas.Play();
+
+        
+    }
+
+    public void TutorAudio()
+    {
+        tutorke++;
+    }
+
+    public void PenentuAudio()
+    {
+        if (tutorke == 1)
+        {
+            asorCanvas.clip = tutor1;
+            asorCanvas.Play();
+        }
+        else if (tutorke == 2)
+        {
+            asorCanvas.clip = tutor2;
+            asorCanvas.Play();
+        }
+    }
+    public void OkPenentuTeks()
+    {
+        if (tutorke == 2)
+        {
+            // ganti gambar
+            asorCanvas.Stop();
+            PenentuAudio();
+            ImageTutorial.sprite = Resources.Load<Sprite>("MengurutkanAngka/Tutor2");
+            teksTutor.text = "Tarik Angka yang benar ke dalam kotak yang benar seperti pada gambar";
+        }
+        else if (tutorke > 2)
+        {
+            asorCanvas.Stop();
+            //tutorDone = true;
+            //Debug.Log(tutorDone);
+            Tutorial.SetActive(false);
+            GantiStart();
+        }
+    }
+
 }

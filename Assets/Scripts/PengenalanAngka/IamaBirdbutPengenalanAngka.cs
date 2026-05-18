@@ -9,9 +9,11 @@ public class IamaBirdbutPengenalanAngka : MonoBehaviour
     private Vector3 posAkhir;
     [SerializeField] private PengenalanAngkaSceneControl AnimTransisi;
     private int indexSceneScenario;
+    private string namaSceneAktif;
 
     private void Start()
     {
+        namaSceneAktif = SceneManager.GetActiveScene().name;
         indexSceneScenario = SceneManager.GetActiveScene().buildIndex;
         posAkhir = new Vector3(9.55f, transform.position.y, transform.position.z);
         posAwal = transform.position;
@@ -19,10 +21,15 @@ public class IamaBirdbutPengenalanAngka : MonoBehaviour
     void Update()
     {
         float currentSpeed = speed;
-        if (indexSceneScenario == 2 && AnimTransisi.AnimasiJalankah == true)
+        if (namaSceneAktif == "MainMenu")
         {
-            currentSpeed = speed * 2f;
+            if (indexSceneScenario == 2 && AnimTransisi.AnimasiJalankah == true)
+            {
+                currentSpeed = speed * 2f;
+            }
+            
         }
+
 
         journeyBird += Time.deltaTime * currentSpeed;
 

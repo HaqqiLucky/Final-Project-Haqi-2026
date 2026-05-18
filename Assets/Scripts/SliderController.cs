@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -12,17 +13,37 @@ public class SliderController : MonoBehaviour
     [SerializeField] private Slider sliderBulet;
     private bool doneKah = false;
     private bool bolehSad = false;
+    private bool sedangDitekan = false;
+    [SerializeField] private TextMeshProUGUI teksBeginner;
+    [SerializeField] Animator MouseKiku;
 
     [Header("Perubahan rencana")]
     private float waktu = 0f;
 
     private void Start()
     {
-        //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.wave);
+        
     }
 
     private void Update()
     {
+        // buat animasi
+        if (Mouse.current.leftButton.isPressed && !sedangDitekan)
+        {
+            sedangDitekan = true;
+
+            MouseKiku.SetBool("onclick", true);
+            teksBeginner.text = "Tahan";
+        }
+        // 2. KETIKA DILEPAS (Dan sebelumnya statusnya masih ditekan)
+        else if (!Mouse.current.leftButton.isPressed && sedangDitekan)
+        {
+            sedangDitekan = false;
+
+            MouseKiku.SetBool("onclick", false);
+            teksBeginner.text = "Klik kiri pada mouse";
+        }
+
         sliderBulet.value = waktu;
         sliderPanjang.value = sliderBulet.value * 20;
         if (Mouse.current.leftButton.isPressed )
@@ -31,18 +52,9 @@ public class SliderController : MonoBehaviour
             waktu += Time.deltaTime;
             if (waktu >= 2.4 & waktu < 5)
             {
-                //MouseAnimController.InstanceMoodlet.ChangeMoodlet(MouseAnimController.MoodletState.kaget);
-                //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.ok);
                 bolehSad = true;
             }
-            //if (Mouse.current.leftButton.wasReleasedThisFrame )
-            //{
-            //    if (waktu <5f)
-            //    {
-            //        MouseAnimController.InstanceMoodlet.ChangeMoodlet(MouseAnimController.MoodletState.sad);
-            //    }
-                
-            //}
+
 
             //Debug.Log("sudah di klik kiri sebanyak " + waktu + " detik");
             if (waktu >= 5f & !doneKah)
@@ -61,32 +73,14 @@ public class SliderController : MonoBehaviour
         } else if (!Mouse.current.leftButton.isPressed && !doneKah && bolehSad)
         {
             waktu = Mathf.MoveTowards(waktu, 0f, Time.deltaTime);
+
+            //MouseKiku.SetBool("onclick", false);
             //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.sad);
             //waktu = Mathf.MoveTowards(sliderBulet.value, 0f, Time.deltaTime * 2f);
         }
     }
 
 
-    //public void OnDrag(PointerEventData data)
-    //{
-
-
-    //    float movingDirectionandSpeedDelta = data.delta.x / 40;
-
-
-    //    playingPingPong += movingDirectionandSpeedDelta;
-    //    sliderPanjang.value = Mathf.PingPong(playingPingPong, sliderPanjang.maxValue);
-
-    //}
-
-    //public void OnEndDrag(PointerEventData data)
-    //{
-    //    if (sliderPanjang.value > 95)
-    //    {
-    //        sliderPanjang.value = Mathf.Lerp(sliderPanjang.value, sliderPanjang.maxValue, 1);
-    //        StartCoroutine(login.WakeMeUpInside());
-    //    }
-    //}
 
 }
 

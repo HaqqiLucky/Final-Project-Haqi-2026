@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 0c82a1d2ac5b4b74d88d7cd45c9659bf
+guid: f6a546f8ccc99cd49bab9aca77417b19
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -372690001003160315
-    second: mouseidle_0
+      213: -6260107489584106932
+    second: speaker_465242_0
+  - first:
+      213: -7592556975526423862
+    second: speaker_465242_1
+  - first:
+      213: -4224468452528958016
+    second: speaker_465242_2
+  - first:
+      213: -4548294658688706533
+    second: speaker_465242_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouseidle_0
+      name: speaker_465242_0
       rect:
         serializedVersion: 2
-        x: 250
-        y: 60
-        width: 578
-        height: 987
+        x: 0
+        y: 0
+        width: 313
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50dddde2b60f3daf0800000000000000
-      internalID: -372690001003160315
+      spriteID: c42b39bd761af19a0800000000000000
+      internalID: -6260107489584106932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speaker_465242_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 177
+        width: 36
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac255d868a1d1a690800000000000000
+      internalID: -7592556975526423862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speaker_465242_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 121
+        width: 37
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5da2a135caf55c0800000000000000
+      internalID: -4224468452528958016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speaker_465242_3
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 76
+        width: 35
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b189d071b1631e0c0800000000000000
+      internalID: -4548294658688706533
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mouseidle_0: -372690001003160315
+      speaker_465242_0: -6260107489584106932
+      speaker_465242_1: -7592556975526423862
+      speaker_465242_2: -4224468452528958016
+      speaker_465242_3: -4548294658688706533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

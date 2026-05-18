@@ -25,6 +25,7 @@ public class LoginSceneScenario : MonoBehaviour
     [SerializeField] private RectTransform panelHurufRect;
     [SerializeField] private RectTransform panelAngkaRect;
     [SerializeField] private GameObject LayarHitam;
+    [SerializeField] private GameObject MouseYuhuu;
 
 
     [Header("Audio Backsound - Audio Source LoginScene")]
@@ -39,10 +40,36 @@ public class LoginSceneScenario : MonoBehaviour
     //[SerializeField] private SliderController sliderBool;
 
     public bool keMainMenu = false;
+    [SerializeField] private CanvasGroup LayarPertama;
 
+    private void SlowlyFade()
+    {
+        LeanTween.value(LayarPertama.gameObject,1,0, 2f )
+            .setEaseInOutExpo()
+            .setOnUpdate((float val) =>
+            {
+                LayarPertama.alpha = val;
+            })
+            .setOnComplete(() =>
+            {
+                LayarPertama.gameObject.SetActive(false);
+                KlikVisual();
+            });
+    }
 
+    private void KlikVisual()
+    {
+        MouseYuhuu.SetActive(true);
+        LeanTween.scale(MouseYuhuu, new Vector2(1.1f, 1.1f), 1f)
+                .setEaseInOutSine()
+                .setLoopPingPong();
+        //MouseYuhuu.GetComponent<Animator>().Play("Mouse");
+    }
     void Start()
     {
+        LayarPertama.gameObject.SetActive(true);
+        //SlowlyFade();
+        Invoke("SlowlyFade", 0.5f);
         ButtonsHomeScreen.gameObject.SetActive(false);
         moodletEmoji.SetActive(true);
         BacksoundLogin();
@@ -67,6 +94,7 @@ public class LoginSceneScenario : MonoBehaviour
     {
         //MoodletBacksoundSoundEffectController.InstanceMoodlet.ChangeMoodlet(MoodletBacksoundSoundEffectController.MoodletState.confetii);
         //StartCoroutine(SkenarioHasLogin());
+        MouseYuhuu.SetActive(false);
         fadeInOutCanvasForCircle.SetActive(true);
         //Debug.Log("masuk skenario ini");
         yield return new WaitForSeconds(1f);
