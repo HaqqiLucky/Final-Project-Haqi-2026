@@ -375,18 +375,18 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
         if (skorYuhu >= 1000)
         {
-            LeanTween.moveY(Star1, 350, 1f)
+            LeanTween.moveLocalY(Star1, -56, 1f)
                 .setEaseInOutBack();
         }
         if (skorYuhu >= 7000)
         {
-            LeanTween.moveY(Star3, 350, 1f)
+            LeanTween.moveLocalY(Star3, -56, 1f)
                 .setEaseInOutBack() 
                 .setDelay(0.5f);
         }
         if (skorYuhu >= 9600)
         {
-            LeanTween.moveY(Star2, 390, 1f)
+            LeanTween.moveLocalY(Star2, 0, 1f)
                 .setEaseInOutBack()
                 .setDelay(1);
         }
@@ -488,7 +488,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     public void GoHome()
     {
         //LoadingScreenSceneControl.TargetSceneName = "HomeScene";
-        LoadingScreenSceneControl.Instance.LoadScene("HomeScene");
+        LoadingScreenSceneControl.Instance.LoadScene("LoginScene");
 
         //SceneManager.LoadScene(6);
     }
