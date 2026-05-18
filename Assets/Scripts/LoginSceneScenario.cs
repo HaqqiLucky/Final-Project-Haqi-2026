@@ -1,13 +1,7 @@
 using DG.Tweening;
 using System.Collections;
-using Unity.VectorGraphics;
-using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
 
 public class LoginSceneScenario : MonoBehaviour
 {
@@ -101,7 +95,7 @@ public class LoginSceneScenario : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasReleasedThisFrame && tekanUntukMulai.gameObject.activeSelf)
         {
-            Debug.Log("Ayok ke main menu");
+            //Debug.Log("Ayok ke main menu");
             StartCoroutine(PindahKeMainMenu());
 
             //StartCoroutine(ItsGoingDown());
@@ -179,6 +173,14 @@ public class LoginSceneScenario : MonoBehaviour
     public void KeGameAngka()
     {
         LoadingScreenSceneControl.Instance.LoadScene("MengurutkanAngka");
+    }
+    public void KeCreditScene()
+    {
+        LoadingScreenSceneControl.Instance.LoadScene("CreditScene");
+    }
+    public void Keluar()
+    {
+        Application.Quit();
     }
 
     IEnumerator ItsGoingDown()

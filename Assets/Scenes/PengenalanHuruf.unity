@@ -1661,6 +1661,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8461765838756563444, guid: e086839ec0e718743a241fede272bcbd, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a1048d8967ee4f740bd8d1037f386fc0, type: 2}
+    - target: {fileID: 8461765838756563444, guid: e086839ec0e718743a241fede272bcbd, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6384035235247125019, guid: a1048d8967ee4f740bd8d1037f386fc0, type: 2}
+    - target: {fileID: 8461765838756563444, guid: e086839ec0e718743a241fede272bcbd, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4708275848046903207, guid: e086839ec0e718743a241fede272bcbd, type: 3}
     m_RemovedGameObjects: []
@@ -2850,8 +2862,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 400
-  m_fontSizeBase: 400
+  m_fontSize: 300
+  m_fontSizeBase: 300
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6230,8 +6242,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pilih Huruf
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8bf7de5759d91b64683737ccb9734fe9, type: 2}
-  m_sharedMaterial: {fileID: -3434430587968926904, guid: 8bf7de5759d91b64683737ccb9734fe9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e0706c3fe1cf5064b93e42ef482786c5, type: 2}
+  m_sharedMaterial: {fileID: 6939317248087702740, guid: e0706c3fe1cf5064b93e42ef482786c5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

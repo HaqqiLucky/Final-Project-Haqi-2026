@@ -19,29 +19,42 @@ public class LoadingScreenSceneControl : MonoBehaviour
 
     private void Awake()
     {
-        // Cukup set instance ke diri sendiri setiap kali scene baru di-load
-        Instance = this;
+        // SISTEM SINGLETON (Agar objek bisa dibawa kemana-mana tanpa duplikat)
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // KUNCI UTAMA: Agar objek tidak hancur saat pindah scene
+        }
+        else
+        {
+            Destroy(gameObject); // Jika di scene baru ada objek serupa, hancurkan duplikatnya
+            return;
+        }
 
-        // Pastikan loading screen tertutup saat awal
+        // Pastikan loading screen tertutup saat awal game
         if (m_LoadingScreenObject != null)
         {
             m_LoadingScreenObject.SetActive(false);
         }
     }
 
-
     // Panggil fungsi ini dari button atau script lain
     // Contoh: LoadingScreenSceneControl.Instance.LoadScene("PuzzleScene");
     public void LoadScene(string sceneName)
     {
-        StopAllCoroutines(); // Menghindari tumpang tindih coroutine
+        if (_isLoading) return; // Menghindari tumpang tindih jika user spam klik tombol
         StartCoroutine(SwitchToSceneAsync(sceneName));
     }
 
     IEnumerator SwitchToSceneAsync(string nameSceneId)
     {
         _isLoading = true;
-        LoadingAudioSource.PlayOneShot(Sound);
+
+        if (LoadingAudioSource != null && Sound != null)
+        {
+            LoadingAudioSource.PlayOneShot(Sound);
+        }
+
         // 1. Munculkan Overlay
         m_LoadingScreenObject.SetActive(true);
         if (canvasGroup != null) canvasGroup.alpha = 1f;
@@ -68,13 +81,13 @@ public class LoadingScreenSceneControl : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        // 5. Aktivasi Scene
+        // 5. Aktivasi Scene Baru
         asyncLoad.allowSceneActivation = true;
 
-        // Tunggu sampai scene baru benar-benar aktif
+        // Tunggu sampai scene baru benar-benar aktif selesai di-load
         while (!asyncLoad.isDone) yield return null;
 
-        // 6. Fade Out
+        // 6. Fade Out (Sekarang aman berjalan karena objek tidak dihancurkan)
         if (canvasGroup != null)
         {
             float fadeDuration = 0.5f;
@@ -90,11 +103,10 @@ public class LoadingScreenSceneControl : MonoBehaviour
         m_LoadingScreenObject.SetActive(false);
         _isLoading = false;
     }
+
+    // Fungsi alternatif yang Anda buat, disesuaikan agar seragam
     public void SwitchToScene(string scenaName)
     {
-        if (_isLoading) return; // Jika lagi loading, abaikan perintah baru
-
-        m_LoadingScreenObject.SetActive(true);
-        StartCoroutine(SwitchToSceneAsync(scenaName));
+        LoadScene(scenaName);
     }
 }
