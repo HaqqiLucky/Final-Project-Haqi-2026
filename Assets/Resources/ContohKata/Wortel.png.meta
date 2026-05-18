@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 221d8b660ce5e5b44973eded3d38df75
+guid: 3c12506cad23c334d96e444d4bc9c0e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6121449303554152973
-    second: wor_0
+      213: 3564469237945024758
+    second: Wortel(1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wor_0
+      name: Wortel(1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f5a71f8a4e3c0ba0800000000000000
-      internalID: -6121449303554152973
+      spriteID: 6f04584f2e9877130800000000000000
+      internalID: 3564469237945024758
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wor_0: -6121449303554152973
+      Wortel(1)_0: 3564469237945024758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

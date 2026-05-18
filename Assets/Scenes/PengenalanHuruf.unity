@@ -1192,7 +1192,7 @@ PrefabInstance:
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fcd7ebb82f0079145bff5dd29545f210, type: 3}
+      objectReference: {fileID: -499438295076723975, guid: 0d68b6e18b8bc0c41b11386a6c9428b9, type: 3}
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -3892,7 +3892,7 @@ PrefabInstance:
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 495698b6e4e12644c980c58ef55aab9a, type: 3}
+      objectReference: {fileID: -2643807343017691153, guid: 88e75ff1ca056c8419f16b746f4c26ef, type: 3}
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -4026,7 +4026,7 @@ PrefabInstance:
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 456e69b4bcaadd4468dbe47ea5dc2a31, type: 3}
+      objectReference: {fileID: 4556362525323351593, guid: f585040d87ba3124d88379fefa85a5af, type: 3}
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -4160,7 +4160,7 @@ PrefabInstance:
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 221d8b660ce5e5b44973eded3d38df75, type: 3}
+      objectReference: {fileID: 3564469237945024758, guid: 3c12506cad23c334d96e444d4bc9c0e7, type: 3}
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -6164,7 +6164,7 @@ PrefabInstance:
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2583721501190194929, guid: 7a5ca6a4309a1034688641eda8751b26, type: 3}
+      objectReference: {fileID: 2818654597778965939, guid: 7a5ca6a4309a1034688641eda8751b26, type: 3}
     - target: {fileID: 3218488137587620424, guid: 364c215575aca5d4585865358f46525a, type: 3}
       propertyPath: m_PreserveAspect
       value: 1

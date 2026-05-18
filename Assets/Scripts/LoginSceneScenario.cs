@@ -59,7 +59,16 @@ public class LoginSceneScenario : MonoBehaviour
 
     private void KlikVisual()
     {
-        MouseYuhuu.SetActive(true);
+        if (LoadingScreenSceneControl.Instance.udaLogin)
+        {
+            MouseYuhuu.SetActive(false);
+        }
+        else
+        {
+            MouseYuhuu.SetActive(true);
+
+        }
+            
         LeanTween.scale(MouseYuhuu, new Vector2(1.1f, 1.1f), 1f)
                 .setEaseInOutSine()
                 .setLoopPingPong();
@@ -67,12 +76,27 @@ public class LoginSceneScenario : MonoBehaviour
     }
     void Start()
     {
-        LayarPertama.gameObject.SetActive(true);
-        //SlowlyFade();
-        Invoke("SlowlyFade", 0.5f);
         ButtonsHomeScreen.gameObject.SetActive(false);
-        moodletEmoji.SetActive(true);
-        BacksoundLogin();
+        LayarPertama.gameObject.SetActive(true);
+        Invoke("SlowlyFade", 0.5f);
+        if (LoadingScreenSceneControl.Instance.udaLogin)
+        {
+            //MouseYuhuu.SetActive(false);
+            puzzles.SetActive(false);
+            balonUdara.SetActive(true);
+            BacksoundLogin();
+            StartCoroutine(PindahKeMainMenu());
+        } else
+        {
+
+            //SlowlyFade();
+
+            ButtonsHomeScreen.gameObject.SetActive(false);
+
+            BacksoundLogin();
+
+        }
+
     }
 
     //void AnimatorBalonUdara()
@@ -139,7 +163,7 @@ public class LoginSceneScenario : MonoBehaviour
     IEnumerator PindahKeMainMenu()
     {
         tekanUntukMulai.gameObject.SetActive(false);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         keMainMenu = true;
         anginKeKiri.Play();
         //anginKeKiri.gameObject.SetActive(true);
@@ -148,6 +172,7 @@ public class LoginSceneScenario : MonoBehaviour
         anginKeKiri.Stop();
         yield return new WaitForSeconds(1f);
         NyalakanButtons();
+        LoadingScreenSceneControl.Instance.udaLogin = true;
         //ButtonsHomeScreen.SetActive(true);
         //anginKeKiri.gameObject.SetActive(false);
     }

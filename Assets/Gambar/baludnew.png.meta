@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 067baae8d2cdd664a8ee783f75542f25
+guid: d42e05ce12d95e74c8c0582e9f4cc144
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8061039967407286461
-    second: baludnew_0
+      213: 1772330060998847011
+    second: baludnew(1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: baludnew_0
+      name: baludnew(1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db8a98124219edf60800000000000000
-      internalID: 8061039967407286461
+      spriteID: 32a259edcc4989810800000000000000
+      internalID: 1772330060998847011
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      baludnew_0: 8061039967407286461
+      baludnew(1)_0: 1772330060998847011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,10 +12,12 @@ public class LoadingScreenSceneControl : MonoBehaviour
     public Slider ProgressBar;
     public CanvasGroup canvasGroup;
     private bool _isLoading = false;
+    public bool udaLogin = false;
 
     [Header("LoadingAudio")]
     [SerializeField] private AudioSource LoadingAudioSource;
     [SerializeField] private AudioClip Sound;
+
 
     private void Awake()
     {

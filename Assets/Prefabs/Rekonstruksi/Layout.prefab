@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8969798809790195188}
   - component: {fileID: 5499058893463941009}
   - component: {fileID: 145051716283121141}
+  - component: {fileID: 7127787132946648592}
   m_Layer: 5
   m_Name: PitaHomeScreen
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7607843, g: 0.84313726, b: 0.92156863, a: 1}
+  m_Color: {r: 0.9529412, g: 0.6901961, b: 0.23529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -156,6 +157,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7127787132946648592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2857709924913764079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0.75686276, g: 0.49019608, b: 0.101960786, a: 1}
+  m_EffectDistance: {x: 18.3, y: -17.4}
+  m_UseGraphicAlpha: 1
 --- !u!1 &4549400917825317397
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,8 +246,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280493886
-  m_fontColor: {r: 0.24313726, g: 0.15294118, b: 0.13725491, a: 1}
+    rgba: 4278526528
+  m_fontColor: {r: 0.2509804, g: 0.13333334, b: 0.019607844, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

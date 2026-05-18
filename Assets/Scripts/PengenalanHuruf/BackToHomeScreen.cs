@@ -16,7 +16,7 @@ public class BackToHomeScreen : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     {
         if (isHolding)
         {
-            slider.value += 40 * Time.deltaTime;
+            slider.value += 60 * Time.deltaTime;
 
             if (slider.value >= 100)
             {
