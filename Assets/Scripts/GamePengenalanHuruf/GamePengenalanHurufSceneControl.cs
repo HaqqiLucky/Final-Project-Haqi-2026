@@ -62,6 +62,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
     //[SerializeField] private GameObject FireworksParent;
     [SerializeField] private ParticleSystem Fireworks;
+    [SerializeField] private RectTransform garisDiatasSkor;
 
     private void Awake()
     {
@@ -353,7 +354,9 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
                 //NaikinBintang(skorFinal);
                 //Invoke("NaikinBintang(skorFinal)", 2f);
                 StarSoundScenario(skorFinal);
-                LeanTween.delayedCall(4f, () => NaikinBintang(skorFinal));
+                GarisLeantween();
+                LeanTween.delayedCall(1f, () => NaikinBintang(skorFinal));
+                
                 Fireworks.Play();
                 yield return new WaitForSeconds(2);
                 //Fireworks.SetActive(true);
@@ -368,6 +371,16 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
                 menggantiSesi = false;
             }
         }
+    }
+
+    private void GarisLeantween()
+    {
+        LeanTween.value(0, 550, 3f)
+            .setEase(LeanTweenType.easeOutQuad)
+            .setOnUpdate((float val) =>
+            {
+                garisDiatasSkor.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, val);
+            });
     }
 
     private void NaikinBintang(int skorYuhu)
