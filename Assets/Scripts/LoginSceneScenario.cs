@@ -66,13 +66,18 @@ public class LoginSceneScenario : MonoBehaviour
     {
         if (LoadingScreenSceneControl.Instance.udaLogin)
         {
-            MouseYuhuu.SetActive(false);
+            //MouseYuhuu.SetActive(false);
             SliderControl.SetActive(false);
+        } else
+        {
+            MouseYuhuu.SetActive(true);
+
         }
 
+
         LeanTween.scale(MouseYuhuu, new Vector2(1.1f, 1.1f), 1f)
-                .setEaseInOutSine()
-                .setLoopPingPong();
+                    .setEaseInOutSine()
+                    .setLoopPingPong();
         //MouseYuhuu.GetComponent<Animator>().Play("Mouse");
     }
     void Start()
