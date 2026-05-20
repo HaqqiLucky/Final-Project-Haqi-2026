@@ -19,6 +19,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [SerializeField] private GameObject TangkapIniHancurinPrefa;
     [SerializeField] private Image overlayUIOut;
     [SerializeField] private Image overlayUIIn;
+    //[SerializeField] private CanvasGroup overlayInCanvas;
     [SerializeField] private ParticleSystem fireworks;
     [SerializeField] private GameObject shape1;
     [SerializeField] private GameObject shape2;
@@ -62,7 +63,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [SerializeField] Image ImageTutorial;
     [SerializeField] private TextMeshProUGUI teksTutor;
     [SerializeField] private AudioSource asorCanvas;
-    [SerializeField] private AudioClip tutor1, tutor2;
+    [SerializeField] private AudioClip tutor1, tutor2, tutor3, tutor4;
     private int tutorke = 1;
     //private bool tutorDone = false;
 
@@ -271,7 +272,8 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         timersSui.gameObject.SetActive(false);
         Confenti();
         //Debug.Log("sampe sini24");
-        yield return StartCoroutine(AnimasiSelesaiKotakNaik());
+
+        TutorialOpeningTutorial();
         //yield return StartCoroutine(Train());
         //yield return new WaitForSeconds(3f);
         //Debug.Log("sampe sini2");
@@ -280,6 +282,40 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
 
 
         //yield return new wait
+    }
+
+        private void TutorialOpeningTutorial()
+        {
+            overlayUIIn.gameObject.SetActive(true);
+            LeanTween.value(overlayUIIn.gameObject, 0, 1, 1f)
+                .setOnUpdate((float val) =>
+                {
+                    overlayUIIn.fillAmount = val;
+                })
+                .setOnComplete(() =>
+                {
+                    TutorialTiga();
+                }); 
+        }
+
+    private void TutorialTiga()
+    {
+        Tutorial.SetActive(true);
+        asorCanvas.Stop();
+        asorCanvas.clip = tutor3;
+        asorCanvas.Play();
+        PenentuAudio();
+        ImageTutorial.sprite = Resources.Load<Sprite>("MengurutkanAngka/Tutor3");
+        teksTutor.text = "Setelah ini kotak-kotak didalam angka akan naik dan bersiap untuk jatuh";
+    }
+
+    private void TutorialEmpat()
+    {
+        Tutorial.SetActive(true);
+        asorCanvas.Stop();
+        PenentuAudio();
+        ImageTutorial.sprite = Resources.Load<Sprite>("MengurutkanAngka/Tutor4");
+        teksTutor.text = "Tangkap mereka semua menggunakan penghancur angka dengan menariknya ke kanan kiri untuk mendapatkan poin yang maksimal";
     }
 
     //IEnumerator 
@@ -316,7 +352,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
 
     IEnumerator AnimasiSelesaiKotakNaik()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0.7f);
         LeanTween.moveY(panelTengahBawah, 200f, 1f)
             .setEaseOutBack();
         panelAtas.gameObject.SetActive(false);
@@ -424,14 +460,14 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         //SceneManager.LoadScene(6);
 
     }
-    private void Tutor2()
-    {
-        tutorke++;
-        asorCanvas.clip = tutor2;
-        asorCanvas.Play();
+    //private void Tutor2()
+    //{
+    //    tutorke++;
+    //    asorCanvas.clip = tutor2;
+    //    asorCanvas.Play();
 
         
-    }
+    //}
 
     public void TutorAudio()
     {
@@ -450,6 +486,16 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
             asorCanvas.clip = tutor2;
             asorCanvas.Play();
         }
+        else if (tutorke == 3)
+        {
+            asorCanvas.clip = tutor3;
+            asorCanvas.Play();
+        }
+        else if (tutorke == 4)
+        {
+            asorCanvas.clip = tutor4;
+            asorCanvas.Play();
+        }
     }
     public void OkPenentuTeks()
     {
@@ -461,13 +507,31 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
             ImageTutorial.sprite = Resources.Load<Sprite>("MengurutkanAngka/Tutor2");
             teksTutor.text = "Tarik Angka yang benar ke dalam kotak yang benar seperti pada gambar";
         }
-        else if (tutorke > 2)
+        else if (tutorke == 3)
         {
             asorCanvas.Stop();
             //tutorDone = true;
             //Debug.Log(tutorDone);
             Tutorial.SetActive(false);
             GantiStart();
+        }
+        else if (tutorke == 4)
+        {
+            TutorialEmpat();
+        }
+        else if (tutorke >= 5)
+        {
+            asorCanvas.Stop();
+            Tutorial.SetActive(false);
+            LeanTween.value(overlayUIIn.gameObject, 1, 0, 1f)
+                .setOnUpdate((float val) =>
+                {
+                    overlayUIIn.fillAmount = val;
+                })
+                .setOnComplete(() =>
+                {
+                    StartCoroutine(AnimasiSelesaiKotakNaik());
+                });
         }
     }
 

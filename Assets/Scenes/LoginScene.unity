@@ -4677,7 +4677,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8096775286447953808, guid: a3ce940f26b4c834fab31f04d93f90e3, type: 3}
       propertyPath: m_text
-      value: Mengenal Angka
+      value: Mengenal Angka | 1234
       objectReference: {fileID: 0}
     - target: {fileID: 8765705102620249813, guid: a3ce940f26b4c834fab31f04d93f90e3, type: 3}
       propertyPath: m_Name
@@ -12695,6 +12695,7 @@ MonoBehaviour:
   panelAngkaRect: {fileID: 918883882}
   LayarHitam: {fileID: 1388446901}
   MouseYuhuu: {fileID: 1627728351}
+  SliderControl: {fileID: 1315100255}
   bgm: {fileID: 1300732221}
   backsoundLogin1: {fileID: 8300000, guid: 8b555a3dc0ccb8a4aa2ae2931c466512, type: 3}
   anginKeKiri: {fileID: 1650000788}
@@ -12856,7 +12857,7 @@ Transform:
   m_GameObject: {fileID: 1315100255}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2807.5032, y: 756.2951, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20483,7 +20484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1627728352
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30358,8 +30359,8 @@ RectTransform:
   - {fileID: 1388446902}
   - {fileID: 918883882}
   - {fileID: 1658243414}
-  - {fileID: 885995683}
   - {fileID: 1627728352}
+  - {fileID: 885995683}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -31909,7 +31910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8096775286447953808, guid: a3ce940f26b4c834fab31f04d93f90e3, type: 3}
       propertyPath: m_text
-      value: Mengenal Huruf
+      value: Mengenal Huruf |  ABCD
       objectReference: {fileID: 0}
     - target: {fileID: 8765705102620249813, guid: a3ce940f26b4c834fab31f04d93f90e3, type: 3}
       propertyPath: m_Name

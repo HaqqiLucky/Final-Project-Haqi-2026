@@ -2035,6 +2035,8 @@ MonoBehaviour:
   asorCanvas: {fileID: 52149713}
   tutor1: {fileID: 8300000, guid: 645220430ec0daa45b98e933f59b3d2e, type: 3}
   tutor2: {fileID: 8300000, guid: fc44e256dcb0cb64f8e7c851abda9d6f, type: 3}
+  tutor3: {fileID: 8300000, guid: 0f5ffe8cfd950b647a2dfa0142bf3df9, type: 3}
+  tutor4: {fileID: 8300000, guid: a9d7c85709002a54085d95d44f28b294, type: 3}
 --- !u!4 &653918756
 Transform:
   m_ObjectHideFlags: 0
@@ -12448,6 +12450,7 @@ GameObject:
   - component: {fileID: 1034224459}
   - component: {fileID: 1034224458}
   - component: {fileID: 1034224457}
+  - component: {fileID: 1034224460}
   m_Layer: 0
   m_Name: InOverlayUiSetelahTrain
   m_TagString: Untagged
@@ -12512,6 +12515,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1034224460
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034224456}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1034230574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24207,8 +24222,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1014, y: 3.7271423}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 1177.9, y: 3.7271423}
+  m_SizeDelta: {x: 427.8, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1986743617
 BoxCollider2D:
@@ -24244,7 +24259,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -1.192009, y: -0.33940887}
+  m_Offset: {x: -102.00583, y: -0.33940887}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -24254,7 +24269,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 103.50665, y: 101.93837}
+  m_Size: {x: 228.28253, y: 101.93837}
   m_EdgeRadius: 0
 --- !u!114 &1986743618
 MonoBehaviour:
@@ -24798,8 +24813,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1006, y: 3.7271423}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -1232.31, y: 3.7271423}
+  m_SizeDelta: {x: 552.62, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &2109997829
 BoxCollider2D:
@@ -24835,7 +24850,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 25.030657, y: -0.33940697}
+  m_Offset: {x: -4.1587524, y: -0.33940887}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -24845,7 +24860,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 51.061314, y: 101.93837}
+  m_Size: {x: 575.0077, y: 101.93837}
   m_EdgeRadius: 0
 --- !u!114 &2109997830
 MonoBehaviour:
@@ -24976,6 +24991,10 @@ PrefabInstance:
     - target: {fileID: 6627941339648964373, guid: 3ac436e1038536746af0c1c79ea38b7e, type: 3}
       propertyPath: m_Name
       value: CheckRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627941339648964373, guid: 3ac436e1038536746af0c1c79ea38b7e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

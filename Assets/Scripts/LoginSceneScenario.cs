@@ -26,6 +26,7 @@ public class LoginSceneScenario : MonoBehaviour
     [SerializeField] private RectTransform panelAngkaRect;
     [SerializeField] private GameObject LayarHitam;
     [SerializeField] private GameObject MouseYuhuu;
+    [SerializeField] private GameObject SliderControl;
 
 
     [Header("Audio Backsound - Audio Source LoginScene")]
@@ -66,11 +67,7 @@ public class LoginSceneScenario : MonoBehaviour
         if (LoadingScreenSceneControl.Instance.udaLogin)
         {
             MouseYuhuu.SetActive(false);
-        }
-        else
-        {
-            MouseYuhuu.SetActive(true);
-
+            SliderControl.SetActive(false);
         }
 
         LeanTween.scale(MouseYuhuu, new Vector2(1.1f, 1.1f), 1f)
@@ -88,6 +85,7 @@ public class LoginSceneScenario : MonoBehaviour
             //MouseYuhuu.SetActive(false);
             puzzles.SetActive(false);
             balonUdara.SetActive(true);
+            fadeInOutCanvasForCircle.SetActive(false);
             BacksoundLogin();
             StartCoroutine(PindahKeMainMenu());
         } else
