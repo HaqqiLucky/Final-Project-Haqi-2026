@@ -56,7 +56,7 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     [SerializeField] private float volume = 0.362f;
 
 
-
+    [SerializeField] private GameObject Buttonx;
     [Header("Tutorial")]
     [SerializeField] GameObject Tutorial;
     [SerializeField] Image ImageTutorial;
@@ -327,7 +327,9 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
         yield return new WaitForSeconds(2);
         SudahNaik = true;
         BatasKananKiri.SetActive(true);
+        Buttonx.SetActive(false);
         yield return new WaitForSeconds(1f);
+
         TangkapIniHancurinPrefa.SetActive(true);
         //NaikinAlphaPenghancurPrefab();
         //Debug.Log("harusnya udah true");

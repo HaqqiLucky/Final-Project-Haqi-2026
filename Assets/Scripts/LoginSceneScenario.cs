@@ -49,6 +49,10 @@ public class LoginSceneScenario : MonoBehaviour
             .setOnUpdate((float val) =>
             {
                 LayarPertama.alpha = val;
+                //if (val == 0.4f)
+                //{
+                //    MouseYuhuu.SetActive(true);
+                //}
             })
             .setOnComplete(() =>
             {
@@ -68,7 +72,7 @@ public class LoginSceneScenario : MonoBehaviour
             MouseYuhuu.SetActive(true);
 
         }
-            
+
         LeanTween.scale(MouseYuhuu, new Vector2(1.1f, 1.1f), 1f)
                 .setEaseInOutSine()
                 .setLoopPingPong();
