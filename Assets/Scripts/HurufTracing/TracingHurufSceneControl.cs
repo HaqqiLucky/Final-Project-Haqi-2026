@@ -71,14 +71,15 @@ public class TracingHurufSceneControl : MonoBehaviour
     }
     IEnumerator StartUpPanelNaik()
     {
-        LeanTween.moveLocalY(PanelDanBurung, 0, 0.2f) // ini td 4
-        .setOnComplete(() => {
-            //OuterButton.interactable = true;
-            PenghalangButton.SetActive(false);
-            LeanTween.moveLocalY(PanelDanBurung, 4f, 2f)
-                //.setEaseInOutSine()
-                .setLoopPingPong(); 
-        });
+        LeanTween.moveLocalY(PanelDanBurung, 0, 2f) // ini td 4
+            .setEaseInOutBack()
+            .setOnComplete(() => {
+                //OuterButton.interactable = true;
+                PenghalangButton.SetActive(false);
+                LeanTween.moveLocalY(PanelDanBurung, 4f, 2f)
+                    //.setEaseInOutSine()
+                    .setLoopPingPong(); 
+            });
         yield return null;
     }
     //RefreshHurufdanGambar(hurufYangDiKlik);
@@ -134,7 +135,7 @@ public class TracingHurufSceneControl : MonoBehaviour
     {
         LeanTween.cancel(PanelDanBurung);
         transition.fillClockwise =  true;
-        LeanTween.value(transition.gameObject, transition.fillAmount, 1, 0.1f) // sama
+        LeanTween.value(transition.gameObject, transition.fillAmount, 1, 0.4f) // sama
             .setOnUpdate((float val) =>
             {
                 transition.fillAmount = val;
@@ -144,7 +145,7 @@ public class TracingHurufSceneControl : MonoBehaviour
     {
 
         transition.fillClockwise =  false;
-        LeanTween.value(transition.gameObject, transition.fillAmount, 0, 0.1f) // ini tadi 1f
+        LeanTween.value(transition.gameObject, transition.fillAmount, 0, 0.4f) // ini tadi 1f
             .setOnUpdate((float val) =>
             {
                 transition.fillAmount = val;
