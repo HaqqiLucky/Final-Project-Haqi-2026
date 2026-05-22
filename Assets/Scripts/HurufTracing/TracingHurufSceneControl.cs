@@ -44,7 +44,7 @@ public class TracingHurufSceneControl : MonoBehaviour
         //TransisiBuka();
         //Invoke("TransisiTutup", 2f);
         Blur.SetActive(false);
-        StartCoroutine(StartUpPanelNaik());
+        StartCoroutine(StartUpPanelNaik()); //ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd gantii ini ini aku comen soalnya buat lama lama ajah
 
         musiks = musiks.OrderBy(x => Random.value).ToArray();
         PlayNext();
@@ -70,7 +70,7 @@ public class TracingHurufSceneControl : MonoBehaviour
     }
     IEnumerator StartUpPanelNaik()
     {
-        LeanTween.moveLocalY(PanelDanBurung, 0, 4f)
+        LeanTween.moveLocalY(PanelDanBurung, 0, 0.2f) // ini td 4
         .setOnComplete(() => {
             //OuterButton.interactable = true;
             PenghalangButton.SetActive(false);
@@ -129,7 +129,7 @@ public class TracingHurufSceneControl : MonoBehaviour
     {
         LeanTween.cancel(PanelDanBurung);
         transition.fillClockwise =  true;
-        LeanTween.value(transition.gameObject, transition.fillAmount, 1, 1f)
+        LeanTween.value(transition.gameObject, transition.fillAmount, 1, 0.1f) // sama
             .setOnUpdate((float val) =>
             {
                 transition.fillAmount = val;
@@ -139,7 +139,7 @@ public class TracingHurufSceneControl : MonoBehaviour
     {
 
         transition.fillClockwise =  false;
-        LeanTween.value(transition.gameObject, transition.fillAmount, 0, 1f)
+        LeanTween.value(transition.gameObject, transition.fillAmount, 0, 0.1f) // ini tadi 1f
             .setOnUpdate((float val) =>
             {
                 transition.fillAmount = val;
