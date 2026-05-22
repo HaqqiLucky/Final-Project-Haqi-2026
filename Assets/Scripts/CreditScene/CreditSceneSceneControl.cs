@@ -11,7 +11,7 @@ public class CreditSceneSceneControl : MonoBehaviour
     private float targetY = 0;
 
     // Durasi jalannya teks dalam detik. Makin besar angkanya, makin pelan jalannya!
-    [SerializeField] private float duration = 120f;
+    private float duration = 388f;
 
     void Start()
     {

@@ -12697,7 +12697,7 @@ MonoBehaviour:
   MouseYuhuu: {fileID: 1627728351}
   SliderControl: {fileID: 1315100255}
   bgm: {fileID: 1300732221}
-  backsoundLogin1: {fileID: 8300000, guid: 8b555a3dc0ccb8a4aa2ae2931c466512, type: 3}
+  backsoundLogin1: {fileID: 8300000, guid: de23200f4d72cdc4397af87919c4a495, type: 3}
   anginKeKiri: {fileID: 1650000788}
   keMainMenu: 0
   LayarPertama: {fileID: 885995684}

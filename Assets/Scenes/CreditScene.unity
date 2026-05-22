@@ -265,7 +265,6 @@ MonoBehaviour:
   ButtonX: {fileID: 1368873265}
   bgm1: {fileID: 0}
   SpeakerCredit: {fileID: 0}
-  duration: 80
 --- !u!114 &399631598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,7 +334,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 27466d82c0b95eb4d85f03f18fc14c64, type: 3}
+  m_Resource: {fileID: 8300000, guid: a28a56934a0e5ba409c5d5b50633f657, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -574,12 +573,12 @@ MonoBehaviour:
     selama bulan puasa.\nGoogle Gemini AI\n\n\nAUDIO & MUSIC\n\nSound Effects:\nSound
     Effects via Pixabay by: Breakz Studios, Delon Wisnujaya, DRAGON-STUDIO, freesound_community,
     Jim Scott, Koi Roylers, ksjsbwuil, Lesiakower, LoLa Joy, Sarah, SoundShelfStudio,
-    Universfield, wefgf.\n\nMusic by Scene:\nLogin Screen: \"Music by Camila Noir\"
+    Universfield, wefgf.\n\nMusic by Scene:\nLogin Screen: \"Music by VItalii Iegorov\"
     via Pixabay\nHome Scene: \"Music by TuneTrove\" via Pixabay\nMengurutkan Angka:
     \"Music by Zakhar Valaha & Pavel Bekirov\" via Pixabay\nPengenalan Angka: \"Music
-    by SolarFLEX & music_for_video\" via Pixabay\nPengenalan Huruf: \"Music by Maksim
-    Chubrey & Pavel Bekirov\" via Pixabay\nGame Huruf: \"Music by Oleksii Holubiev
-    & Lofium\" via Pixabay\nCredit Scene: \"Music by Jumadi Haryanto\" via Pixabay\n\n\nGRAPHICS
+    by Dvir Silverstone & music_for_video\" via Pixabay\nPengenalan Huruf: \"Music
+    by Maksim Chubrey & Pavel Bekirov\" via Pixabay\nGame Huruf: \"Music by Oleksii
+    Holubiev & Lofium\" via Pixabay\nCredit Scene: \"Music by Lin Caifu\" via Pixabay\n\nGRAPHICS
     & VISUALS\n\nUI Assets: \"Border and Panels Menu Part 2\" by BDragon1727 (https://bdragon1727.itch.io/)\nBackground
     Art: \"Free Sky with Clouds Background Pixel Art Set\" by CraftPix.net (https://craftpix.net)\nPixel
     Art Hedgehog: by Cethiel (https://opengameart.org/content/pixel-art-hedgehog),

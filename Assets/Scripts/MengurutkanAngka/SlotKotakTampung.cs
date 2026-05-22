@@ -80,7 +80,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
         LeanTween.rotateAround(this.gameObject, Vector3.forward, -33.115f, 0.1f)
                     .setEaseInOutBack();
         yield return new WaitForSeconds(2f);
-        float delay = Random.Range(1.0f, 10.0f);
+        float delay = Random.Range(2.0f, 10.0f);
         yield return new WaitForSeconds(delay);
         rb.simulated = true;
 

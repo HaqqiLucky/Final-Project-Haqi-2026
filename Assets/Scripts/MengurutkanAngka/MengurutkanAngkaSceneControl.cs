@@ -353,7 +353,10 @@ public class MengurutkanAngkaSceneControl : MonoBehaviour
     IEnumerator AnimasiSelesaiKotakNaik()
     {
         yield return new WaitForSeconds(0.7f);
-        LeanTween.moveY(panelTengahBawah, 200f, 1f)
+        // ubah disini
+        LeanTween.moveY(panelTengahBawah, 380f, 1f)
+            .setEaseOutBack();
+        LeanTween.moveY(panelTengahAtas, 380f, 1f)
             .setEaseOutBack();
         panelAtas.gameObject.SetActive(false);
         panelBawah.gameObject.SetActive(false);
