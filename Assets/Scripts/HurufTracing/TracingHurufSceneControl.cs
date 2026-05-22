@@ -16,6 +16,7 @@ public class TracingHurufSceneControl : MonoBehaviour
     [SerializeField] GameObject ButtonNext;
     [SerializeField] CanvasGroup buttons;
     [SerializeField] GameObject PenghalangButton;
+    [SerializeField] TMP_FontAsset Retro; 
     public List<string> setiapEmpat = new List<string>();
 
 
@@ -98,6 +99,10 @@ public class TracingHurufSceneControl : MonoBehaviour
         string formatTampilan = baseChar.ToString().ToUpper() + baseChar.ToString().ToLower();
 
         HurufMunculSekarang.text = formatTampilan;
+        if (baseChar == 'T' || (baseChar == 'J'))
+        {
+            HurufMunculSekarang.font = Retro;
+        }
 
         //add audio
         CariAudioDariResouces();                
@@ -246,6 +251,17 @@ public class TracingHurufSceneControl : MonoBehaviour
 
         // 4. Jalankan skenario animasi
         // Gunakan StopAllCoroutines() jika ingin mencegah user klik spam tombol next
+        StopAllCoroutines();
+        StartCoroutine(SkenarioBukaTutupDiawal(currentKarakter.ToString()));
+    }
+    public void PreviousButtonInAlphabet()
+    {
+        char currentKarakter = hurufSekarang[0];
+        currentKarakter--;
+        if (currentKarakter < 'A')
+        {
+            currentKarakter = 'Z';
+        }
         StopAllCoroutines();
         StartCoroutine(SkenarioBukaTutupDiawal(currentKarakter.ToString()));
     }

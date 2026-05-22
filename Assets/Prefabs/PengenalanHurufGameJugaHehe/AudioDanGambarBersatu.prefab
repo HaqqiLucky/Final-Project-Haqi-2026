@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeksJalanBentarMengikutiAudioHewanAngka
   TulisanDiBagianBawah: {fileID: 7700028981220746132}
+  JedaPertamaBanget: 0
   TeksPertama: <color=#65FF23FF>A<color=#FFFFFFFF>pel
   JedaPertamaKedua: 2
   TeksKedua: '<color=#FFFFFFFF>A<color=#65FF23FF>pel '
@@ -303,7 +304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2762227075309829000
 RectTransform:
   m_ObjectHideFlags: 0

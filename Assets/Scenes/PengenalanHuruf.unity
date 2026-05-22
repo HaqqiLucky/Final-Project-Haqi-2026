@@ -132,6 +132,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Xi<color=#65FF23FF>lo<color=#FFFFFFFF>fon
@@ -261,6 +273,138 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+--- !u!1 &71375756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 71375757}
+  - component: {fileID: 71375760}
+  - component: {fileID: 71375759}
+  - component: {fileID: 71375758}
+  m_Layer: 5
+  m_Name: PreviousButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &71375757
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71375756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 513847185}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 94, y: 26}
+  m_SizeDelta: {x: 335.18408, y: 335.1841}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &71375758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71375756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 71375759}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 72395478}
+        m_TargetAssemblyTypeName: TracingHurufSceneControl, Assembly-CSharp
+        m_MethodName: PreviousButtonInAlphabet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &71375759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71375756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 72582e6a84332a548afe61646525434e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &71375760
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71375756}
+  m_CullTransparentMesh: 1
 --- !u!1 &72395476
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +458,7 @@ MonoBehaviour:
   ButtonNext: {fileID: 197389178}
   buttons: {fileID: 513847186}
   PenghalangButton: {fileID: 723299553}
+  Retro: {fileID: 11400000, guid: 2db7de46340932443b25714cf3075243, type: 2}
   setiapEmpat: []
   Adsos: {fileID: 72395479}
   AdsosCanvas: {fileID: 1954920130}
@@ -426,6 +571,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Fe<color=#65FF23FF>ri '
@@ -560,6 +717,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Ci<color=#65FF23FF>cak '
@@ -956,6 +1125,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Ze<color=#65FF23FF>bra
@@ -1222,6 +1403,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Ga<color=#65FF23FF>jah '
@@ -1351,6 +1544,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Ro<color=#65FF23FF>ti '
@@ -1485,6 +1690,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Mo<color=#65FF23FF>bil '
@@ -1614,6 +1831,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Je<color=#65FF23FF>ra<color=#FFFFFFFF>pah
@@ -1756,6 +1985,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Lam<color=#65FF23FF>pu
@@ -2069,6 +2310,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Ha<color=#65FF23FF>ri<color=#FFFFFFFF>mau
@@ -2466,6 +2719,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Qur<color=#65FF23FF>an
@@ -2595,6 +2860,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Es<color=#65FF23FF> krim
@@ -2746,6 +3023,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 197389179}
+  - {fileID: 71375757}
   - {fileID: 1108444157}
   m_Father: {fileID: 1954920129}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3248,8 +3526,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Aa
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2db7de46340932443b25714cf3075243, type: 2}
-  m_sharedMaterial: {fileID: 5495852789519498086, guid: 2db7de46340932443b25714cf3075243, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a1048d8967ee4f740bd8d1037f386fc0, type: 2}
+  m_sharedMaterial: {fileID: 6384035235247125019, guid: a1048d8967ee4f740bd8d1037f386fc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3530,6 +3808,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Na<color=#65FF23FF>nas
@@ -3679,6 +3969,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Wor<color=#65FF23FF>tel
@@ -3808,6 +4110,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>I<color=#65FF23FF>kan '
@@ -3937,6 +4251,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Bo<color=#65FF23FF>la '
@@ -4071,6 +4397,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>U<color=#65FF23FF>lar
@@ -4330,6 +4668,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Yo<color=#65FF23FF>yo
@@ -4599,6 +4949,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: 
@@ -5026,6 +5388,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: '<color=#FFFFFFFF>Ku<color=#65FF23FF>cing '
@@ -5396,6 +5770,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>To<color=#65FF23FF>pi
@@ -5530,6 +5916,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Pi<color=#65FF23FF>sang
@@ -5664,6 +6062,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Do<color=#65FF23FF>nat
@@ -6086,6 +6496,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>O<color=#65FF23FF>bat
@@ -6462,6 +6884,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: TeksKedua
       value: <color=#FFFFFFFF>Su<color=#65FF23FF>su
@@ -6701,6 +7135,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1552937027}
     m_Modifications:
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 371006893075763481, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1194737534892225956, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: JedaPertamaKedua
       value: 1
