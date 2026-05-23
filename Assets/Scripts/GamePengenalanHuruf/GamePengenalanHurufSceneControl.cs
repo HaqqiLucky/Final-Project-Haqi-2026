@@ -453,15 +453,13 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
 
         foreach (float waktu in arrayWaktuPerSesi)
         {
-            if (waktu != -1f)
-            {
-                total += waktu / 3;
-            }
+            total += waktu;
         }
 
 
         int titil = Mathf.CeilToInt(total);
-        titil *= 100;
+        titil *= 90;
+        titil += 1000;
         //Debug.Log(titil);
 
         LeanTween.value(gameObject, 0f, titil, 5f)

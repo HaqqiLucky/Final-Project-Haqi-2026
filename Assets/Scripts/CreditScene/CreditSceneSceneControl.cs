@@ -11,12 +11,12 @@ public class CreditSceneSceneControl : MonoBehaviour
     private float targetY = 0;
 
     // Durasi jalannya teks dalam detik. Makin besar angkanya, makin pelan jalannya!
-    private float duration = 388f;
+    private float duration = 100f;
 
     void Start()
     {
 
-        Invoke("NyalakanButton", 5f);
+        Invoke("NyalakanButton", 2f);
         // Pastikan posisi awal teks berada di bawah layar (misal Y = -1000)
         // Anda bisa mengaturnya langsung di Inspector RectTransform game object Anda.
 

@@ -6,8 +6,8 @@ public class SliderTimerGameHurufDrag : MonoBehaviour
     [SerializeField] private Slider slider;
     private bool TimerActive = false;
     [SerializeField] private GamePengenalanHurufSceneControl sceneControl;
-    public float DurasiSekarang = 60;
-    private float durasiFlat = 60;
+    public float DurasiSekarang = 20;
+    private float durasiFlat = 20;
 
 
     void Start()
