@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b171d069c6be7394487908bfb155b0d4
+guid: 5e671f2d0ae01be4eaa704e125130aa7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1786884730515345503
-    second: pedang_0
+      213: 9110145005270231898
+    second: notmusik_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pedang_0
+      name: notmusik_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2725
-        height: 1491
+        width: 799
+        height: 1174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f50dfe0f13a4cc810800000000000000
-      internalID: 1786884730515345503
+      spriteID: a5b6e6b5d9cbd6e70800000000000000
+      internalID: 9110145005270231898
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pedang_0: 1786884730515345503
+      notmusik_0: 9110145005270231898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

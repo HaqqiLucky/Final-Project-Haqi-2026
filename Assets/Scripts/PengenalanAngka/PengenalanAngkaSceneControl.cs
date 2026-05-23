@@ -159,29 +159,29 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
     private void Headline()
     {
         string entitySekarang = prefabsGridElement.transform.GetChild(1).name;
-        if (entitySekarang.Contains("Landak"))
+        if (entitySekarang.Contains("Shred"))
         {
-            namaHewan = "Landak";
+            namaHewan = "Shred";
         }
-        else if (entitySekarang.Contains("Fox"))
+        else if (entitySekarang.Contains("Ayam"))
         {
-            namaHewan = "Rubah";
+            namaHewan = "Ayam";
         }
-        else if (entitySekarang.Contains("Cat"))
+        else if (entitySekarang.Contains("Manusia"))
         {
-            namaHewan = "Kucing";
+            namaHewan = "Manusia";
         }
-        else if (entitySekarang.Contains("RedPanda"))
+        else if (entitySekarang.Contains("Pedang"))
         {
-            namaHewan = "Panda Merah";
+            namaHewan = "Pedang";
         }
         //else if (entitySekarang.Contains("Hoddie"))
         //{
         //    namaHewan = "Arwah jaket merah";
         //}
-        else if (entitySekarang.Contains("Bunny"))
+        else if (entitySekarang.Contains("Not"))
         {
-            namaHewan = "Anak kelinci";
+            namaHewan = "Not Musik";
         }
 
 
