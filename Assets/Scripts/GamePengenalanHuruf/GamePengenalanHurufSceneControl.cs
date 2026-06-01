@@ -409,10 +409,10 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     {
         switch (skorYuhuu)
         {
-            case >= 9600:
+            case >= 9100:
                 asorCanvas.PlayOneShot(starasors3);
                 break;
-            case >= 4900:
+            case >= 4100:
                 asorCanvas.PlayOneShot(starasors2);
                 break;
             case >= 1000:
