@@ -1867,6 +1867,10 @@ PrefabInstance:
       propertyPath: JedaPertamaBanget
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1334436897769573110, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1412903105446992134, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: m_Name
       value: J_AudioDanGambarBersatu (9)
@@ -1963,6 +1967,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 72395478}
+    - target: {fileID: 6869621368802799333, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -226
+      objectReference: {fileID: 0}
     - target: {fileID: 7700028981220746132, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: m_text
       value: Jerapah
@@ -2109,6 +2117,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 72395478}
+    - target: {fileID: 6869621368802799333, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -115
+      objectReference: {fileID: 0}
     - target: {fileID: 7700028981220746132, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: m_text
       value: Lampu
