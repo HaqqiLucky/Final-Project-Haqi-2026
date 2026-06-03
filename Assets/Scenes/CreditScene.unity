@@ -607,42 +607,42 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CREDIT SCENE\n\nProgrammer: Samodra Haqqi Arifin\nNIM: 233307115\nProgram
-    Studi: D3 Teknologi Informasi\nInstitution: Politeknik Negeri Madiun\nProject
-    Type: Tugas Akhir\nDevelopment Tools: Unity Engine\n\n\nPARTNER & RESEARCH SITE\n\nTarget
-    Audience : TK Islam Insan Al-Firdaus\nSpecial Thanks to: Kepala Sekolah, Guru,
-    dan Adik-adik di TK Islam Insan Al-Firdaus atas kerja sama dan bantuan selama
-    pengembangan game.\n\n\nSPECIAL THANKS & ACKNOWLEDGEMENTS\n\nDosen Pembimbing
-    I: Tri Lestariningsih, S.Kom., M.Kom.\nDosen Pembimbing II: Ikhwan Baidlowi Sumafta,
-    S.Kom., M.Kom.\nAyah. Bunda, Langit dan teman-teman kelas D, teman-teman kepanitiaan
-    selama bulan puasa.\nGoogle Gemini AI\n\n\nAUDIO & MUSIC\n\nSound Effects:\nSound
-    Effects via Pixabay by: Breakz Studios, Delon Wisnujaya, DRAGON-STUDIO, freesound_community,
+  m_text: "MENU KREDIT\r\n\r\nAUDIO DAN MUSIK\r\n\r\nEfek Suara:\r\nEfek suara dari
+    Pixabay oleh: Breakz Studios, Delon Wisnujaya, DRAGON-STUDIO, freesound_community,
     Jim Scott, Koi Roylers, ksjsbwuil, Lesiakower, LoLa Joy, Sarah, SoundShelfStudio,
-    Universfield, wefgf.\n\nMusic by Scene:\nLogin Screen: \"Music by VItalii Iegorov\"
-    via Pixabay\nHome Scene: \"Music by TuneTrove\" via Pixabay\nMengurutkan Angka:
-    \"Music by Zakhar Valaha & Pavel Bekirov\" via Pixabay\nPengenalan Angka: \"Music
-    by Dvir Silverstone & music_for_video\" via Pixabay\nPengenalan Huruf: \"Music
-    by Maksim Chubrey & Pavel Bekirov\" via Pixabay\nGame Huruf: \"Music by Oleksii
-    Holubiev & Lofium\" via Pixabay\nCredit Scene: \"Music by Lin Caifu\" via Pixabay\n\nGRAPHICS
-    & VISUALS\n\nUI Assets: \"Border and Panels Menu Part 2\" by BDragon1727 (https://bdragon1727.itch.io/)\nBackground
-    Art: \"Free Sky with Clouds Background Pixel Art Set\" by CraftPix.net (https://craftpix.net)\nPixel
-    Art Hedgehog: by Cethiel (https://opengameart.org/content/pixel-art-hedgehog),
-    used under CC BY-SA 4.0.\nAnimal Sprites (Cat, Fox, Red Panda): by Elthen (https://elthen.itch.io/)\nPixel
-    Art Animated Star: by SoulOfKiran (https://soulofkiran.itch.io/pixel-art-animated-star)\nBunny
-    Pixel Animations: by ToffeeCraft (https://toffeecraft.itch.io/bunny-pixel-animations)\nAnimated
-    Noto Emoji: by Google, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\nAdditional
-    Images: by juicy_fish on Freepik\nSpeaker Icon by Freepik via Magnific: https://www.magnific.com/icon/speaker_465242\n\n\nFONTS\n\nJersey
-    Font: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jersey).
-    Licensed under the SIL Open Font License, Version 1.1.\nTerminal Grotesque Font:
-    Copyright by Rapha\xEBl Bastide & J\xE9r\xE9my Landes-Nones. Licensed under the
-    SIL Open Font License, Version 1.1.\n\n\nSOFTWARE & PLUGINS\n\nDOTween by Daniele
-    Giardini - Demigiant (MIT License)\nLeanTween by Russell Savage - Dented Pixel
-    (MIT License)\nEasing Equations by Robert Penner (BSD License)\nParticleEffectForUGUI
-    - Copyright (c) 2018 Mob Sakai. Licensed under the MIT License.\nUnity UI Extensions
-    - Copyright (c) 2014 Unity UI Extensions. Licensed under the MIT License.\nUnified
-    Universal Blur - Copyright (c) 2023 Luka Kldiashvili. Licensed under the MIT
-    License.\n(Full license texts for software and fonts are included in the game
-    directory)"
+    Universfield, wefgf.\r\n\r\nMusik tiap menu:\r\nMenu Login: \"Musik oleh VItalii
+    Iegorov\" dari Pixabay\r\nMenu Home: \"Musik oleh TuneTrove\" dari Pixabay\r\nMenu
+    Mengurutkan Angka: \"Musik oleh Zakhar Valaha & Pavel Bekirov\" dari Pixabay\r\nMenu
+    Pengenalan Angka: \"Musik oleh Dvir Silverstone & music_for_video\" dari Pixabay\r\nMenu
+    Pengenalan Huruf: \"Musik oleh Maksim Chubrey & Pavel Bekirov\" dari Pixabay\r\nMenu
+    Gim Huruf: \"Musik oleh Oleksii Holubiev & Lofium\" dari Pixabay\r\nMenu Kredit:
+    \"Musik oleh Lin Caifu\" dari Pixabay\r\n\r\nGRAFIK & VISUAL\r\n\r\nAset UI:
+    \"Border and Panels Menu Part 2\" oleh BDragon1727 (https://bdragon1727.itch.io/)\r\nGambar
+    Latar Belakang: \"Free Sky with Clouds Background Pixel Art Set\" oleh CraftPix.net
+    (https://craftpix.net)\r\nPixel Art Bintang Animasi: oleh SoulOfKiran (https://soulofkiran.itch.io/pixel-art-animated-star)\r\nAnimasi
+    Noto Emoji: oleh Google, dilisensikan di bawah CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)\r\nGambar
+    Tambahan: oleh juicy_fish di Freepik\r\nIkon Speaker: oleh Freepik via Magnific:
+    https://www.magnific.com/icon/speaker_465242\r\n\r\n\r\nGAYA HURUF\r\n\r\nFont
+    Jersey: Hak Cipta 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jersey).
+    Dilisensikan di bawah SIL Open Font License, Versi 1.1.\r\nFont Terminal Grotesque:
+    Hak Cipta oleh Rapha\xEBl Bastide & J\xE9r\xE9my Landes-Nones. Dilisensikan di
+    bawah SIL Open Font License, Versi 1.1.\r\n\r\n\r\nPERANGKAT LUNAK & PLUGIN\r\n\r\nDOTween
+    oleh Daniele Giardini - Demigiant (Lisensi MIT)\r\nLeanTween oleh Russell Savage
+    - Dented Pixel (Lisensi MIT)\r\nEasing Equations oleh Robert Penner (Lisensi
+    BSD)\r\nParticleEffectForUGUI - Hak Cipta (c) 2018 Mob Sakai. Dilisensikan di
+    bawah Lisensi MIT.\r\nUnity UI Extensions - Hak Cipta (c) 2014 Unity UI Extensions.
+    Dilisensikan di bawah Lisensi MIT.\r\nUnified Universal Blur - Hak Cipta (c)
+    2023 Luka Kldiashvili. Dilisensikan di bawah Lisensi MIT.\r\n(Teks lisensi lengkap
+    untuk perangkat lunak dan font disertakan di dalam direktori game)\r\n\r\nPemrogram:
+    Samodra Haqqi Arifin\r\nNIM: 233307115\r\nProgram Studi: D3 Teknologi Informasi\r\nInstitusi:
+    Politeknik Negeri Madiun\r\nPerangkat Pengembangan: Unity Engine\r\n\r\n\r\nMITRA
+    & LOKASI PENELITIAN\r\n\r\nTarget Pengguna: TK Islam Insan Al-Firdaus\r\nTerima
+    Kasih Khusus Kepada: Kepala Sekolah, Guru, dan Adik-adik di TK Islam Insan Al-Firdaus
+    atas kerja sama dan bantuan selama pengembangan game.\r\n\r\n\r\nUCAPAN TERIMA
+    KASIH & APRESIASI\r\n\r\nDosen Pembimbing I: Tri Lestariningsih, S.Kom., M.Kom.\r\nDosen
+    Pembimbing II: Ikhwan Baidlowi Sumafta, S.Kom., M.Kom.\r\nKeluarga & Teman: Ayah,
+    Bunda, Langit, teman-teman kelas D, serta teman-teman kepanitiaan selama bulan
+    puasa.\r\nDukungan AI: Google Gemini AI\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a1048d8967ee4f740bd8d1037f386fc0, type: 2}
   m_sharedMaterial: {fileID: 6384035235247125019, guid: a1048d8967ee4f740bd8d1037f386fc0, type: 2}
@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 1271900164}
   - component: {fileID: 1271900165}
   m_Layer: 5
-  m_Name: Hmm
+  m_Name: CreditSceneParentText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

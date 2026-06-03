@@ -387,7 +387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 72582e6a84332a548afe61646525434e, type: 3}
+  m_Sprite: {fileID: -4487932585236045557, guid: 43170cf9d85959d49b6b5bf6d711d058, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -969,7 +969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5076706599432244057, guid: 3d3cdf821a3a870419a2ba0848a593f6, type: 3}
+  m_Sprite: {fileID: 1886399286623662209, guid: 54c4eb8cef2fbcc4db30fd1ecdb2474a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5073,6 +5073,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 72395478}
+    - target: {fileID: 6869621368802799333, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -212
+      objectReference: {fileID: 0}
     - target: {fileID: 7700028981220746132, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: m_text
       value: Vas
@@ -7008,6 +7012,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 72395478}
+    - target: {fileID: 6869621368802799333, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -212
+      objectReference: {fileID: 0}
     - target: {fileID: 7700028981220746132, guid: 1d2d5bc72f982af49b38db560a1423a7, type: 3}
       propertyPath: m_text
       value: Susu

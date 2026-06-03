@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d3cdf821a3a870419a2ba0848a593f6
+guid: b62e3de0bc0477c458e70bc0d22583f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5076706599432244057
-    second: buttonInikarena aku gb isa coloring_0
+      213: 8110591430009833697
+    second: btnx_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: buttonInikarena aku gb isa coloring_0
+      name: btnx_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 668
-        height: 668
+        width: 2048
+        height: 2070
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a4b5ffce3aeb89b0800000000000000
-      internalID: -5076706599432244057
+      spriteID: 1e840101feb9e8070800000000000000
+      internalID: 8110591430009833697
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      buttonInikarena aku gb isa coloring_0: -5076706599432244057
+      btnx_0: 8110591430009833697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
