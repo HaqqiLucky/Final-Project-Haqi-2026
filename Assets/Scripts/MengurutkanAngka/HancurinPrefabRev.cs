@@ -5,14 +5,19 @@ using UnityEngine.EventSystems;
 public class HancurinPrefabRev : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [Header("Batas Geser")]
-    public float minX;
-    public float maxX;
+    [SerializeField] private float minX;
+    [SerializeField] private float maxX;
     private Rigidbody2D rb;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+
+    //private void Update()
+    //{
+    //    transform.position = Vector2.Lerp(transform.position, new Vector2(Mathf.Clamp(targetPos.x, -5f, 5f), Mathf.Clamp(targetPos.y, -3f, 3f)), 10f * Time.deltaTime);
+    //}
 
     void Start()
     {
@@ -37,13 +42,19 @@ public class HancurinPrefabRev : MonoBehaviour, IBeginDragHandler, IDragHandler,
 
     public void OnDrag(PointerEventData eventData)
     {
-        Vector3 newPos = transform.position;
+        // Menggunakan posisi dari eventData (Aman untuk New Input System)
+        Vector3 posisiScreen = new Vector3(eventData.position.x, eventData.position.y, Camera.main.nearClipPlane);
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(posisiScreen);
 
-        // Jika masih terasa lambat/berat, angka 0.01f ini bisa kamu naikkan (misal ke 0.03f atau 0.05f)
-        float deltaWorldX = eventData.delta.x * 0.04f;
-        newPos.x += deltaWorldX;
+        // 1. Ambil X dari mouse sebagai target langsung
+        float targetX = mousePos.x;
 
-        newPos.x = Mathf.Clamp(newPos.x, minX, maxX);
+        // 2. Batasi (Clamp) targetnya
+        targetX = Mathf.Clamp(targetX, minX, maxX);
+
+        // 3. Gunakan Lerp dari posisi sekarang ke posisi mouse yang sudah dibatasi
+        Vector2 newPos = rb.position;
+        newPos.x = Mathf.Lerp(newPos.x, targetX, 0.2f); // Naikkan ke 0.4f atau 0.5f jika terasa kurang cepat mengejar mouse
 
         rb.MovePosition(newPos);
     }

@@ -95,18 +95,21 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D (Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PenghancurPrefab"))
+        if (collision.gameObject.CompareTag("PenghancurPrefab")) // kalo kena yg di drag
         {
+       
             asors.PlayOneShot(hancur);
             mengurutkanAngkaSceneControl.TotalYangSudahDiHancurkan += 1;
             partikelOnDestroy.transform.position = this.transform.position;
             partikelOnDestroy.Play();
-            Destroy(this.gameObject);
-        } else if (collision.gameObject.CompareTag("PrefabGoneNow"))
+            //Destroy(this.gameObject);
+            this.gameObject.GetComponent<CanvasGroup>().alpha = 0;
+        } else if (collision.gameObject.CompareTag("PrefabGoneNow")) // ini di luar scene
         {
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
+            this.gameObject.GetComponent<CanvasGroup>().alpha = 0;
         }
     }
 }

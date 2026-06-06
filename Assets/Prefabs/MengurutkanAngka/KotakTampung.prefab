@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -8659008099854534876}
   - component: {fileID: 7281550060795659809}
   - component: {fileID: 3492393713905435295}
+  - component: {fileID: 3328623160043404472}
   m_Layer: 5
   m_Name: KotakTampung
   m_TagString: Untagged
@@ -176,7 +177,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -192,3 +193,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 63.82816, y: 63.93094}
   m_EdgeRadius: 0
+--- !u!225 &3328623160043404472
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953129906021464209}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

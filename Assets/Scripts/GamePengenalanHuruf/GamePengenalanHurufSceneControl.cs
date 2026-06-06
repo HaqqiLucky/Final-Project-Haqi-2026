@@ -397,7 +397,7 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
                 .setEaseInOutBack() 
                 .setDelay(0.5f);
         }
-        if (skorYuhu >= 9600)
+        if (skorYuhu >= 8600)
         {
             LeanTween.moveLocalY(Star2, 0, 1f)
                 .setEaseInOutBack()
@@ -409,10 +409,10 @@ public class GamePengenalanHurufSceneControl : MonoBehaviour
     {
         switch (skorYuhuu)
         {
-            case >= 9100:
+            case >= 8600:
                 asorCanvas.PlayOneShot(starasors3);
                 break;
-            case >= 4100:
+            case >= 7000:
                 asorCanvas.PlayOneShot(starasors2);
                 break;
             case >= 1000:

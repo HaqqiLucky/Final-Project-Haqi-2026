@@ -73,13 +73,13 @@ public class StarScore : MonoBehaviour
             LeanTween.moveY(star1, 2f, 1f)
                 .setEaseInOutBack();
         }
-        if (skor >= 4900)
+        if (skor >= 4800)
         {
             LeanTween.moveY(star2, 2f, 1f)
                 .setEaseInOutBack()
                 .setDelay(0.5f);
         }
-        if (skor >= 8600)   
+        if (skor >= 8400)   
         {
             LeanTween.moveY(star3, 3f, 1f)
                 .setEaseInOutBack()
