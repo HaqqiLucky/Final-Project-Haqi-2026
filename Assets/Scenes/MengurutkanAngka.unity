@@ -1909,6 +1909,10 @@ PrefabInstance:
       value: HancurinIniPrefab (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -18499,6 +18503,10 @@ PrefabInstance:
       value: HancurinIniPrefab (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -18617,6 +18625,10 @@ PrefabInstance:
     - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
       propertyPath: m_Name
       value: HancurinIniPrefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6497922281250255588, guid: 13ec21a0fe508cc4eabafc112d0ef667, type: 3}
       propertyPath: m_TagString

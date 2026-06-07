@@ -41,6 +41,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
             DraggableItemAngkas draggableItemAngkas = dropped.GetComponent<DraggableItemAngkas>();
             
             int AngkaYangDiDrag = int.Parse(draggableItemAngkas.GetComponent<TMP_Text>().text);
+            draggableItemAngkas.GetComponent<CanvasGroup>().blocksRaycasts = false;
             Transform parentSebelumnyaKaloSalah = draggableItemAngkas.parentAfterDrag;
             //Debug.Log("Angka " + AngkaYangDiDrag + " masuk ke slot index ke-" + slotIndex);
             //BagianAtasAngkaSudahDimasukanTapiBelumDiCek[0] += AngkaYangDiDrag;
