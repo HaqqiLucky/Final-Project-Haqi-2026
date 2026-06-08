@@ -37,6 +37,7 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
 
     [Header("PengenalanAngkaMoozik")]
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSourceCanvas;
     [SerializeField] private AudioClip[] musiks;
     private int indexMusik = 0;
 
@@ -303,34 +304,34 @@ public class PengenalanAngkaSceneControl : MonoBehaviour
         switch (JumlahHewanYangDiklik)
         {
             case 1:
-                audioSource.PlayOneShot(satu);
+                audioSourceCanvas.PlayOneShot(satu);
                 break;
             case 2:
-                audioSource.PlayOneShot(dua);
+                audioSourceCanvas.PlayOneShot(dua);
                 break;
             case 3:
-                audioSource.PlayOneShot(tiga);
+                audioSourceCanvas.PlayOneShot(tiga);
                 break;
             case 4:
-                audioSource.PlayOneShot(empat);
+                audioSourceCanvas.PlayOneShot(empat);
                 break;
             case 5:
-                audioSource.PlayOneShot(lima);
+                audioSourceCanvas.PlayOneShot(lima);
                 break;
             case 6:
-                audioSource.PlayOneShot(enam);
+                audioSourceCanvas.PlayOneShot(enam);
                 break;
             case 7:
-                audioSource.PlayOneShot(tujuh);
+                audioSourceCanvas.PlayOneShot(tujuh);
                 break;
             case 8:
-                audioSource.PlayOneShot(delapan);
+                audioSourceCanvas.PlayOneShot(delapan);
                 break;
             case 9:
-                audioSource.PlayOneShot(sembilan);
+                audioSourceCanvas.PlayOneShot(sembilan);
                 break;
             case 10:
-                audioSource.PlayOneShot(sepuluh);
+                audioSourceCanvas.PlayOneShot(sepuluh);
                 break;
             default:
                 break;
