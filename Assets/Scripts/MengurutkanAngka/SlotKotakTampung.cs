@@ -41,7 +41,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
             DraggableItemAngkas draggableItemAngkas = dropped.GetComponent<DraggableItemAngkas>();
             
             int AngkaYangDiDrag = int.Parse(draggableItemAngkas.GetComponent<TMP_Text>().text);
-            draggableItemAngkas.GetComponent<CanvasGroup>().blocksRaycasts = false;
+         
             Transform parentSebelumnyaKaloSalah = draggableItemAngkas.parentAfterDrag;
             //Debug.Log("Angka " + AngkaYangDiDrag + " masuk ke slot index ke-" + slotIndex);
             //BagianAtasAngkaSudahDimasukanTapiBelumDiCek[0] += AngkaYangDiDrag;
@@ -50,6 +50,7 @@ public class SlotKotakTampung : MonoBehaviour, IDropHandler
             {
                 //Debug.Log("slot ke " + slotIndex + "sudah bener yaitu " + AngkaYangDiDrag);
                 draggableItemAngkas.parentAfterDrag = transform;
+                draggableItemAngkas.GetComponent<CanvasGroup>().blocksRaycasts = false;
                 LeanTween.moveLocalY(gameObject, transform.localPosition.y + 100f, 0.2f)
                     .setLoopPingPong(2);
                 asors.PlayOneShot(correct);
